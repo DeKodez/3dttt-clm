@@ -7,8 +7,8 @@ Evidence from all evaluation runs. Two tiers:
 - `ft1_summary.json` — ft1 training outcome (test acc 0.8917 vs init 0.2925,
   majority 0.2973; quiz answer 0.7833 / threat_check 1.0; 20 epochs, 51.18 min).
 - `ft1_history.tsv`, `ft1_log_reconstructed.txt` — per-epoch history, merged from
-  the training log tails captured before the ft1 pod disk was lost. All 20 epochs
-  present. Provenance: upstream CLM + local patch (see `finetune.py`).
+  the training log tails captured during the run. All 20 epochs present.
+  Provenance: upstream CLM + local patch (see `../training/clm/finetune.py`).
 - `nuke_probe_double_threat*.json` — probe series across CLM variants (v0,
   coached, v2–v4, promptonly, ft1) and `probe_*.json` understanding probes.
 - `head_to_head_*.summary.json` — match series for prompt-era and coached

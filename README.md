@@ -7,7 +7,8 @@ head on top of a frozen Qwen3-8B encoder to play the game.
 
 The contribution of this repo is the game, the arena, and the training/eval
 recipes around it. The trainer itself is CLM's upstream `train/finetune.py`
-(vendored, with one local patch — patch visible in `training/clm/finetune.py`).
+(vendored from upstream `bb42c6c`, with one local patch: chunked
+embedding-cache fill).
 
 ## Layout
 
@@ -22,7 +23,7 @@ training/      dataset generator + CLM fine-tune package
   gen_3dttt_dataset.py    teacher-oracle dataset generator (jsonl)
   jsonl_to_parquet.py     trainer input conversion
   data/3dttt-v1/          stats + test split (train regenerable)
-  clm/                    recovered fine-tune scripts: finetune.py (patched),
+  clm/                    fine-tune scripts: finetune.py (patched upstream),
                           run_ft1.sh, pod_setup_clm.sh, setup2.sh
 eval/          probe + series runners (being re-created; see eval/README.md)
 results/       valid evidence only (ft1 metrics, probes, prompt-era series)
@@ -37,8 +38,9 @@ docs/          full training report + invalid-eval postmortem
   (majority 0.2973); per-question quiz: answer 0.7833, threat_check **1.0**;
   nuke double-threat probe: nuke prob 0.993 / confidence 0.991.
   See `results/ft1_summary.json`.
-- **ft1 vs JEV — valid re-run (2026-10-04)**: recovered head served via ssh
-  tunnel; 40 games across 10 seeds with the fail-fast runner (0 invalid moves):
+- **ft1 vs JEV — valid re-run (2026-10-04)**: ft1 head re-served in a fresh
+  `clm-serve`; 40 games across 10 seeds with the fail-fast runner (0 invalid
+  moves):
   CLM **24W-13L-3D** overall and **20W-0L as X** (first player dominates;
   win-equiv 64%, 95% CI 48–77%). The Oct 1 series was invalid (stale server
   env → random fallback; kept in `results/invalid_bug_evidence/`). See

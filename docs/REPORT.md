@@ -144,8 +144,9 @@ for these multipliers yet; §7.)
 
 ## 4. ft1 training run
 
-Launcher: `run_ft1.sh` (kept in the session temp dir; reproduce below).
-Executed on the RunPod L40S pod (`<ft1-pod>`, now **stopped**, disk kept).
+Launcher: `run_ft1.sh` (in `training/clm/`; reproduce below).
+Executed on a RunPod L40S pod (since stopped; see §10 for what was and was not
+preserved).
 
 ```bash
 cd /root/CLM/train || exit 1
@@ -164,12 +165,11 @@ exec python finetune.py \
   server on the pod (`:8090`), cached to
   `runs/3dttt-ft1/embeddings/choice_Qwen_Qwen3-8B_2048.npz` (~886 MB; cache
   build dominates the wall clock).
-- Outputs: `best_head.pt` (75,557,470 B) and `final_head.pt` (75,557,493 B),
-  both mirrored locally under
-  `best_head.pt`, `final_head.pt` (session temp dir, not in repo).
-- Watcher log (`<session-tmp>/watcher.log`): run observed Sep 30 20:16 →
-  Oct 1 00:15 local time (includes dataset upload, embedding cache, training).
-  `finetune_summary.json` reports **~51 min** of training.
+- Outputs: `best_head.pt` (75,557,470 B; hosted on Hugging Face, §10) and
+  `final_head.pt` (75,557,493 B; not published).
+- The run (dataset upload, embedding cache, training) was observed
+  Sep 30 20:16 → Oct 1 00:15 local time; `finetune_summary.json` reports
+  **~51 min** of training.
 
 ### Metrics (from `history.json` / `finetune_summary.json`)
 
@@ -185,10 +185,10 @@ exec python finetune.py \
 Selection is teacher-forced validation accuracy on the boosted/held-out rows —
 it measures agreement with the oracle labels, not game strength (§7).
 
-> ⚠️ `history.json`, `finetune_summary.json` and `ft1.log` were pulled to the
-> session temp dir but are no longer present locally, and `finetune.py` exists
-> only on the pod disk (`/root/CLM/train/finetune.py`). Pull them before the
-> pod is deleted.
+> ⚠️ `history.json`, `ft1.log` and the embedding cache were not preserved
+> off-pod. The summary numbers are kept in `results/ft1_summary.json`; the
+> patched trainer is vendored as `training/clm/finetune.py` (upstream CLM
+> `bb42c6c` + a chunked embedding-cache fill).
 
 ---
 
@@ -286,8 +286,8 @@ through the stale server — hence the split verdict.
 
 ### Update (2026-10-04): valid re-run
 
-The ft1 `best_head.pt` was recovered (md5 `911b68ca503fc6f1a326233b7107fac0`)
-and re-served in a fresh `clm-serve` on the re-provisioned pod; the Mac side
+The ft1 `best_head.pt` (md5 `911b68ca503fc6f1a326233b7107fac0`) was
+re-served in a fresh `clm-serve` on a re-provisioned pod; the Mac side
 reached it through an ssh tunnel with `CLM_BASE_URL=http://127.0.0.1:8700` set
 in the environment (so `.env` could not poison the run). The re-created runner
 is `eval/head_to_head.py` — fail-fast, so a series with any `invalid: true` is
@@ -378,8 +378,8 @@ series.
 ## 9. Proposed new repo layout (CLM fine-tuning demo)
 
 `arena/` and `training/` are all this repo adds; the trainer itself is CLM's
-`train/finetune.py` (must be pulled from the pod or taken from the CLM
-upstream). Suggested standalone repo:
+`train/finetune.py` (vendored as `training/clm/finetune.py`: upstream
+`bb42c6c` + one patch). Suggested standalone repo:
 
 ```
 README.md                      # this report, trimmed to the demo narrative
@@ -395,9 +395,10 @@ results/                       # valid evidence only (test metrics, nuke probe)
 docs/INVALID_EVAL_POSTMORTEM.md
 ```
 
-Not yet in the repo (on pod disk / lost): `finetune.py`, `history.json`,
-`finetune_summary.json`, `ft1.log`, embedding npz cache, the original probe
-runner script (the head-to-head runner was re-created as `eval/head_to_head.py`).
+Not preserved: `history.json`, `ft1.log` and the embedding npz cache. The
+patched trainer is vendored as `training/clm/finetune.py`, the summary numbers
+are in `results/ft1_summary.json`, `best_head.pt` is on Hugging Face (§10), and
+the original probe runner was re-created as `eval/head_to_head.py`.
 
 ---
 
@@ -405,8 +406,8 @@ runner script (the head-to-head runner was re-created as `eval/head_to_head.py`)
 
 Local:
 - `training/gen_3dttt_dataset.py`, `training/jsonl_to_parquet.py`
-- `training/data/3dttt-v1/` — `train.jsonl` (99,648), `test.jsonl` (5,017),
-  `stats.json`
+- `training/data/3dttt-v1/` — `stats.json`, `test.jsonl.gz` (5,017);
+  `train.jsonl` (99,648) is regenerable per §8
 - `results/nuke_probe_double_threat*.json` — v0, coached, v2, v3, v4,
   promptonly, ft1
 - `results/probe_{clm,jev}*.json` — quizzes
@@ -415,17 +416,15 @@ Local:
 - `results/head_to_head_jev_vs_clm_ft1_valid*.summary.json` +
   `results/rematch_batch/seed*.summary.json` + `..._valid_aggregate.json` —
   valid re-run (2026-10-04), 40 games: CLM 24W-13L-3D vs JEV, 20W-0L as X
-- `results/head_to_head_jev_vs_clm_ft1*` + `coached_ft1_comparison.json` —
-  **invalid, keep only as bug evidence**
-- `<session-tmp>/run_ft1.sh``,
-  `best_head.pt`, `final_head.pt` (session temp dir, not in repo)
+- `results/invalid_bug_evidence/` — the invalid Oct 1 ft1 series;
+  **bug evidence only, never cite**
+- Session temp-dir mirror (not in the repo): `best_head.pt`, `final_head.pt`
 - Hosted: `best_head.pt` (ft1) — https://huggingface.co/DeKodez/3dttt-clm-ft1
   (sha256 `c37c2534b80d4ab5aac6be0ff9323e3b6430f784770b3ef4c61d49a99b648934`,
   round-trip verified 2026-10-05)
-- `.env`: `TYPESAFE_API_KEY=…`, `CLM_BASE_URL=https://<ft1-pod-host>`
-  (pod stopped; stale server pointed at a dead pod)
+- `.env` is not committed; see `.env.example`
 
-On pod `<ft1-pod>` disk (needs a restart to fetch):
+On the pod disk (pod stopped; fetchable only if it is restarted):
 `/root/CLM/train/finetune.py`, `/root/runs/3dttt-ft1/{history.json,
 finetune_summary.json,best_head.pt,final_head.pt,embeddings/}`, `/root/ft1.log`,
 `/root/data/3dttt/all/*.parquet`.
