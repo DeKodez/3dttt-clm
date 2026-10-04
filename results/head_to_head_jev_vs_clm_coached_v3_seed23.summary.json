@@ -1,0 +1,5223 @@
+{
+  "agents": [
+    "jev",
+    "clm"
+  ],
+  "games": 4,
+  "seed": 23,
+  "min_move_delay": 0.0,
+  "elapsed_s": 64.5,
+  "frames": 171,
+  "result": {
+    "agents": [
+      "jev",
+      "clm"
+    ],
+    "games": [
+      {
+        "index": 0,
+        "x_agent": "jev",
+        "o_agent": "clm",
+        "winner": "X",
+        "scores": {
+          "X": 4,
+          "O": 2
+        },
+        "result_label": "Player X wins 4-2!",
+        "moves": [
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 401.97,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.95,
+              "top_probabilities": [
+                [
+                  "Play X at Front, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.96
+                ],
+                [
+                  "Play X at Front, row 0, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.03
+                ],
+                [
+                  "Play X at Front, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.01
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.18
+              },
+              "usage": {
+                "input_tokens": 1448,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              -1,
+              -1
+            ],
+            "latency_ms": 1019.62,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.8874654911453246,
+              "top_ranked": [
+                [
+                  "Nuke the Front face (wipe every mark on it) \u2014 wipes 1 mark; no immediate win to deny; face stays in play; X to move here next",
+                  0.8874654911453246
+                ],
+                [
+                  "Play O at Front, row 1, column 2 \u2014 cube rotates to Right (face 5)",
+                  0.03720577978589582
+                ],
+                [
+                  "Play O at Front, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.0352270680847688
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 308.18,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.95,
+              "top_probabilities": [
+                [
+                  "Play X at Front, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.96
+                ],
+                [
+                  "Play X at Front, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.02
+                ],
+                [
+                  "Play X at Front, row 0, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.02
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.18
+              },
+              "usage": {
+                "input_tokens": 1448,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              2
+            ],
+            "latency_ms": 408.76,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.3237814195348213,
+              "top_ranked": [
+                [
+                  "Play O at Front, row 1, column 2 \u2014 cube rotates to Right (face 5)",
+                  0.3237814195348213
+                ],
+                [
+                  "Play O at Front, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.3157771090505709
+                ],
+                [
+                  "Play O at Front, row 2, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.1057841877950578
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 309.51,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.94,
+              "top_probabilities": [
+                [
+                  "Play X at Right, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.95
+                ],
+                [
+                  "Play X at Right, row 0, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.02
+                ],
+                [
+                  "Play X at Right, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.01
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.21
+              },
+              "usage": {
+                "input_tokens": 1449,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              0,
+              2
+            ],
+            "latency_ms": 310.03,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.21848262595699314,
+              "top_ranked": [
+                [
+                  "Play O at Right, row 0, column 2 \u2014 cube rotates to Left (face 2)",
+                  0.21848262595699314
+                ],
+                [
+                  "Play O at Right, row 2, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.20873540773405724
+                ],
+                [
+                  "Play O at Right, row 2, column 2 \u2014 cube rotates to Left (face 2)",
+                  0.15841212070562113
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              1
+            ],
+            "latency_ms": 301.96,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.91,
+              "top_probabilities": [
+                [
+                  "Play X at Left, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.91
+                ],
+                [
+                  "Play X at Left, row 0, column 0 \u2014 cube rotates to Right (face 5)",
+                  0.03
+                ],
+                [
+                  "Play X at Left, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.02
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.2
+              },
+              "usage": {
+                "input_tokens": 1450,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              2,
+              0
+            ],
+            "latency_ms": 310.73,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.23635208457830814,
+              "top_ranked": [
+                [
+                  "Play O at Left, row 2, column 0 \u2014 cube rotates to Right (face 5)",
+                  0.23635208457830814
+                ],
+                [
+                  "Play O at Left, row 0, column 0 \u2014 cube rotates to Right (face 5)",
+                  0.1744719925246871
+                ],
+                [
+                  "Play O at Left, row 0, column 2 \u2014 cube rotates to Right (face 5)",
+                  0.1468618720261431
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              2
+            ],
+            "latency_ms": 305.87,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.09,
+              "top_probabilities": [
+                [
+                  "Play X at Right, row 1, column 2 \u2014 cube rotates to Back (face 4)",
+                  0.2
+                ],
+                [
+                  "Play X at Right, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.18
+                ],
+                [
+                  "Play X at Right, row 1, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.16
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.22
+              },
+              "usage": {
+                "input_tokens": 1407,
+                "output_tokens": 285
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              1,
+              0
+            ],
+            "latency_ms": 406.54,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.25381663319951014,
+              "top_ranked": [
+                [
+                  "Play O at Back, row 1, column 0 \u2014 cube rotates to Right (face 5)",
+                  0.25381663319951014
+                ],
+                [
+                  "Play O at Back, row 1, column 2 \u2014 cube rotates to Left (face 2)",
+                  0.21433923405001876
+                ],
+                [
+                  "Play O at Back, row 2, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.11889023616722955
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              0
+            ],
+            "latency_ms": 308.13,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 1.0,
+              "top_probabilities": [
+                [
+                  "Play X at Right, row 1, column 0 \u2014 completes X's line \u2014 this face locks for X; next face in play: Front (face 1)",
+                  1.0
+                ],
+                [
+                  "Play X at Right, row 0, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.0
+                ],
+                [
+                  "Play X at Right, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.22
+              },
+              "usage": {
+                "input_tokens": 1384,
+                "output_tokens": 284
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              0
+            ],
+            "latency_ms": 403.44,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.48354481301240415,
+              "top_ranked": [
+                [
+                  "Play O at Front, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.48354481301240415
+                ],
+                [
+                  "Play O at Front, row 2, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.15266925004467471
+                ],
+                [
+                  "Play O at Front, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.13318436319236146
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              0,
+              0
+            ],
+            "latency_ms": 315.02,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.07,
+              "top_probabilities": [
+                [
+                  "Play X at Left, row 0, column 0 \u2014 cube stays on this face (Right locked)",
+                  0.18
+                ],
+                [
+                  "Play X at Left, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.18
+                ],
+                [
+                  "Play X at Left, row 2, column 2 \u2014 cube stays on this face (Right locked)",
+                  0.17
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.24
+              },
+              "usage": {
+                "input_tokens": 1433,
+                "output_tokens": 285
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              2,
+              2
+            ],
+            "latency_ms": 309.85,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.7329411851497405,
+              "top_ranked": [
+                [
+                  "Play O at Left, row 2, column 2 \u2014 blocks X's win at row 2 col 2; cube stays on this face (Right locked)",
+                  0.7329411851497405
+                ],
+                [
+                  "Play O at Left, row 0, column 2 \u2014 cube stays on this face (Right locked); leaves X to play here with an immediate win at row 2 col 2",
+                  0.08984358836717904
+                ],
+                [
+                  "Play O at Left, row 2, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.07383569036911963
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              2,
+              1
+            ],
+            "latency_ms": 244.23,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.86,
+              "top_probabilities": [
+                [
+                  "Play X at Left, row 2, column 1 \u2014 blocks O's win at row 2 col 1; cube rotates to Bottom (face 3)",
+                  0.89
+                ],
+                [
+                  "Nuke the Left face (wipe every mark on it) \u2014 wipes 4 marks; removes O's immediate win at row 2 col 1; face stays in play; O to move here next",
+                  0.11
+                ],
+                [
+                  "Play X at Left, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.94
+              },
+              "usage": {
+                "input_tokens": 1376,
+                "output_tokens": 279
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              1,
+              2
+            ],
+            "latency_ms": 1009.12,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.5086316802675548,
+              "top_ranked": [
+                [
+                  "Play O at Bottom, row 1, column 2 \u2014 cube stays on this face (Right locked)",
+                  0.5086316802675548
+                ],
+                [
+                  "Play O at Bottom, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.12469168442812968
+                ],
+                [
+                  "Play O at Bottom, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.07518346940750179
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              1
+            ],
+            "latency_ms": 371.78,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.48,
+              "top_probabilities": [
+                [
+                  "Play X at Bottom, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.52
+                ],
+                [
+                  "Play X at Bottom, row 0, column 1 \u2014 cube rotates to Front (face 1)",
+                  0.19
+                ],
+                [
+                  "Play X at Bottom, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.07
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.23
+              },
+              "usage": {
+                "input_tokens": 1454,
+                "output_tokens": 312
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              1,
+              0
+            ],
+            "latency_ms": 416.91,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.30237447648571597,
+              "top_ranked": [
+                [
+                  "Play O at Bottom, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.30237447648571597
+                ],
+                [
+                  "Play O at Bottom, row 0, column 0 \u2014 cube rotates to Top (face 0)",
+                  0.1588334176650541
+                ],
+                [
+                  "Play O at Bottom, row 2, column 0 \u2014 cube rotates to Top (face 0)",
+                  0.11746989361625383
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              0,
+              1
+            ],
+            "latency_ms": 307.57,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 1.0,
+              "top_probabilities": [
+                [
+                  "Play X at Left, row 0, column 1 \u2014 completes X's line \u2014 this face locks for X; next face in play: Top (face 0)",
+                  1.0
+                ],
+                [
+                  "Play X at Left, row 1, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.0
+                ],
+                [
+                  "Nuke the Left face (wipe every mark on it) \u2014 wipes 5 marks; no immediate win to deny; face stays in play; O to move here next",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.28
+              },
+              "usage": {
+                "input_tokens": 1313,
+                "output_tokens": 230
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              1,
+              2
+            ],
+            "latency_ms": 313.85,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.4521435956930981,
+              "top_ranked": [
+                [
+                  "Play O at Top, row 1, column 2 \u2014 cube stays on this face (Right locked)",
+                  0.4521435956930981
+                ],
+                [
+                  "Play O at Top, row 1, column 0 \u2014 cube stays on this face (Left locked)",
+                  0.21387591238263134
+                ],
+                [
+                  "Play O at Top, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.07270185608187361
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 404.89,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.49,
+              "top_probabilities": [
+                [
+                  "Play X at Top, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.55
+                ],
+                [
+                  "Play X at Top, row 1, column 0 \u2014 cube stays on this face (Left locked)",
+                  0.11
+                ],
+                [
+                  "Play X at Top, row 0, column 0 \u2014 cube rotates to Bottom (face 3)",
+                  0.08
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.23
+              },
+              "usage": {
+                "input_tokens": 1466,
+                "output_tokens": 312
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              1,
+              0
+            ],
+            "latency_ms": 407.36,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.4811102989762979,
+              "top_ranked": [
+                [
+                  "Play O at Top, row 1, column 0 \u2014 cube stays on this face (Left locked)",
+                  0.4811102989762979
+                ],
+                [
+                  "Play O at Top, row 0, column 0 \u2014 cube rotates to Bottom (face 3)",
+                  0.1071812241720915
+                ],
+                [
+                  "Play O at Top, row 0, column 2 \u2014 cube rotates to Bottom (face 3)",
+                  0.08481126477012264
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              0,
+              1
+            ],
+            "latency_ms": 412.49,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.35,
+              "top_probabilities": [
+                [
+                  "Play X at Top, row 0, column 1 \u2014 cube rotates to Back (face 4)",
+                  0.44
+                ],
+                [
+                  "Play X at Top, row 0, column 0 \u2014 cube rotates to Bottom (face 3)",
+                  0.22
+                ],
+                [
+                  "Play X at Top, row 2, column 1 \u2014 cube rotates to Front (face 1)",
+                  0.16
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.26
+              },
+              "usage": {
+                "input_tokens": 1377,
+                "output_tokens": 258
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              1,
+              2
+            ],
+            "latency_ms": 406.21,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.32562807376052755,
+              "top_ranked": [
+                [
+                  "Play O at Back, row 1, column 2 \u2014 cube stays on this face (Left locked)",
+                  0.32562807376052755
+                ],
+                [
+                  "Play O at Back, row 2, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.1514744485560581
+                ],
+                [
+                  "Play O at Back, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.12769302521800108
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              1
+            ],
+            "latency_ms": 309.55,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.91,
+              "top_probabilities": [
+                [
+                  "Play X at Back, row 1, column 1 \u2014 blocks O's win at row 1 col 1; cube stays on this face (middle cell)",
+                  0.93
+                ],
+                [
+                  "Nuke the Back face (wipe every mark on it) \u2014 wipes 2 marks; removes O's immediate win at row 1 col 1; face stays in play; O to move here next",
+                  0.07
+                ],
+                [
+                  "Play X at Back, row 0, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.92
+              },
+              "usage": {
+                "input_tokens": 1442,
+                "output_tokens": 316
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              2,
+              1
+            ],
+            "latency_ms": 410.46,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.26538277775503183,
+              "top_ranked": [
+                [
+                  "Play O at Back, row 2, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.26538277775503183
+                ],
+                [
+                  "Play O at Back, row 0, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.23319210998686027
+                ],
+                [
+                  "Play O at Back, row 0, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.1502531828960542
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              2,
+              1
+            ],
+            "latency_ms": 303.38,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 1.0,
+              "top_probabilities": [
+                [
+                  "Play X at Top, row 2, column 1 \u2014 completes X's line \u2014 this face locks for X; next face in play: Front (face 1)",
+                  1.0
+                ],
+                [
+                  "Play X at Top, row 2, column 0 \u2014 cube rotates to Bottom (face 3)",
+                  0.0
+                ],
+                [
+                  "Play X at Top, row 2, column 2 \u2014 cube rotates to Bottom (face 3)",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.26
+              },
+              "usage": {
+                "input_tokens": 1354,
+                "output_tokens": 257
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              0,
+              1
+            ],
+            "latency_ms": 1024.08,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.7613002415840259,
+              "top_ranked": [
+                [
+                  "Play O at Front, row 0, column 1 \u2014 cube stays on this face (Top locked)",
+                  0.7613002415840259
+                ],
+                [
+                  "Play O at Front, row 2, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.0918404507046053
+                ],
+                [
+                  "Play O at Front, row 0, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.040156726541444726
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              2,
+              1
+            ],
+            "latency_ms": 235.36,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.24,
+              "top_probabilities": [
+                [
+                  "Play X at Front, row 2, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.38
+                ],
+                [
+                  "Play X at Front, row 0, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.31
+                ],
+                [
+                  "Play X at Front, row 2, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.1
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.28
+              },
+              "usage": {
+                "input_tokens": 1340,
+                "output_tokens": 231
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              0,
+              0
+            ],
+            "latency_ms": 379.29,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.269809497454634,
+              "top_ranked": [
+                [
+                  "Play O at Bottom, row 0, column 0 \u2014 cube stays on this face (Top locked)",
+                  0.269809497454634
+                ],
+                [
+                  "Play O at Bottom, row 0, column 2 \u2014 cube stays on this face (Top locked)",
+                  0.24764967735773946
+                ],
+                [
+                  "Play O at Bottom, row 2, column 0 \u2014 cube stays on this face (Top locked)",
+                  0.16694989117832518
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              2,
+              0
+            ],
+            "latency_ms": 306.34,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.78,
+              "top_probabilities": [
+                [
+                  "Play X at Bottom, row 2, column 0 \u2014 blocks O's win at row 2 col 0; cube stays on this face (Top locked)",
+                  0.82
+                ],
+                [
+                  "Nuke the Bottom face (wipe every mark on it) \u2014 wipes 4 marks; removes O's immediate win at row 2 col 0; face stays in play; O to move here next",
+                  0.17
+                ],
+                [
+                  "Play X at Bottom, row 2, column 1 \u2014 cube rotates to Back (face 4)",
+                  0.01
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.88
+              },
+              "usage": {
+                "input_tokens": 1417,
+                "output_tokens": 296
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              0,
+              2
+            ],
+            "latency_ms": 409.55,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.6086466724463125,
+              "top_ranked": [
+                [
+                  "Play O at Bottom, row 0, column 2 \u2014 blocks X's win at row 0 col 2; cube stays on this face (Top locked)",
+                  0.6086466724463125
+                ],
+                [
+                  "Play O at Bottom, row 2, column 2 \u2014 cube stays on this face (Top locked); leaves X to play here with an immediate win at row 0 col 2",
+                  0.24878673574320045
+                ],
+                [
+                  "Play O at Bottom, row 2, column 1 \u2014 cube rotates to Back (face 4)",
+                  0.07339240398089664
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              0,
+              1
+            ],
+            "latency_ms": 307.54,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.46,
+              "top_probabilities": [
+                [
+                  "Play X at Bottom, row 0, column 1 \u2014 blocks O's win at row 0 col 1; cube rotates to Front (face 1)",
+                  0.6
+                ],
+                [
+                  "Nuke the Bottom face (wipe every mark on it) \u2014 wipes 6 marks; removes O's immediate win at row 0 col 1; row 2 col 2; face stays in play; O to move here next",
+                  0.31
+                ],
+                [
+                  "Play X at Bottom, row 2, column 1 \u2014 cube rotates to Back (face 4)",
+                  0.05
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.92
+              },
+              "usage": {
+                "input_tokens": 1330,
+                "output_tokens": 244
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              0,
+              0
+            ],
+            "latency_ms": 511.44,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.281049586721682,
+              "top_ranked": [
+                [
+                  "Play O at Front, row 0, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.281049586721682
+                ],
+                [
+                  "Play O at Front, row 2, column 2 \u2014 cube rotates to Back (face 4)",
+                  0.2598807867843121
+                ],
+                [
+                  "Play O at Front, row 2, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.23095590334258367
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              0,
+              1
+            ],
+            "latency_ms": 281.1,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.32,
+              "top_probabilities": [
+                [
+                  "Play X at Back, row 0, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.43
+                ],
+                [
+                  "Play X at Back, row 0, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.26
+                ],
+                [
+                  "Nuke the Back face (wipe every mark on it) \u2014 wipes 4 marks; no immediate win to deny; face stays in play; O to move here next",
+                  0.1
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.29
+              },
+              "usage": {
+                "input_tokens": 1341,
+                "output_tokens": 231
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              2,
+              2
+            ],
+            "latency_ms": 333.09,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.8481412770865578,
+              "top_ranked": [
+                [
+                  "Play O at Bottom, row 2, column 2 \u2014 completes O's line \u2014 this face locks for O; next face in play: Back (face 4)",
+                  0.8481412770865578
+                ],
+                [
+                  "Play O at Bottom, row 2, column 1 \u2014 blocks X's win at row 2 col 1; cube rotates to Back (face 4)",
+                  0.15185872291344207
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              0,
+              0
+            ],
+            "latency_ms": 307.68,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.46,
+              "top_probabilities": [
+                [
+                  "Play X at Back, row 0, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.5599999999999999
+                ],
+                [
+                  "Nuke the Back face (wipe every mark on it) \u2014 wipes 5 marks; no immediate win to deny; face stays in play; O to move here next",
+                  0.17
+                ],
+                [
+                  "Play X at Back, row 0, column 2 \u2014 cube rotates to Front (face 1)",
+                  0.11
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.31
+              },
+              "usage": {
+                "input_tokens": 1304,
+                "output_tokens": 204
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              2,
+              0
+            ],
+            "latency_ms": 415.21,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.49941562793957855,
+              "top_ranked": [
+                [
+                  "Play O at Front, row 2, column 0 \u2014 completes O's line \u2014 this face locks for O; next face in play: Back (face 4)",
+                  0.49941562793957855
+                ],
+                [
+                  "Play O at Front, row 0, column 2 \u2014 completes O's line \u2014 this face locks for O; next face in play: Back (face 4)",
+                  0.4733605844228819
+                ],
+                [
+                  "Play O at Front, row 2, column 2 \u2014 cube rotates to Back (face 4)",
+                  0.027223787637539604
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              0,
+              2
+            ],
+            "latency_ms": 301.22,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.78,
+              "top_probabilities": [
+                [
+                  "Play X at Back, row 0, column 2 \u2014 completes X's line \u2014 this face locks for X; this was the last face \u2014 match ends",
+                  0.84
+                ],
+                [
+                  "Play X at Back, row 2, column 2 \u2014 completes X's line \u2014 this face locks for X; this was the last face \u2014 match ends",
+                  0.15
+                ],
+                [
+                  "Play X at Back, row 2, column 0 \u2014 cube stays on this face (Front locked)",
+                  0.01
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.27
+              },
+              "usage": {
+                "input_tokens": 1319,
+                "output_tokens": 209
+              }
+            }
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "x_agent": "clm",
+        "o_agent": "jev",
+        "winner": "O",
+        "scores": {
+          "X": 1,
+          "O": 5
+        },
+        "result_label": "Player O wins 5-1!",
+        "moves": [
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              2
+            ],
+            "latency_ms": 408.76,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.27243709844715186,
+              "top_ranked": [
+                [
+                  "Play X at Front, row 1, column 2 \u2014 cube rotates to Right (face 5)",
+                  0.27243709844715186
+                ],
+                [
+                  "Play X at Front, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.26008329987411605
+                ],
+                [
+                  "Play X at Front, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.18936355568273097
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 259.15,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.91,
+              "top_probabilities": [
+                [
+                  "Play O at Right, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.92
+                ],
+                [
+                  "Play O at Right, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.02
+                ],
+                [
+                  "Play O at Right, row 1, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.02
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.23
+              },
+              "usage": {
+                "input_tokens": 1449,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              -1,
+              -1
+            ],
+            "latency_ms": 1025.14,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.5365323953834711,
+              "top_ranked": [
+                [
+                  "Nuke the Right face (wipe every mark on it) \u2014 wipes 1 mark; no immediate win to deny; face stays in play; O to move here next",
+                  0.5365323953834711
+                ],
+                [
+                  "Play X at Right, row 0, column 2 \u2014 cube rotates to Left (face 2)",
+                  0.09603729669370836
+                ],
+                [
+                  "Play X at Right, row 2, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.09584551934590325
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 269.03,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.91,
+              "top_probabilities": [
+                [
+                  "Play O at Right, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.91
+                ],
+                [
+                  "Play O at Right, row 1, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.02
+                ],
+                [
+                  "Play O at Right, row 0, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.02
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.2
+              },
+              "usage": {
+                "input_tokens": 1449,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              0,
+              2
+            ],
+            "latency_ms": 309.15,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.20854605503924012,
+              "top_ranked": [
+                [
+                  "Play X at Right, row 0, column 2 \u2014 cube rotates to Left (face 2)",
+                  0.20854605503924012
+                ],
+                [
+                  "Play X at Right, row 2, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.2072992082775961
+                ],
+                [
+                  "Play X at Right, row 2, column 2 \u2014 cube rotates to Left (face 2)",
+                  0.1643823758798624
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              1
+            ],
+            "latency_ms": 389.87,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.86,
+              "top_probabilities": [
+                [
+                  "Play O at Left, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.87
+                ],
+                [
+                  "Play O at Left, row 1, column 2 \u2014 cube rotates to Front (face 1)",
+                  0.03
+                ],
+                [
+                  "Play O at Left, row 0, column 0 \u2014 cube rotates to Right (face 5)",
+                  0.03
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.21
+              },
+              "usage": {
+                "input_tokens": 1450,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              2,
+              0
+            ],
+            "latency_ms": 409.36,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.22032450745033635,
+              "top_ranked": [
+                [
+                  "Play X at Left, row 2, column 0 \u2014 cube rotates to Right (face 5)",
+                  0.22032450745033635
+                ],
+                [
+                  "Play X at Left, row 0, column 2 \u2014 cube rotates to Right (face 5)",
+                  0.19095448231783818
+                ],
+                [
+                  "Play X at Left, row 0, column 0 \u2014 cube rotates to Right (face 5)",
+                  0.15102170616834212
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              2,
+              2
+            ],
+            "latency_ms": 309.64,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.11,
+              "top_probabilities": [
+                [
+                  "Play O at Right, row 2, column 2 \u2014 cube rotates to Left (face 2)",
+                  0.23
+                ],
+                [
+                  "Play O at Right, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.15
+                ],
+                [
+                  "Play O at Right, row 0, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.14
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.22
+              },
+              "usage": {
+                "input_tokens": 1407,
+                "output_tokens": 285
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              0,
+              2
+            ],
+            "latency_ms": 409.86,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.24285396230427325,
+              "top_ranked": [
+                [
+                  "Play X at Left, row 0, column 2 \u2014 cube rotates to Right (face 5)",
+                  0.24285396230427325
+                ],
+                [
+                  "Play X at Left, row 0, column 0 \u2014 cube rotates to Right (face 5)",
+                  0.1908867667110443
+                ],
+                [
+                  "Play X at Left, row 2, column 2 \u2014 cube rotates to Right (face 5)",
+                  0.15920859471786455
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              0,
+              0
+            ],
+            "latency_ms": 304.48,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.97,
+              "top_probabilities": [
+                [
+                  "Play O at Right, row 0, column 0 \u2014 completes O's line \u2014 this face locks for O; next face in play: Left (face 2)",
+                  0.99
+                ],
+                [
+                  "Play O at Right, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.01
+                ],
+                [
+                  "Nuke the Right face (wipe every mark on it) \u2014 wipes 3 marks; no immediate win to deny; face stays in play; X to move here next",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.25
+              },
+              "usage": {
+                "input_tokens": 1384,
+                "output_tokens": 284
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              0,
+              0
+            ],
+            "latency_ms": 410.96,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.47197183465340525,
+              "top_ranked": [
+                [
+                  "Play X at Left, row 0, column 0 \u2014 cube stays on this face (Right locked)",
+                  0.47197183465340525
+                ],
+                [
+                  "Play X at Left, row 2, column 2 \u2014 cube stays on this face (Right locked)",
+                  0.30067952087824573
+                ],
+                [
+                  "Play X at Left, row 2, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.07052827564084392
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              0,
+              1
+            ],
+            "latency_ms": 309.86,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.33,
+              "top_probabilities": [
+                [
+                  "Play O at Left, row 0, column 1 \u2014 blocks X's win at row 0 col 1; cube rotates to Top (face 0)",
+                  0.43
+                ],
+                [
+                  "Nuke the Left face (wipe every mark on it) \u2014 wipes 4 marks; removes X's immediate win at row 0 col 1; row 1 col 0; face stays in play; X to move here next",
+                  0.35
+                ],
+                [
+                  "Play O at Left, row 1, column 0 \u2014 blocks X's win at row 1 col 0; cube rotates to Back (face 4)",
+                  0.18
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.82
+              },
+              "usage": {
+                "input_tokens": 1408,
+                "output_tokens": 305
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              1,
+              2
+            ],
+            "latency_ms": 405.05,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.48519060836158406,
+              "top_ranked": [
+                [
+                  "Play X at Top, row 1, column 2 \u2014 cube stays on this face (Right locked)",
+                  0.48519060836158406
+                ],
+                [
+                  "Play X at Top, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.1454280021278121
+                ],
+                [
+                  "Play X at Top, row 2, column 0 \u2014 cube rotates to Bottom (face 3)",
+                  0.0691958231918164
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 307.57,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.43,
+              "top_probabilities": [
+                [
+                  "Play O at Top, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.49
+                ],
+                [
+                  "Play O at Top, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.13
+                ],
+                [
+                  "Play O at Top, row 0, column 2 \u2014 cube rotates to Bottom (face 3)",
+                  0.09
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.22
+              },
+              "usage": {
+                "input_tokens": 1453,
+                "output_tokens": 312
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              1,
+              0
+            ],
+            "latency_ms": 413.3,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.30894735770390586,
+              "top_ranked": [
+                [
+                  "Play X at Top, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.30894735770390586
+                ],
+                [
+                  "Play X at Top, row 2, column 0 \u2014 cube rotates to Bottom (face 3)",
+                  0.16477757391926418
+                ],
+                [
+                  "Play X at Top, row 2, column 1 \u2014 cube rotates to Front (face 1)",
+                  0.1123754011786845
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              2,
+              1
+            ],
+            "latency_ms": 406.18,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.98,
+              "top_probabilities": [
+                [
+                  "Play O at Left, row 2, column 1 \u2014 completes O's line \u2014 this face locks for O; next face in play: Bottom (face 3)",
+                  0.98
+                ],
+                [
+                  "Play O at Left, row 1, column 0 \u2014 blocks X's win at row 1 col 0; cube rotates to Back (face 4)",
+                  0.02
+                ],
+                [
+                  "Play O at Left, row 2, column 2 \u2014 cube stays on this face (Right locked); leaves X to play here with an immediate win at row 1 col 0",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.83
+              },
+              "usage": {
+                "input_tokens": 1352,
+                "output_tokens": 266
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              1,
+              2
+            ],
+            "latency_ms": 1024.33,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.5004222428575393,
+              "top_ranked": [
+                [
+                  "Play X at Bottom, row 1, column 2 \u2014 cube stays on this face (Right locked)",
+                  0.5004222428575393
+                ],
+                [
+                  "Play X at Bottom, row 1, column 0 \u2014 cube stays on this face (Left locked)",
+                  0.18865207342999643
+                ],
+                [
+                  "Play X at Bottom, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.05845417186339325
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              1
+            ],
+            "latency_ms": 311.48,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.4,
+              "top_probabilities": [
+                [
+                  "Play O at Bottom, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.46
+                ],
+                [
+                  "Play O at Bottom, row 1, column 0 \u2014 cube stays on this face (Left locked)",
+                  0.13
+                ],
+                [
+                  "Play O at Bottom, row 0, column 1 \u2014 cube rotates to Front (face 1)",
+                  0.08
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.24
+              },
+              "usage": {
+                "input_tokens": 1465,
+                "output_tokens": 312
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              1,
+              0
+            ],
+            "latency_ms": 306.34,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.4329313546531371,
+              "top_ranked": [
+                [
+                  "Play X at Bottom, row 1, column 0 \u2014 cube stays on this face (Left locked)",
+                  0.4329313546531371
+                ],
+                [
+                  "Play X at Bottom, row 0, column 0 \u2014 cube rotates to Top (face 0)",
+                  0.10241212199601812
+                ],
+                [
+                  "Play X at Bottom, row 0, column 1 \u2014 cube rotates to Front (face 1)",
+                  0.10239024674309269
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              0,
+              1
+            ],
+            "latency_ms": 302.77,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.22,
+              "top_probabilities": [
+                [
+                  "Play O at Bottom, row 0, column 1 \u2014 cube rotates to Front (face 1)",
+                  0.34
+                ],
+                [
+                  "Play O at Bottom, row 2, column 1 \u2014 cube rotates to Back (face 4)",
+                  0.25
+                ],
+                [
+                  "Play O at Bottom, row 0, column 0 \u2014 cube rotates to Top (face 0)",
+                  0.14
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.24
+              },
+              "usage": {
+                "input_tokens": 1376,
+                "output_tokens": 258
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              0
+            ],
+            "latency_ms": 414.72,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.46748852142663344,
+              "top_ranked": [
+                [
+                  "Play X at Front, row 1, column 0 \u2014 cube stays on this face (Left locked)",
+                  0.46748852142663344
+                ],
+                [
+                  "Play X at Front, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.26463503835604985
+                ],
+                [
+                  "Play X at Front, row 2, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.07409676889362145
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 301.07,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.81,
+              "top_probabilities": [
+                [
+                  "Play O at Front, row 1, column 1 \u2014 blocks X's win at row 1 col 1; cube stays on this face (middle cell)",
+                  0.84
+                ],
+                [
+                  "Nuke the Front face (wipe every mark on it) \u2014 wipes 2 marks; removes X's immediate win at row 1 col 1; face stays in play; X to move here next",
+                  0.16
+                ],
+                [
+                  "Play O at Front, row 2, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.81
+              },
+              "usage": {
+                "input_tokens": 1440,
+                "output_tokens": 316
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              2,
+              1
+            ],
+            "latency_ms": 314.57,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.285812980068648,
+              "top_ranked": [
+                [
+                  "Play X at Front, row 2, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.285812980068648
+                ],
+                [
+                  "Play X at Front, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.2674619217076147
+                ],
+                [
+                  "Play X at Front, row 2, column 2 \u2014 cube rotates to Back (face 4)",
+                  0.12041067686247485
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              2,
+              1
+            ],
+            "latency_ms": 301.27,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 1.0,
+              "top_probabilities": [
+                [
+                  "Play O at Bottom, row 2, column 1 \u2014 completes O's line \u2014 this face locks for O; next face in play: Back (face 4)",
+                  1.0
+                ],
+                [
+                  "Nuke the Bottom face (wipe every mark on it) \u2014 wipes 4 marks; no immediate win to deny; face stays in play; X to move here next",
+                  0.0
+                ],
+                [
+                  "Play O at Bottom, row 0, column 0 \u2014 cube rotates to Top (face 0)",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.28
+              },
+              "usage": {
+                "input_tokens": 1352,
+                "output_tokens": 257
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              1,
+              0
+            ],
+            "latency_ms": 408.9,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.4072052939576491,
+              "top_ranked": [
+                [
+                  "Play X at Back, row 1, column 0 \u2014 cube stays on this face (Right locked)",
+                  0.4072052939576491
+                ],
+                [
+                  "Play X at Back, row 1, column 2 \u2014 cube stays on this face (Left locked)",
+                  0.1815987278041723
+                ],
+                [
+                  "Play X at Back, row 0, column 1 \u2014 cube stays on this face (Bottom locked)",
+                  0.12021638858922731
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              1
+            ],
+            "latency_ms": 306.8,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.38,
+              "top_probabilities": [
+                [
+                  "Play O at Back, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.44
+                ],
+                [
+                  "Play O at Back, row 1, column 2 \u2014 cube stays on this face (Left locked)",
+                  0.19
+                ],
+                [
+                  "Play O at Back, row 0, column 1 \u2014 cube stays on this face (Bottom locked)",
+                  0.15
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.26
+              },
+              "usage": {
+                "input_tokens": 1476,
+                "output_tokens": 312
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              1,
+              2
+            ],
+            "latency_ms": 408.92,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.34908594075744614,
+              "top_ranked": [
+                [
+                  "Play X at Back, row 1, column 2 \u2014 cube stays on this face (Left locked)",
+                  0.34908594075744614
+                ],
+                [
+                  "Play X at Back, row 0, column 1 \u2014 cube stays on this face (Bottom locked)",
+                  0.2317514428962117
+                ],
+                [
+                  "Play X at Back, row 2, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.1504794366438668
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              0,
+              1
+            ],
+            "latency_ms": 307.27,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.51,
+              "top_probabilities": [
+                [
+                  "Play O at Back, row 0, column 1 \u2014 cube stays on this face (Bottom locked)",
+                  0.57
+                ],
+                [
+                  "Play O at Back, row 2, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.13
+                ],
+                [
+                  "Play O at Back, row 0, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.12
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.28
+              },
+              "usage": {
+                "input_tokens": 1388,
+                "output_tokens": 258
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              2,
+              1
+            ],
+            "latency_ms": 409.52,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.4955991438749017,
+              "top_ranked": [
+                [
+                  "Play X at Back, row 2, column 1 \u2014 blocks O's win at row 2 col 1; cube rotates to Top (face 0)",
+                  0.4955991438749017
+                ],
+                [
+                  "Play X at Back, row 2, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.14876725279666791
+                ],
+                [
+                  "Play X at Back, row 0, column 2 \u2014 cube rotates to Front (face 1)",
+                  0.13810517046122606
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              0,
+              1
+            ],
+            "latency_ms": 310.41,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.28,
+              "top_probabilities": [
+                [
+                  "Play O at Top, row 0, column 1 \u2014 cube rotates to Back (face 4)",
+                  0.38
+                ],
+                [
+                  "Play O at Top, row 2, column 1 \u2014 cube rotates to Front (face 1)",
+                  0.2
+                ],
+                [
+                  "Play O at Top, row 0, column 0 \u2014 cube stays on this face (Bottom locked)",
+                  0.18
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.25
+              },
+              "usage": {
+                "input_tokens": 1409,
+                "output_tokens": 258
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              2,
+              0
+            ],
+            "latency_ms": 407.05,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.29593482901810536,
+              "top_ranked": [
+                [
+                  "Play X at Back, row 2, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.29593482901810536
+                ],
+                [
+                  "Play X at Back, row 0, column 2 \u2014 cube rotates to Front (face 1)",
+                  0.26955556366985634
+                ],
+                [
+                  "Play X at Back, row 0, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.2207058897951271
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              1
+            ],
+            "latency_ms": 304.6,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.3,
+              "top_probabilities": [
+                [
+                  "Play O at Front, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.43
+                ],
+                [
+                  "Play O at Front, row 0, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.16
+                ],
+                [
+                  "Play O at Front, row 2, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.13
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.28
+              },
+              "usage": {
+                "input_tokens": 1339,
+                "output_tokens": 231
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              2,
+              0
+            ],
+            "latency_ms": 411.13,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.33120006104463284,
+              "top_ranked": [
+                [
+                  "Play X at Top, row 2, column 0 \u2014 cube stays on this face (Bottom locked); leaves O to play here with an immediate win at row 2 col 1",
+                  0.33120006104463284
+                ],
+                [
+                  "Play X at Top, row 0, column 2 \u2014 cube stays on this face (Bottom locked); leaves O to play here with an immediate win at row 2 col 1",
+                  0.19532364076902925
+                ],
+                [
+                  "Play X at Top, row 2, column 2 \u2014 cube stays on this face (Bottom locked); leaves O to play here with an immediate win at row 2 col 1",
+                  0.19137994496122043
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              2,
+              1
+            ],
+            "latency_ms": 412.11,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.99,
+              "top_probabilities": [
+                [
+                  "Play O at Top, row 2, column 1 \u2014 completes O's line \u2014 this face locks for O; next face in play: Front (face 1)",
+                  0.99
+                ],
+                [
+                  "Play O at Top, row 0, column 0 \u2014 blocks X's win at row 0 col 0; cube stays on this face (Bottom locked)",
+                  0.01
+                ],
+                [
+                  "Play O at Top, row 0, column 2 \u2014 cube stays on this face (Bottom locked); leaves X to play here with an immediate win at row 0 col 0",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.81
+              },
+              "usage": {
+                "input_tokens": 1392,
+                "output_tokens": 283
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              0,
+              2
+            ],
+            "latency_ms": 409.56,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.27608863181463184,
+              "top_ranked": [
+                [
+                  "Play X at Front, row 0, column 2 \u2014 cube rotates to Back (face 4)",
+                  0.27608863181463184
+                ],
+                [
+                  "Play X at Front, row 2, column 2 \u2014 cube rotates to Back (face 4)",
+                  0.27063913707834025
+                ],
+                [
+                  "Play X at Front, row 2, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.23280055222899634
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              0,
+              0
+            ],
+            "latency_ms": 308.6,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.14,
+              "top_probabilities": [
+                [
+                  "Play O at Back, row 0, column 0 \u2014 blocks X's win at row 0 col 0; cube rotates to Front (face 1)",
+                  0.36
+                ],
+                [
+                  "Nuke the Back face (wipe every mark on it) \u2014 wipes 6 marks; removes X's immediate win at row 0 col 0; row 2 col 2; face stays in play; X to move here next",
+                  0.33
+                ],
+                [
+                  "Play O at Back, row 2, column 2 \u2014 blocks X's win at row 2 col 2; cube rotates to Front (face 1)",
+                  0.29
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.88
+              },
+              "usage": {
+                "input_tokens": 1310,
+                "output_tokens": 227
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              2,
+              2
+            ],
+            "latency_ms": 405.64,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.9532482632924775,
+              "top_ranked": [
+                [
+                  "Play X at Front, row 2, column 2 \u2014 completes X's line \u2014 this face locks for X; next face in play: Back (face 4)",
+                  0.9532482632924775
+                ],
+                [
+                  "Play X at Front, row 2, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.02416162216912245
+                ],
+                [
+                  "Play X at Front, row 0, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.022590114538400128
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              0,
+              2
+            ],
+            "latency_ms": 409.61,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.59,
+              "top_probabilities": [
+                [
+                  "Play O at Back, row 0, column 2 \u2014 completes O's line \u2014 this face locks for O; this was the last face \u2014 match ends",
+                  0.72
+                ],
+                [
+                  "Play O at Back, row 2, column 2 \u2014 completes O's line \u2014 this face locks for O; this was the last face \u2014 match ends",
+                  0.25
+                ],
+                [
+                  "Nuke the Back face (wipe every mark on it) \u2014 wipes 7 marks; removes X's immediate win at row 2 col 2; face stays in play; X to move here next",
+                  0.03
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.84
+              },
+              "usage": {
+                "input_tokens": 1281,
+                "output_tokens": 189
+              }
+            }
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "x_agent": "jev",
+        "o_agent": "clm",
+        "winner": "X",
+        "scores": {
+          "X": 4,
+          "O": 1
+        },
+        "result_label": "Player X wins 4-1!",
+        "moves": [
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 306.68,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.96,
+              "top_probabilities": [
+                [
+                  "Play X at Front, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.97
+                ],
+                [
+                  "Play X at Front, row 0, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.02
+                ],
+                [
+                  "Play X at Front, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.01
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.17
+              },
+              "usage": {
+                "input_tokens": 1448,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              -1,
+              -1
+            ],
+            "latency_ms": 410.55,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.8874654911453246,
+              "top_ranked": [
+                [
+                  "Nuke the Front face (wipe every mark on it) \u2014 wipes 1 mark; no immediate win to deny; face stays in play; X to move here next",
+                  0.8874654911453246
+                ],
+                [
+                  "Play O at Front, row 1, column 2 \u2014 cube rotates to Right (face 5)",
+                  0.03720577978589582
+                ],
+                [
+                  "Play O at Front, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.0352270680847688
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 306.05,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.94,
+              "top_probabilities": [
+                [
+                  "Play X at Front, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.96
+                ],
+                [
+                  "Play X at Front, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.02
+                ],
+                [
+                  "Play X at Front, row 0, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.02
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.18
+              },
+              "usage": {
+                "input_tokens": 1448,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              2
+            ],
+            "latency_ms": 409.4,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.3237814195348213,
+              "top_ranked": [
+                [
+                  "Play O at Front, row 1, column 2 \u2014 cube rotates to Right (face 5)",
+                  0.3237814195348213
+                ],
+                [
+                  "Play O at Front, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.3157771090505709
+                ],
+                [
+                  "Play O at Front, row 2, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.1057841877950578
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 308.21,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.94,
+              "top_probabilities": [
+                [
+                  "Play X at Right, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.95
+                ],
+                [
+                  "Play X at Right, row 0, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.02
+                ],
+                [
+                  "Play X at Right, row 1, column 2 \u2014 cube rotates to Back (face 4)",
+                  0.01
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.21
+              },
+              "usage": {
+                "input_tokens": 1449,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              0,
+              2
+            ],
+            "latency_ms": 515.26,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.21848262595699314,
+              "top_ranked": [
+                [
+                  "Play O at Right, row 0, column 2 \u2014 cube rotates to Left (face 2)",
+                  0.21848262595699314
+                ],
+                [
+                  "Play O at Right, row 2, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.20873540773405724
+                ],
+                [
+                  "Play O at Right, row 2, column 2 \u2014 cube rotates to Left (face 2)",
+                  0.15841212070562113
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              1
+            ],
+            "latency_ms": 254.12,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.9,
+              "top_probabilities": [
+                [
+                  "Play X at Left, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.9
+                ],
+                [
+                  "Play X at Left, row 1, column 2 \u2014 cube rotates to Front (face 1)",
+                  0.02
+                ],
+                [
+                  "Play X at Left, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.02
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.22
+              },
+              "usage": {
+                "input_tokens": 1450,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              2,
+              0
+            ],
+            "latency_ms": 811.38,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.23635208457830814,
+              "top_ranked": [
+                [
+                  "Play O at Left, row 2, column 0 \u2014 cube rotates to Right (face 5)",
+                  0.23635208457830814
+                ],
+                [
+                  "Play O at Left, row 0, column 0 \u2014 cube rotates to Right (face 5)",
+                  0.1744719925246871
+                ],
+                [
+                  "Play O at Left, row 0, column 2 \u2014 cube rotates to Right (face 5)",
+                  0.1468618720261431
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              0,
+              1
+            ],
+            "latency_ms": 366.49,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.07,
+              "top_probabilities": [
+                [
+                  "Play X at Right, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.19
+                ],
+                [
+                  "Play X at Right, row 0, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.16
+                ],
+                [
+                  "Play X at Right, row 1, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.16
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.22
+              },
+              "usage": {
+                "input_tokens": 1407,
+                "output_tokens": 285
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              1,
+              2
+            ],
+            "latency_ms": 309.26,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.21129566715399603,
+              "top_ranked": [
+                [
+                  "Play O at Top, row 1, column 2 \u2014 cube rotates to Right (face 5)",
+                  0.21129566715399603
+                ],
+                [
+                  "Play O at Top, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.19002587435466012
+                ],
+                [
+                  "Play O at Top, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.13509129809956086
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              2,
+              1
+            ],
+            "latency_ms": 287.84,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 1.0,
+              "top_probabilities": [
+                [
+                  "Play X at Right, row 2, column 1 \u2014 completes X's line \u2014 this face locks for X; next face in play: Bottom (face 3)",
+                  1.0
+                ],
+                [
+                  "Play X at Right, row 1, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.0
+                ],
+                [
+                  "Play X at Right, row 0, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.24
+              },
+              "usage": {
+                "input_tokens": 1384,
+                "output_tokens": 284
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              1,
+              2
+            ],
+            "latency_ms": 423.58,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.4976759007641355,
+              "top_ranked": [
+                [
+                  "Play O at Bottom, row 1, column 2 \u2014 cube stays on this face (Right locked)",
+                  0.4976759007641355
+                ],
+                [
+                  "Play O at Bottom, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.12424668813494258
+                ],
+                [
+                  "Play O at Bottom, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.0741019894509996
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              1
+            ],
+            "latency_ms": 309.7,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.56,
+              "top_probabilities": [
+                [
+                  "Play X at Bottom, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.62
+                ],
+                [
+                  "Play X at Bottom, row 0, column 1 \u2014 cube rotates to Front (face 1)",
+                  0.12
+                ],
+                [
+                  "Play X at Bottom, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.09
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.25
+              },
+              "usage": {
+                "input_tokens": 1453,
+                "output_tokens": 312
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              1,
+              0
+            ],
+            "latency_ms": 318.49,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.290262108723258,
+              "top_ranked": [
+                [
+                  "Play O at Bottom, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.290262108723258
+                ],
+                [
+                  "Play O at Bottom, row 0, column 0 \u2014 cube rotates to Top (face 0)",
+                  0.1625461233797068
+                ],
+                [
+                  "Play O at Bottom, row 0, column 1 \u2014 cube rotates to Front (face 1)",
+                  0.11651619533838047
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              0,
+              0
+            ],
+            "latency_ms": 293.49,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.05,
+              "top_probabilities": [
+                [
+                  "Play X at Left, row 2, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.18000000000000002
+                ],
+                [
+                  "Play X at Left, row 0, column 0 \u2014 cube stays on this face (Right locked)",
+                  0.17
+                ],
+                [
+                  "Play X at Left, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.15
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.22
+              },
+              "usage": {
+                "input_tokens": 1434,
+                "output_tokens": 285
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              2,
+              2
+            ],
+            "latency_ms": 511.0,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.7387830920472638,
+              "top_ranked": [
+                [
+                  "Play O at Left, row 2, column 2 \u2014 blocks X's win at row 2 col 2; cube stays on this face (Right locked)",
+                  0.7387830920472638
+                ],
+                [
+                  "Play O at Left, row 0, column 2 \u2014 cube stays on this face (Right locked); leaves X to play here with an immediate win at row 2 col 2",
+                  0.0906990131443095
+                ],
+                [
+                  "Play O at Left, row 2, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.07024897259798998
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              2,
+              1
+            ],
+            "latency_ms": 307.03,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.88,
+              "top_probabilities": [
+                [
+                  "Play X at Left, row 2, column 1 \u2014 blocks O's win at row 2 col 1; cube rotates to Bottom (face 3)",
+                  0.91
+                ],
+                [
+                  "Nuke the Left face (wipe every mark on it) \u2014 wipes 4 marks; removes O's immediate win at row 2 col 1; face stays in play; O to move here next",
+                  0.09
+                ],
+                [
+                  "Play X at Left, row 1, column 2 \u2014 cube rotates to Front (face 1)",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.96
+              },
+              "usage": {
+                "input_tokens": 1377,
+                "output_tokens": 279
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              0,
+              0
+            ],
+            "latency_ms": 512.54,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.22423935253242316,
+              "top_ranked": [
+                [
+                  "Play O at Bottom, row 0, column 0 \u2014 cube rotates to Top (face 0)",
+                  0.22423935253242316
+                ],
+                [
+                  "Play O at Bottom, row 2, column 0 \u2014 cube rotates to Top (face 0)",
+                  0.16322926248373204
+                ],
+                [
+                  "Play O at Bottom, row 2, column 1 \u2014 cube rotates to Back (face 4)",
+                  0.1588567282404755
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 307.33,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.51,
+              "top_probabilities": [
+                [
+                  "Play X at Top, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.56
+                ],
+                [
+                  "Play X at Top, row 0, column 0 \u2014 cube rotates to Bottom (face 3)",
+                  0.09
+                ],
+                [
+                  "Play X at Top, row 0, column 2 \u2014 cube rotates to Bottom (face 3)",
+                  0.08
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.23
+              },
+              "usage": {
+                "input_tokens": 1454,
+                "output_tokens": 312
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              1,
+              0
+            ],
+            "latency_ms": 511.68,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.2652678407410325,
+              "top_ranked": [
+                [
+                  "Play O at Top, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.2652678407410325
+                ],
+                [
+                  "Play O at Top, row 0, column 0 \u2014 cube rotates to Bottom (face 3)",
+                  0.16247385628429564
+                ],
+                [
+                  "Play O at Top, row 0, column 2 \u2014 cube rotates to Bottom (face 3)",
+                  0.12358001852786374
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              0,
+              1
+            ],
+            "latency_ms": 306.61,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 1.0,
+              "top_probabilities": [
+                [
+                  "Play X at Left, row 0, column 1 \u2014 completes X's line \u2014 this face locks for X; next face in play: Top (face 0)",
+                  1.0
+                ],
+                [
+                  "Nuke the Left face (wipe every mark on it) \u2014 wipes 5 marks; no immediate win to deny; face stays in play; O to move here next",
+                  0.0
+                ],
+                [
+                  "Play X at Left, row 1, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.27
+              },
+              "usage": {
+                "input_tokens": 1313,
+                "output_tokens": 230
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              0,
+              0
+            ],
+            "latency_ms": 1228.66,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.20830908889252148,
+              "top_ranked": [
+                [
+                  "Play O at Top, row 0, column 0 \u2014 cube rotates to Bottom (face 3)",
+                  0.20830908889252148
+                ],
+                [
+                  "Play O at Top, row 2, column 0 \u2014 cube rotates to Bottom (face 3)",
+                  0.1626247360454465
+                ],
+                [
+                  "Play O at Top, row 0, column 2 \u2014 cube rotates to Bottom (face 3)",
+                  0.16080062666854467
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              2,
+              0
+            ],
+            "latency_ms": 242.22,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.78,
+              "top_probabilities": [
+                [
+                  "Play X at Bottom, row 2, column 0 \u2014 blocks O's win at row 2 col 0; cube rotates to Top (face 0)",
+                  0.82
+                ],
+                [
+                  "Nuke the Bottom face (wipe every mark on it) \u2014 wipes 4 marks; removes O's immediate win at row 2 col 0; face stays in play; O to move here next",
+                  0.16
+                ],
+                [
+                  "Play X at Bottom, row 2, column 2 \u2014 cube rotates to Top (face 0)",
+                  0.01
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.9
+              },
+              "usage": {
+                "input_tokens": 1358,
+                "output_tokens": 262
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              2,
+              0
+            ],
+            "latency_ms": 577.9,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.49092074623483095,
+              "top_ranked": [
+                [
+                  "Play O at Top, row 2, column 0 \u2014 completes O's line \u2014 this face locks for O; next face in play: Bottom (face 3)",
+                  0.49092074623483095
+                ],
+                [
+                  "Play O at Top, row 0, column 1 \u2014 cube rotates to Back (face 4)",
+                  0.13361768872495383
+                ],
+                [
+                  "Play O at Top, row 0, column 2 \u2014 cube rotates to Bottom (face 3)",
+                  0.12900229793743498
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              0,
+              2
+            ],
+            "latency_ms": 310.55,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.99,
+              "top_probabilities": [
+                [
+                  "Play X at Bottom, row 0, column 2 \u2014 completes X's line \u2014 this face locks for X; next face in play: Back (face 4)",
+                  1.0
+                ],
+                [
+                  "Play X at Bottom, row 0, column 1 \u2014 cube rotates to Front (face 1)",
+                  0.0
+                ],
+                [
+                  "Play X at Bottom, row 2, column 1 \u2014 cube rotates to Back (face 4)",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.27
+              },
+              "usage": {
+                "input_tokens": 1328,
+                "output_tokens": 230
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              1,
+              0
+            ],
+            "latency_ms": 613.0,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.3218958963372925,
+              "top_ranked": [
+                [
+                  "Play O at Back, row 1, column 0 \u2014 cube stays on this face (Right locked)",
+                  0.3218958963372925
+                ],
+                [
+                  "Play O at Back, row 1, column 2 \u2014 cube stays on this face (Left locked)",
+                  0.1473611884232463
+                ],
+                [
+                  "Play O at Back, row 0, column 1 \u2014 cube stays on this face (Bottom locked)",
+                  0.1450428100693293
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              1
+            ],
+            "latency_ms": 304.97,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.58,
+              "top_probabilities": [
+                [
+                  "Play X at Back, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.62
+                ],
+                [
+                  "Play X at Back, row 1, column 2 \u2014 cube stays on this face (Left locked)",
+                  0.13
+                ],
+                [
+                  "Play X at Back, row 0, column 1 \u2014 cube stays on this face (Bottom locked)",
+                  0.1
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.22
+              },
+              "usage": {
+                "input_tokens": 1488,
+                "output_tokens": 312
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              0,
+              1
+            ],
+            "latency_ms": 511.06,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.2499452530947125,
+              "top_ranked": [
+                [
+                  "Play O at Back, row 0, column 1 \u2014 cube stays on this face (Bottom locked)",
+                  0.2499452530947125
+                ],
+                [
+                  "Play O at Back, row 1, column 2 \u2014 cube stays on this face (Left locked)",
+                  0.24565941109141454
+                ],
+                [
+                  "Play O at Back, row 2, column 1 \u2014 cube stays on this face (Top locked)",
+                  0.2265348985985187
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              2
+            ],
+            "latency_ms": 306.89,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.44,
+              "top_probabilities": [
+                [
+                  "Play X at Back, row 1, column 2 \u2014 cube stays on this face (Left locked)",
+                  0.53
+                ],
+                [
+                  "Play X at Back, row 2, column 1 \u2014 cube stays on this face (Top locked)",
+                  0.14
+                ],
+                [
+                  "Play X at Back, row 0, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.1
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.27
+              },
+              "usage": {
+                "input_tokens": 1399,
+                "output_tokens": 258
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              2,
+              1
+            ],
+            "latency_ms": 512.07,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.4481373156170697,
+              "top_ranked": [
+                [
+                  "Play O at Back, row 2, column 1 \u2014 cube stays on this face (Top locked)",
+                  0.4481373156170697
+                ],
+                [
+                  "Play O at Back, row 0, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.163751114297861
+                ],
+                [
+                  "Play O at Back, row 2, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.15616302205474156
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              0,
+              0
+            ],
+            "latency_ms": 306.89,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.37,
+              "top_probabilities": [
+                [
+                  "Play X at Back, row 0, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.49
+                ],
+                [
+                  "Nuke the Back face (wipe every mark on it) \u2014 wipes 5 marks; no immediate win to deny; face stays in play; O to move here next",
+                  0.19
+                ],
+                [
+                  "Play X at Back, row 0, column 2 \u2014 cube rotates to Front (face 1)",
+                  0.16
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.32
+              },
+              "usage": {
+                "input_tokens": 1302,
+                "output_tokens": 204
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              0
+            ],
+            "latency_ms": 514.55,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.36663556941052095,
+              "top_ranked": [
+                [
+                  "Play O at Front, row 1, column 0 \u2014 cube stays on this face (Left locked)",
+                  0.36663556941052095
+                ],
+                [
+                  "Play O at Front, row 0, column 1 \u2014 cube stays on this face (Top locked)",
+                  0.33208161814100273
+                ],
+                [
+                  "Play O at Front, row 2, column 1 \u2014 cube stays on this face (Bottom locked)",
+                  0.2285184014019845
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              1
+            ],
+            "latency_ms": 305.23,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.46,
+              "top_probabilities": [
+                [
+                  "Play X at Front, row 0, column 1 \u2014 cube stays on this face (Top locked)",
+                  0.55
+                ],
+                [
+                  "Play X at Front, row 0, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.19
+                ],
+                [
+                  "Play X at Front, row 2, column 1 \u2014 cube stays on this face (Bottom locked)",
+                  0.07
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.29
+              },
+              "usage": {
+                "input_tokens": 1400,
+                "output_tokens": 258
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              2,
+              1
+            ],
+            "latency_ms": 613.44,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.8487492389191903,
+              "top_ranked": [
+                [
+                  "Play O at Front, row 2, column 1 \u2014 blocks X's win at row 2 col 1; cube stays on this face (Bottom locked)",
+                  0.8487492389191903
+                ],
+                [
+                  "Play O at Front, row 0, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.04277474786148566
+                ],
+                [
+                  "Play O at Front, row 2, column 2 \u2014 cube rotates to Back (face 4)",
+                  0.039671400688814897
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              0
+            ],
+            "latency_ms": 263.34,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.48,
+              "top_probabilities": [
+                [
+                  "Play X at Front, row 0, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.59
+                ],
+                [
+                  "Play X at Front, row 0, column 2 \u2014 cube rotates to Back (face 4)",
+                  0.12
+                ],
+                [
+                  "Nuke the Front face (wipe every mark on it) \u2014 wipes 5 marks; no immediate win to deny; face stays in play; O to move here next",
+                  0.12
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.3
+              },
+              "usage": {
+                "input_tokens": 1302,
+                "output_tokens": 204
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              2,
+              2
+            ],
+            "latency_ms": 504.7,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.700671219373147,
+              "top_ranked": [
+                [
+                  "Play O at Back, row 2, column 2 \u2014 blocks X's win at row 2 col 2; cube rotates to Front (face 1)",
+                  0.700671219373147
+                ],
+                [
+                  "Play O at Back, row 2, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.17579017745438638
+                ],
+                [
+                  "Play O at Back, row 0, column 2 \u2014 cube rotates to Front (face 1)",
+                  0.12353860317246664
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              2
+            ],
+            "latency_ms": 361.6,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.88,
+              "top_probabilities": [
+                [
+                  "Play X at Front, row 0, column 2 \u2014 completes X's line \u2014 this face locks for X; next face in play: Back (face 4)",
+                  0.92
+                ],
+                [
+                  "Play X at Front, row 2, column 2 \u2014 completes X's line \u2014 this face locks for X; next face in play: Back (face 4)",
+                  0.08
+                ],
+                [
+                  "Nuke the Front face (wipe every mark on it) \u2014 wipes 6 marks; no immediate win to deny; face stays in play; O to move here next",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.28
+              },
+              "usage": {
+                "input_tokens": 1299,
+                "output_tokens": 216
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              0,
+              2
+            ],
+            "latency_ms": 543.17,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.953930737624676,
+              "top_ranked": [
+                [
+                  "Play O at Back, row 0, column 2 \u2014 cube stays on this face (Front locked)",
+                  0.953930737624676
+                ],
+                [
+                  "Play O at Back, row 2, column 0 \u2014 completes O's line \u2014 this face locks for O; this was the last face \u2014 match ends",
+                  0.046069262375324174
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              2,
+              0
+            ],
+            "latency_ms": 374.98,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.35,
+              "top_probabilities": [
+                [
+                  "Play X at Back, row 2, column 0 \u2014 fills this face \u2014 locked draw, no score; this was the last face \u2014 match ends",
+                  0.68
+                ],
+                [
+                  "Nuke the Back face (wipe every mark on it) \u2014 wipes 8 marks; removes O's immediate win at row 2 col 0; face stays in play; O to move here next",
+                  0.32
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.94
+              },
+              "usage": {
+                "input_tokens": 1211,
+                "output_tokens": 149
+              }
+            }
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "x_agent": "clm",
+        "o_agent": "jev",
+        "winner": "O",
+        "scores": {
+          "X": 1,
+          "O": 5
+        },
+        "result_label": "Player O wins 5-1!",
+        "moves": [
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              2
+            ],
+            "latency_ms": 409.11,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.27243709844715186,
+              "top_ranked": [
+                [
+                  "Play X at Front, row 1, column 2 \u2014 cube rotates to Right (face 5)",
+                  0.27243709844715186
+                ],
+                [
+                  "Play X at Front, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.26008329987411605
+                ],
+                [
+                  "Play X at Front, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.18936355568273097
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 306.7,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.9,
+              "top_probabilities": [
+                [
+                  "Play O at Right, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.92
+                ],
+                [
+                  "Play O at Right, row 0, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.02
+                ],
+                [
+                  "Play O at Right, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.02
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.21
+              },
+              "usage": {
+                "input_tokens": 1449,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              -1,
+              -1
+            ],
+            "latency_ms": 314.64,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.5365323953834711,
+              "top_ranked": [
+                [
+                  "Nuke the Right face (wipe every mark on it) \u2014 wipes 1 mark; no immediate win to deny; face stays in play; O to move here next",
+                  0.5365323953834711
+                ],
+                [
+                  "Play X at Right, row 0, column 2 \u2014 cube rotates to Left (face 2)",
+                  0.09603729669370836
+                ],
+                [
+                  "Play X at Right, row 2, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.09584551934590325
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 269.4,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.9,
+              "top_probabilities": [
+                [
+                  "Play O at Right, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.9
+                ],
+                [
+                  "Play O at Right, row 1, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.02
+                ],
+                [
+                  "Play O at Right, row 0, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.02
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.22
+              },
+              "usage": {
+                "input_tokens": 1449,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              0,
+              2
+            ],
+            "latency_ms": 645.14,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.20854605503924012,
+              "top_ranked": [
+                [
+                  "Play X at Right, row 0, column 2 \u2014 cube rotates to Left (face 2)",
+                  0.20854605503924012
+                ],
+                [
+                  "Play X at Right, row 2, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.2072992082775961
+                ],
+                [
+                  "Play X at Right, row 2, column 2 \u2014 cube rotates to Left (face 2)",
+                  0.1643823758798624
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              1
+            ],
+            "latency_ms": 306.72,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.87,
+              "top_probabilities": [
+                [
+                  "Play O at Left, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.87
+                ],
+                [
+                  "Play O at Left, row 0, column 0 \u2014 cube rotates to Right (face 5)",
+                  0.03
+                ],
+                [
+                  "Play O at Left, row 1, column 2 \u2014 cube rotates to Front (face 1)",
+                  0.03
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.22
+              },
+              "usage": {
+                "input_tokens": 1450,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              2,
+              0
+            ],
+            "latency_ms": 410.71,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.22032450745033635,
+              "top_ranked": [
+                [
+                  "Play X at Left, row 2, column 0 \u2014 cube rotates to Right (face 5)",
+                  0.22032450745033635
+                ],
+                [
+                  "Play X at Left, row 0, column 2 \u2014 cube rotates to Right (face 5)",
+                  0.19095448231783818
+                ],
+                [
+                  "Play X at Left, row 0, column 0 \u2014 cube rotates to Right (face 5)",
+                  0.15102170616834212
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              2,
+              2
+            ],
+            "latency_ms": 306.85,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.12,
+              "top_probabilities": [
+                [
+                  "Play O at Right, row 2, column 2 \u2014 cube rotates to Left (face 2)",
+                  0.24000000000000002
+                ],
+                [
+                  "Play O at Right, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.15
+                ],
+                [
+                  "Play O at Right, row 0, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.14
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.23
+              },
+              "usage": {
+                "input_tokens": 1407,
+                "output_tokens": 285
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              0,
+              2
+            ],
+            "latency_ms": 818.78,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.24285396230427325,
+              "top_ranked": [
+                [
+                  "Play X at Left, row 0, column 2 \u2014 cube rotates to Right (face 5)",
+                  0.24285396230427325
+                ],
+                [
+                  "Play X at Left, row 0, column 0 \u2014 cube rotates to Right (face 5)",
+                  0.1908867667110443
+                ],
+                [
+                  "Play X at Left, row 2, column 2 \u2014 cube rotates to Right (face 5)",
+                  0.15920859471786455
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              0,
+              0
+            ],
+            "latency_ms": 300.48,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.98,
+              "top_probabilities": [
+                [
+                  "Play O at Right, row 0, column 0 \u2014 completes O's line \u2014 this face locks for O; next face in play: Left (face 2)",
+                  0.99
+                ],
+                [
+                  "Play O at Right, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.01
+                ],
+                [
+                  "Nuke the Right face (wipe every mark on it) \u2014 wipes 3 marks; no immediate win to deny; face stays in play; X to move here next",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.25
+              },
+              "usage": {
+                "input_tokens": 1384,
+                "output_tokens": 284
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              0,
+              0
+            ],
+            "latency_ms": 416.49,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.47197183465340525,
+              "top_ranked": [
+                [
+                  "Play X at Left, row 0, column 0 \u2014 cube stays on this face (Right locked)",
+                  0.47197183465340525
+                ],
+                [
+                  "Play X at Left, row 2, column 2 \u2014 cube stays on this face (Right locked)",
+                  0.30067952087824573
+                ],
+                [
+                  "Play X at Left, row 2, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.07052827564084392
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              0,
+              1
+            ],
+            "latency_ms": 306.12,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.39,
+              "top_probabilities": [
+                [
+                  "Play O at Left, row 0, column 1 \u2014 blocks X's win at row 0 col 1; cube rotates to Top (face 0)",
+                  0.49
+                ],
+                [
+                  "Nuke the Left face (wipe every mark on it) \u2014 wipes 4 marks; removes X's immediate win at row 0 col 1; row 1 col 0; face stays in play; X to move here next",
+                  0.28
+                ],
+                [
+                  "Play O at Left, row 1, column 0 \u2014 blocks X's win at row 1 col 0; cube rotates to Back (face 4)",
+                  0.19
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.81
+              },
+              "usage": {
+                "input_tokens": 1408,
+                "output_tokens": 305
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              1,
+              2
+            ],
+            "latency_ms": 413.47,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.48519060836158406,
+              "top_ranked": [
+                [
+                  "Play X at Top, row 1, column 2 \u2014 cube stays on this face (Right locked)",
+                  0.48519060836158406
+                ],
+                [
+                  "Play X at Top, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.1454280021278121
+                ],
+                [
+                  "Play X at Top, row 2, column 0 \u2014 cube rotates to Bottom (face 3)",
+                  0.0691958231918164
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 406.17,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.47,
+              "top_probabilities": [
+                [
+                  "Play O at Top, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.54
+                ],
+                [
+                  "Play O at Top, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.12
+                ],
+                [
+                  "Play O at Top, row 0, column 2 \u2014 cube rotates to Bottom (face 3)",
+                  0.1
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.25
+              },
+              "usage": {
+                "input_tokens": 1453,
+                "output_tokens": 312
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              1,
+              0
+            ],
+            "latency_ms": 409.4,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.30894735770390586,
+              "top_ranked": [
+                [
+                  "Play X at Top, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.30894735770390586
+                ],
+                [
+                  "Play X at Top, row 2, column 0 \u2014 cube rotates to Bottom (face 3)",
+                  0.16477757391926418
+                ],
+                [
+                  "Play X at Top, row 2, column 1 \u2014 cube rotates to Front (face 1)",
+                  0.1123754011786845
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              2,
+              1
+            ],
+            "latency_ms": 306.9,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.98,
+              "top_probabilities": [
+                [
+                  "Play O at Left, row 2, column 1 \u2014 completes O's line \u2014 this face locks for O; next face in play: Bottom (face 3)",
+                  0.99
+                ],
+                [
+                  "Play O at Left, row 1, column 0 \u2014 blocks X's win at row 1 col 0; cube rotates to Back (face 4)",
+                  0.01
+                ],
+                [
+                  "Play O at Left, row 1, column 2 \u2014 cube rotates to Front (face 1)",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.84
+              },
+              "usage": {
+                "input_tokens": 1352,
+                "output_tokens": 266
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              1,
+              2
+            ],
+            "latency_ms": 410.0,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.5004222428575393,
+              "top_ranked": [
+                [
+                  "Play X at Bottom, row 1, column 2 \u2014 cube stays on this face (Right locked)",
+                  0.5004222428575393
+                ],
+                [
+                  "Play X at Bottom, row 1, column 0 \u2014 cube stays on this face (Left locked)",
+                  0.18865207342999643
+                ],
+                [
+                  "Play X at Bottom, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.05845417186339325
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              1
+            ],
+            "latency_ms": 307.15,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.39,
+              "top_probabilities": [
+                [
+                  "Play O at Bottom, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.45
+                ],
+                [
+                  "Play O at Bottom, row 1, column 0 \u2014 cube stays on this face (Left locked)",
+                  0.14
+                ],
+                [
+                  "Play O at Bottom, row 0, column 1 \u2014 cube rotates to Front (face 1)",
+                  0.08
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.23
+              },
+              "usage": {
+                "input_tokens": 1465,
+                "output_tokens": 312
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              1,
+              0
+            ],
+            "latency_ms": 410.79,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.4329313546531371,
+              "top_ranked": [
+                [
+                  "Play X at Bottom, row 1, column 0 \u2014 cube stays on this face (Left locked)",
+                  0.4329313546531371
+                ],
+                [
+                  "Play X at Bottom, row 0, column 0 \u2014 cube rotates to Top (face 0)",
+                  0.10241212199601812
+                ],
+                [
+                  "Play X at Bottom, row 0, column 1 \u2014 cube rotates to Front (face 1)",
+                  0.10239024674309269
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              0,
+              1
+            ],
+            "latency_ms": 289.62,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.22,
+              "top_probabilities": [
+                [
+                  "Play O at Bottom, row 0, column 1 \u2014 cube rotates to Front (face 1)",
+                  0.32
+                ],
+                [
+                  "Play O at Bottom, row 2, column 1 \u2014 cube rotates to Back (face 4)",
+                  0.25
+                ],
+                [
+                  "Play O at Bottom, row 0, column 0 \u2014 cube rotates to Top (face 0)",
+                  0.17
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.26
+              },
+              "usage": {
+                "input_tokens": 1376,
+                "output_tokens": 258
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              0
+            ],
+            "latency_ms": 427.34,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.46748852142663344,
+              "top_ranked": [
+                [
+                  "Play X at Front, row 1, column 0 \u2014 cube stays on this face (Left locked)",
+                  0.46748852142663344
+                ],
+                [
+                  "Play X at Front, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.26463503835604985
+                ],
+                [
+                  "Play X at Front, row 2, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.07409676889362145
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 305.15,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.84,
+              "top_probabilities": [
+                [
+                  "Play O at Front, row 1, column 1 \u2014 blocks X's win at row 1 col 1; cube stays on this face (middle cell)",
+                  0.87
+                ],
+                [
+                  "Nuke the Front face (wipe every mark on it) \u2014 wipes 2 marks; removes X's immediate win at row 1 col 1; face stays in play; X to move here next",
+                  0.13
+                ],
+                [
+                  "Play O at Front, row 2, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.71
+              },
+              "usage": {
+                "input_tokens": 1440,
+                "output_tokens": 316
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              2,
+              1
+            ],
+            "latency_ms": 820.07,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.285812980068648,
+              "top_ranked": [
+                [
+                  "Play X at Front, row 2, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.285812980068648
+                ],
+                [
+                  "Play X at Front, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.2674619217076147
+                ],
+                [
+                  "Play X at Front, row 2, column 2 \u2014 cube rotates to Back (face 4)",
+                  0.12041067686247485
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              2,
+              1
+            ],
+            "latency_ms": 305.53,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 1.0,
+              "top_probabilities": [
+                [
+                  "Play O at Bottom, row 2, column 1 \u2014 completes O's line \u2014 this face locks for O; next face in play: Back (face 4)",
+                  1.0
+                ],
+                [
+                  "Play O at Bottom, row 0, column 0 \u2014 cube rotates to Top (face 0)",
+                  0.0
+                ],
+                [
+                  "Nuke the Bottom face (wipe every mark on it) \u2014 wipes 4 marks; no immediate win to deny; face stays in play; X to move here next",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.26
+              },
+              "usage": {
+                "input_tokens": 1352,
+                "output_tokens": 257
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              1,
+              0
+            ],
+            "latency_ms": 306.67,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.4072052939576491,
+              "top_ranked": [
+                [
+                  "Play X at Back, row 1, column 0 \u2014 cube stays on this face (Right locked)",
+                  0.4072052939576491
+                ],
+                [
+                  "Play X at Back, row 1, column 2 \u2014 cube stays on this face (Left locked)",
+                  0.1815987278041723
+                ],
+                [
+                  "Play X at Back, row 0, column 1 \u2014 cube stays on this face (Bottom locked)",
+                  0.12021638858922731
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              1
+            ],
+            "latency_ms": 239.81,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.36,
+              "top_probabilities": [
+                [
+                  "Play O at Back, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.43
+                ],
+                [
+                  "Play O at Back, row 1, column 2 \u2014 cube stays on this face (Left locked)",
+                  0.17
+                ],
+                [
+                  "Play O at Back, row 0, column 1 \u2014 cube stays on this face (Bottom locked)",
+                  0.16
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.25
+              },
+              "usage": {
+                "input_tokens": 1476,
+                "output_tokens": 312
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              1,
+              2
+            ],
+            "latency_ms": 308.56,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.34908594075744614,
+              "top_ranked": [
+                [
+                  "Play X at Back, row 1, column 2 \u2014 cube stays on this face (Left locked)",
+                  0.34908594075744614
+                ],
+                [
+                  "Play X at Back, row 0, column 1 \u2014 cube stays on this face (Bottom locked)",
+                  0.2317514428962117
+                ],
+                [
+                  "Play X at Back, row 2, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.1504794366438668
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              0,
+              1
+            ],
+            "latency_ms": 269.19,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.47,
+              "top_probabilities": [
+                [
+                  "Play O at Back, row 0, column 1 \u2014 cube stays on this face (Bottom locked)",
+                  0.55
+                ],
+                [
+                  "Play O at Back, row 0, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.13
+                ],
+                [
+                  "Play O at Back, row 2, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.13
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.27
+              },
+              "usage": {
+                "input_tokens": 1388,
+                "output_tokens": 258
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              2,
+              1
+            ],
+            "latency_ms": 308.11,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.4955991438749017,
+              "top_ranked": [
+                [
+                  "Play X at Back, row 2, column 1 \u2014 blocks O's win at row 2 col 1; cube rotates to Top (face 0)",
+                  0.4955991438749017
+                ],
+                [
+                  "Play X at Back, row 2, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.14876725279666791
+                ],
+                [
+                  "Play X at Back, row 0, column 2 \u2014 cube rotates to Front (face 1)",
+                  0.13810517046122606
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              0,
+              1
+            ],
+            "latency_ms": 309.68,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.29,
+              "top_probabilities": [
+                [
+                  "Play O at Top, row 0, column 1 \u2014 cube rotates to Back (face 4)",
+                  0.4
+                ],
+                [
+                  "Play O at Top, row 2, column 1 \u2014 cube rotates to Front (face 1)",
+                  0.23
+                ],
+                [
+                  "Play O at Top, row 0, column 0 \u2014 cube stays on this face (Bottom locked)",
+                  0.16
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.26
+              },
+              "usage": {
+                "input_tokens": 1409,
+                "output_tokens": 258
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              2,
+              0
+            ],
+            "latency_ms": 408.67,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.29593482901810536,
+              "top_ranked": [
+                [
+                  "Play X at Back, row 2, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.29593482901810536
+                ],
+                [
+                  "Play X at Back, row 0, column 2 \u2014 cube rotates to Front (face 1)",
+                  0.26955556366985634
+                ],
+                [
+                  "Play X at Back, row 0, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.2207058897951271
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              1
+            ],
+            "latency_ms": 306.19,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.29,
+              "top_probabilities": [
+                [
+                  "Play O at Front, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.39999999999999997
+                ],
+                [
+                  "Play O at Front, row 0, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.17
+                ],
+                [
+                  "Play O at Front, row 2, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.16
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.29
+              },
+              "usage": {
+                "input_tokens": 1339,
+                "output_tokens": 231
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              2,
+              0
+            ],
+            "latency_ms": 409.83,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.33120006104463284,
+              "top_ranked": [
+                [
+                  "Play X at Top, row 2, column 0 \u2014 cube stays on this face (Bottom locked); leaves O to play here with an immediate win at row 2 col 1",
+                  0.33120006104463284
+                ],
+                [
+                  "Play X at Top, row 0, column 2 \u2014 cube stays on this face (Bottom locked); leaves O to play here with an immediate win at row 2 col 1",
+                  0.19532364076902925
+                ],
+                [
+                  "Play X at Top, row 2, column 2 \u2014 cube stays on this face (Bottom locked); leaves O to play here with an immediate win at row 2 col 1",
+                  0.19137994496122043
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              2,
+              1
+            ],
+            "latency_ms": 250.78,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.99,
+              "top_probabilities": [
+                [
+                  "Play O at Top, row 2, column 1 \u2014 completes O's line \u2014 this face locks for O; next face in play: Front (face 1)",
+                  0.99
+                ],
+                [
+                  "Play O at Top, row 0, column 0 \u2014 blocks X's win at row 0 col 0; cube stays on this face (Bottom locked)",
+                  0.01
+                ],
+                [
+                  "Nuke the Top face (wipe every mark on it) \u2014 wipes 5 marks; removes X's immediate win at row 0 col 0; face stays in play; X to move here next",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.8
+              },
+              "usage": {
+                "input_tokens": 1392,
+                "output_tokens": 283
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              0,
+              2
+            ],
+            "latency_ms": 362.86,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.27608863181463184,
+              "top_ranked": [
+                [
+                  "Play X at Front, row 0, column 2 \u2014 cube rotates to Back (face 4)",
+                  0.27608863181463184
+                ],
+                [
+                  "Play X at Front, row 2, column 2 \u2014 cube rotates to Back (face 4)",
+                  0.27063913707834025
+                ],
+                [
+                  "Play X at Front, row 2, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.23280055222899634
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              -1,
+              -1
+            ],
+            "latency_ms": 512.27,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.13,
+              "top_probabilities": [
+                [
+                  "Play O at Back, row 0, column 0 \u2014 blocks X's win at row 0 col 0; cube rotates to Front (face 1)",
+                  0.35
+                ],
+                [
+                  "Nuke the Back face (wipe every mark on it) \u2014 wipes 6 marks; removes X's immediate win at row 0 col 0; row 2 col 2; face stays in play; X to move here next",
+                  0.35
+                ],
+                [
+                  "Play O at Back, row 2, column 2 \u2014 blocks X's win at row 2 col 2; cube rotates to Front (face 1)",
+                  0.28
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.81
+              },
+              "usage": {
+                "input_tokens": 1310,
+                "output_tokens": 241
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              1,
+              0
+            ],
+            "latency_ms": 825.85,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.35706957664883077,
+              "top_ranked": [
+                [
+                  "Play X at Back, row 1, column 0 \u2014 cube stays on this face (Right locked)",
+                  0.35706957664883077
+                ],
+                [
+                  "Play X at Back, row 1, column 2 \u2014 cube stays on this face (Left locked)",
+                  0.18088917914254096
+                ],
+                [
+                  "Play X at Back, row 2, column 1 \u2014 cube stays on this face (Top locked)",
+                  0.12282182931055494
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              1
+            ],
+            "latency_ms": 300.07,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.39,
+              "top_probabilities": [
+                [
+                  "Play O at Back, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.46
+                ],
+                [
+                  "Play O at Back, row 1, column 2 \u2014 cube stays on this face (Left locked)",
+                  0.24
+                ],
+                [
+                  "Play O at Back, row 0, column 1 \u2014 cube stays on this face (Bottom locked)",
+                  0.13
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.25
+              },
+              "usage": {
+                "input_tokens": 1449,
+                "output_tokens": 272
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              1,
+              2
+            ],
+            "latency_ms": 409.52,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.30200568785042725,
+              "top_ranked": [
+                [
+                  "Play X at Back, row 1, column 2 \u2014 cube stays on this face (Left locked)",
+                  0.30200568785042725
+                ],
+                [
+                  "Play X at Back, row 2, column 1 \u2014 cube stays on this face (Top locked)",
+                  0.215862550648436
+                ],
+                [
+                  "Play X at Back, row 0, column 1 \u2014 cube stays on this face (Bottom locked)",
+                  0.17591392296407016
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              0,
+              1
+            ],
+            "latency_ms": 240.09,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.51,
+              "top_probabilities": [
+                [
+                  "Play O at Back, row 0, column 1 \u2014 cube stays on this face (Bottom locked)",
+                  0.59
+                ],
+                [
+                  "Play O at Back, row 0, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.17
+                ],
+                [
+                  "Play O at Back, row 2, column 1 \u2014 cube stays on this face (Top locked)",
+                  0.1
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.28
+              },
+              "usage": {
+                "input_tokens": 1361,
+                "output_tokens": 218
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              2,
+              1
+            ],
+            "latency_ms": 307.57,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.8080315244919427,
+              "top_ranked": [
+                [
+                  "Play X at Back, row 2, column 1 \u2014 blocks O's win at row 2 col 1; cube stays on this face (Top locked)",
+                  0.8080315244919427
+                ],
+                [
+                  "Play X at Back, row 2, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.05706698235862031
+                ],
+                [
+                  "Play X at Back, row 0, column 2 \u2014 cube rotates to Front (face 1)",
+                  0.05079574496548209
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              0,
+              0
+            ],
+            "latency_ms": 248.91,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.48,
+              "top_probabilities": [
+                [
+                  "Play O at Back, row 0, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.61
+                ],
+                [
+                  "Play O at Back, row 0, column 2 \u2014 cube rotates to Front (face 1)",
+                  0.13
+                ],
+                [
+                  "Play O at Back, row 2, column 2 \u2014 cube rotates to Front (face 1)",
+                  0.13
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.28
+              },
+              "usage": {
+                "input_tokens": 1263,
+                "output_tokens": 164
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              2,
+              2
+            ],
+            "latency_ms": 327.26,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "probability": 0.9547902939569891,
+              "top_ranked": [
+                [
+                  "Play X at Front, row 2, column 2 \u2014 completes X's line \u2014 this face locks for X; next face in play: Back (face 4)",
+                  0.9547902939569891
+                ],
+                [
+                  "Play X at Front, row 2, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.023289401404014972
+                ],
+                [
+                  "Play X at Front, row 0, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.021920304638995875
+                ]
+              ]
+            }
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              0,
+              2
+            ],
+            "latency_ms": 310.47,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.65,
+              "top_probabilities": [
+                [
+                  "Play O at Back, row 0, column 2 \u2014 completes O's line \u2014 this face locks for O; this was the last face \u2014 match ends",
+                  0.76
+                ],
+                [
+                  "Play O at Back, row 2, column 2 \u2014 completes O's line \u2014 this face locks for O; this was the last face \u2014 match ends",
+                  0.23
+                ],
+                [
+                  "Play O at Back, row 2, column 0 \u2014 cube stays on this face (Front locked)",
+                  0.01
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.28
+              },
+              "usage": {
+                "input_tokens": 1279,
+                "output_tokens": 169
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "jev": {
+        "name": "jev",
+        "games": 4,
+        "wins": 4,
+        "losses": 0,
+        "draws": 0,
+        "win_rate": 1.0,
+        "moves": 81,
+        "invalid_moves": 0,
+        "errors": 0,
+        "latency": {
+          "mean_ms": 312.47,
+          "p50_ms": 306.8,
+          "p95_ms": 406.18,
+          "max_ms": 512.27
+        }
+      },
+      "clm": {
+        "name": "clm",
+        "games": 4,
+        "wins": 0,
+        "losses": 4,
+        "draws": 0,
+        "win_rate": 0.0,
+        "moves": 79,
+        "invalid_moves": 0,
+        "errors": 0,
+        "latency": {
+          "mean_ms": 482.92,
+          "p50_ms": 409.86,
+          "p95_ms": 1019.62,
+          "max_ms": 1228.66
+        }
+      }
+    }
+  }
+}

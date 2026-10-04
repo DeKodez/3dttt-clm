@@ -1,0 +1,4023 @@
+{
+  "agents": [
+    "jev",
+    "clm"
+  ],
+  "games": 4,
+  "seed": 23,
+  "min_move_delay": 0.0,
+  "elapsed_s": 44.1,
+  "frames": 174,
+  "result": {
+    "agents": [
+      "jev",
+      "clm"
+    ],
+    "games": [
+      {
+        "index": 0,
+        "x_agent": "jev",
+        "o_agent": "clm",
+        "winner": "X",
+        "scores": {
+          "X": 5,
+          "O": 1
+        },
+        "result_label": "Player X wins 5-1!",
+        "moves": [
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 365.34,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.95,
+              "top_probabilities": [
+                [
+                  "Play X at Front, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.97
+                ],
+                [
+                  "Play X at Front, row 0, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.02
+                ],
+                [
+                  "Play X at Front, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.01
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.17
+              },
+              "usage": {
+                "input_tokens": 1448,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              2
+            ],
+            "latency_ms": 612.43,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 289.59,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.94,
+              "top_probabilities": [
+                [
+                  "Play X at Right, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.95
+                ],
+                [
+                  "Play X at Right, row 0, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.02
+                ],
+                [
+                  "Play X at Right, row 1, column 2 \u2014 cube rotates to Back (face 4)",
+                  0.01
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.21
+              },
+              "usage": {
+                "input_tokens": 1449,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              0,
+              1
+            ],
+            "latency_ms": 190.89,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 340.53,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.76,
+              "top_probabilities": [
+                [
+                  "Play X at Top, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.77
+                ],
+                [
+                  "Play X at Top, row 1, column 2 \u2014 cube rotates to Right (face 5)",
+                  0.09
+                ],
+                [
+                  "Play X at Top, row 2, column 1 \u2014 cube rotates to Front (face 1)",
+                  0.06
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.22
+              },
+              "usage": {
+                "input_tokens": 1449,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              0,
+              0
+            ],
+            "latency_ms": 190.64,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              1
+            ],
+            "latency_ms": 324.15,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.87,
+              "top_probabilities": [
+                [
+                  "Play X at Bottom, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.88
+                ],
+                [
+                  "Play X at Bottom, row 0, column 1 \u2014 cube rotates to Front (face 1)",
+                  0.04
+                ],
+                [
+                  "Play X at Bottom, row 1, column 2 \u2014 cube rotates to Right (face 5)",
+                  0.03
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.21
+              },
+              "usage": {
+                "input_tokens": 1449,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              1,
+              2
+            ],
+            "latency_ms": 190.21,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              0
+            ],
+            "latency_ms": 270.76,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.12,
+              "top_probabilities": [
+                [
+                  "Play X at Right, row 1, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.23
+                ],
+                [
+                  "Play X at Right, row 2, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.19
+                ],
+                [
+                  "Play X at Right, row 0, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.16
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.22
+              },
+              "usage": {
+                "input_tokens": 1407,
+                "output_tokens": 285
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              2,
+              2
+            ],
+            "latency_ms": 189.3,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              1
+            ],
+            "latency_ms": 266.24,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.75,
+              "top_probabilities": [
+                [
+                  "Play X at Back, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.78
+                ],
+                [
+                  "Play X at Back, row 1, column 0 \u2014 cube rotates to Right (face 5)",
+                  0.05
+                ],
+                [
+                  "Play X at Back, row 0, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.04
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.2
+              },
+              "usage": {
+                "input_tokens": 1451,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              2,
+              1
+            ],
+            "latency_ms": 192.06,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              2
+            ],
+            "latency_ms": 319.61,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.12,
+              "top_probabilities": [
+                [
+                  "Play X at Top, row 1, column 2 \u2014 cube rotates to Right (face 5)",
+                  0.23
+                ],
+                [
+                  "Play X at Top, row 0, column 1 \u2014 cube rotates to Back (face 4)",
+                  0.21
+                ],
+                [
+                  "Play X at Top, row 2, column 1 \u2014 cube rotates to Front (face 1)",
+                  0.19
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.2
+              },
+              "usage": {
+                "input_tokens": 1408,
+                "output_tokens": 285
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              2,
+              1
+            ],
+            "latency_ms": 205.88,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              0,
+              1
+            ],
+            "latency_ms": 305.78,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.14,
+              "top_probabilities": [
+                [
+                  "Play X at Bottom, row 0, column 1 \u2014 cube rotates to Front (face 1)",
+                  0.25
+                ],
+                [
+                  "Play X at Bottom, row 2, column 1 \u2014 cube rotates to Back (face 4)",
+                  0.22
+                ],
+                [
+                  "Play X at Bottom, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.21
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.24
+              },
+              "usage": {
+                "input_tokens": 1409,
+                "output_tokens": 285
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              0,
+              2
+            ],
+            "latency_ms": 191.16,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              0,
+              1
+            ],
+            "latency_ms": 423.98,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.2,
+              "top_probabilities": [
+                [
+                  "Play X at Back, row 0, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.3
+                ],
+                [
+                  "Play X at Back, row 1, column 0 \u2014 cube rotates to Right (face 5)",
+                  0.18
+                ],
+                [
+                  "Play X at Back, row 0, column 0 \u2014 cube stays on this face (Front locked)",
+                  0.14
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.22
+              },
+              "usage": {
+                "input_tokens": 1442,
+                "output_tokens": 285
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              0,
+              2
+            ],
+            "latency_ms": 193.18,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              0
+            ],
+            "latency_ms": 305.09,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 1.0,
+              "top_probabilities": [
+                [
+                  "Play X at Top, row 1, column 0 \u2014 completes X's line \u2014 this face locks for X; next face in play: Left (face 2)",
+                  1.0
+                ],
+                [
+                  "Play X at Top, row 2, column 2 \u2014 cube rotates to Bottom (face 3)",
+                  0.0
+                ],
+                [
+                  "Play X at Top, row 2, column 1 \u2014 cube stays on this face (Front locked)",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.23
+              },
+              "usage": {
+                "input_tokens": 1398,
+                "output_tokens": 284
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              1,
+              0
+            ],
+            "latency_ms": 191.63,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              0
+            ],
+            "latency_ms": 335.73,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.16,
+              "top_probabilities": [
+                [
+                  "Play X at Back, row 1, column 0 \u2014 cube rotates to Right (face 5)",
+                  0.29000000000000004
+                ],
+                [
+                  "Play X at Back, row 0, column 0 \u2014 cube stays on this face (Front locked)",
+                  0.19
+                ],
+                [
+                  "Play X at Back, row 1, column 2 \u2014 cube rotates to Left (face 2)",
+                  0.15
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.24
+              },
+              "usage": {
+                "input_tokens": 1405,
+                "output_tokens": 258
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              1,
+              2
+            ],
+            "latency_ms": 537.04,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              2
+            ],
+            "latency_ms": 278.54,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 1.0,
+              "top_probabilities": [
+                [
+                  "Play X at Back, row 1, column 2 \u2014 completes X's line \u2014 this face locks for X; next face in play: Left (face 2)",
+                  1.0
+                ],
+                [
+                  "Play X at Back, row 2, column 2 \u2014 cube stays on this face (Front locked)",
+                  0.0
+                ],
+                [
+                  "Nuke the Back face (wipe every mark on it) \u2014 wipes 4 marks; no immediate win to deny; face stays in play; O to move here next",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.24
+              },
+              "usage": {
+                "input_tokens": 1382,
+                "output_tokens": 257
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              2,
+              2
+            ],
+            "latency_ms": 192.35,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              0,
+              0
+            ],
+            "latency_ms": 322.62,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.42,
+              "top_probabilities": [
+                [
+                  "Play X at Right, row 0, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.53
+                ],
+                [
+                  "Nuke the Right face (wipe every mark on it) \u2014 wipes 5 marks; no immediate win to deny; face stays in play; O to move here next",
+                  0.16
+                ],
+                [
+                  "Play X at Right, row 0, column 2 \u2014 cube rotates to Left (face 2)",
+                  0.15
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.37
+              },
+              "usage": {
+                "input_tokens": 1300,
+                "output_tokens": 204
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              0,
+              0
+            ],
+            "latency_ms": 189.69,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              2,
+              0
+            ],
+            "latency_ms": 249.52,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.82,
+              "top_probabilities": [
+                [
+                  "Play X at Right, row 2, column 0 \u2014 completes X's line \u2014 this face locks for X; next face in play: Left (face 2)",
+                  0.86
+                ],
+                [
+                  "Play X at Right, row 2, column 2 \u2014 completes X's line \u2014 this face locks for X; next face in play: Left (face 2)",
+                  0.13
+                ],
+                [
+                  "Play X at Right, row 0, column 2 \u2014 cube rotates to Left (face 2)",
+                  0.01
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.29
+              },
+              "usage": {
+                "input_tokens": 1296,
+                "output_tokens": 216
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              0,
+              2
+            ],
+            "latency_ms": 191.13,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              -1,
+              -1
+            ],
+            "latency_ms": 291.42,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.61,
+              "top_probabilities": [
+                [
+                  "Nuke the Left face (wipe every mark on it) \u2014 wipes 4 marks; removes O's immediate win at row 0 col 1; row 1 col 1; row 1 col 2; row 2 col 0; face stays in play; O to move here next",
+                  0.66
+                ],
+                [
+                  "Play X at Left, row 1, column 1 \u2014 blocks O's win at row 1 col 1; cube stays on this face (middle cell); leaves O to play here with an immediate win at row 0 col 1; row 1 col 2; row 2 col 0",
+                  0.17
+                ],
+                [
+                  "Play X at Left, row 2, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.09
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.91
+              },
+              "usage": {
+                "input_tokens": 1588,
+                "output_tokens": 471
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              2,
+              1
+            ],
+            "latency_ms": 193.6,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              2,
+              1
+            ],
+            "latency_ms": 279.83,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.99,
+              "top_probabilities": [
+                [
+                  "Play X at Bottom, row 2, column 1 \u2014 completes X's line \u2014 this face locks for X; next face in play: Left (face 2)",
+                  1.0
+                ],
+                [
+                  "Play X at Bottom, row 2, column 2 \u2014 blocks O's win at row 2 col 2; cube stays on this face (Top locked)",
+                  0.0
+                ],
+                [
+                  "Play X at Bottom, row 2, column 0 \u2014 cube stays on this face (Top locked); leaves O to play here with an immediate win at row 2 col 2",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.9
+              },
+              "usage": {
+                "input_tokens": 1401,
+                "output_tokens": 263
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              0,
+              0
+            ],
+            "latency_ms": 192.42,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              1
+            ],
+            "latency_ms": 355.92,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.83,
+              "top_probabilities": [
+                [
+                  "Play X at Left, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.86
+                ],
+                [
+                  "Play X at Left, row 0, column 1 \u2014 cube stays on this face (Top locked)",
+                  0.04
+                ],
+                [
+                  "Play X at Left, row 2, column 0 \u2014 cube stays on this face (Right locked)",
+                  0.03
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.26
+              },
+              "usage": {
+                "input_tokens": 1434,
+                "output_tokens": 245
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              0,
+              1
+            ],
+            "latency_ms": 200.06,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              0,
+              2
+            ],
+            "latency_ms": 313.98,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 1.0,
+              "top_probabilities": [
+                [
+                  "Play X at Left, row 0, column 2 \u2014 blocks O's win at row 0 col 2; cube stays on this face (Right locked)",
+                  1.0
+                ],
+                [
+                  "Play X at Left, row 2, column 0 \u2014 cube stays on this face (Right locked); leaves O to play here with an immediate win at row 0 col 2",
+                  0.0
+                ],
+                [
+                  "Play X at Left, row 1, column 2 \u2014 cube stays on this face (Front locked); leaves O to play here with an immediate win at row 0 col 2",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.96
+              },
+              "usage": {
+                "input_tokens": 1426,
+                "output_tokens": 283
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              1,
+              0
+            ],
+            "latency_ms": 198.85,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              2,
+              0
+            ],
+            "latency_ms": 396.97,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.97,
+              "top_probabilities": [
+                [
+                  "Play X at Left, row 2, column 0 \u2014 completes X's line \u2014 this face locks for X; this was the last face \u2014 match ends",
+                  0.98
+                ],
+                [
+                  "Play X at Left, row 2, column 2 \u2014 cube stays on this face (Right locked); leaves O to play here with an immediate win at row 2 col 0",
+                  0.01
+                ],
+                [
+                  "Play X at Left, row 1, column 2 \u2014 cube stays on this face (Front locked); leaves O to play here with an immediate win at row 2 col 0",
+                  0.01
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.77
+              },
+              "usage": {
+                "input_tokens": 1300,
+                "output_tokens": 192
+              }
+            }
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "x_agent": "clm",
+        "o_agent": "jev",
+        "winner": "O",
+        "scores": {
+          "X": 1,
+          "O": 5
+        },
+        "result_label": "Player O wins 5-1!",
+        "moves": [
+          {
+            "player": "clm",
+            "move": [
+              1,
+              2,
+              0
+            ],
+            "latency_ms": 187.46,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              1
+            ],
+            "latency_ms": 337.1,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.9,
+              "top_probabilities": [
+                [
+                  "Play O at Back, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.9
+                ],
+                [
+                  "Play O at Back, row 0, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.03
+                ],
+                [
+                  "Play O at Back, row 0, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.02
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.21
+              },
+              "usage": {
+                "input_tokens": 1448,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              0,
+              2
+            ],
+            "latency_ms": 194.56,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 318.2,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.45,
+              "top_probabilities": [
+                [
+                  "Play O at Front, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.51
+                ],
+                [
+                  "Play O at Front, row 2, column 2 \u2014 cube rotates to Back (face 4)",
+                  0.17
+                ],
+                [
+                  "Play O at Front, row 2, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.12
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.22
+              },
+              "usage": {
+                "input_tokens": 1446,
+                "output_tokens": 312
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              0
+            ],
+            "latency_ms": 613.64,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              1
+            ],
+            "latency_ms": 311.38,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.82,
+              "top_probabilities": [
+                [
+                  "Play O at Left, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.83
+                ],
+                [
+                  "Play O at Left, row 1, column 2 \u2014 cube rotates to Front (face 1)",
+                  0.07
+                ],
+                [
+                  "Play O at Left, row 1, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.03
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.21
+              },
+              "usage": {
+                "input_tokens": 1449,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              0,
+              2
+            ],
+            "latency_ms": 199.21,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 308.42,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.87,
+              "top_probabilities": [
+                [
+                  "Play O at Right, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.88
+                ],
+                [
+                  "Play O at Right, row 1, column 2 \u2014 cube rotates to Back (face 4)",
+                  0.03
+                ],
+                [
+                  "Play O at Right, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.02
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.2
+              },
+              "usage": {
+                "input_tokens": 1450,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              1,
+              0
+            ],
+            "latency_ms": 198.35,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              0
+            ],
+            "latency_ms": 281.58,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.82,
+              "top_probabilities": [
+                [
+                  "Play O at Front, row 0, column 0 \u2014 blocks X's win at row 0 col 0; cube rotates to Back (face 4)",
+                  0.86
+                ],
+                [
+                  "Nuke the Front face (wipe every mark on it) \u2014 wipes 3 marks; removes X's immediate win at row 0 col 0; face stays in play; X to move here next",
+                  0.13
+                ],
+                [
+                  "Play O at Front, row 1, column 2 \u2014 cube rotates to Right (face 5)",
+                  0.01
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.74
+              },
+              "usage": {
+                "input_tokens": 1389,
+                "output_tokens": 289
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              1,
+              0
+            ],
+            "latency_ms": 208.78,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              2
+            ],
+            "latency_ms": 338.36,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.36,
+              "top_probabilities": [
+                [
+                  "Play O at Right, row 1, column 2 \u2014 cube rotates to Back (face 4)",
+                  0.45
+                ],
+                [
+                  "Play O at Right, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.14
+                ],
+                [
+                  "Play O at Right, row 2, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.1
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.24
+              },
+              "usage": {
+                "input_tokens": 1407,
+                "output_tokens": 285
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              2,
+              2
+            ],
+            "latency_ms": 197.97,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              2,
+              2
+            ],
+            "latency_ms": 275.83,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.99,
+              "top_probabilities": [
+                [
+                  "Play O at Front, row 2, column 2 \u2014 completes O's line \u2014 this face locks for O; next face in play: Back (face 4)",
+                  1.0
+                ],
+                [
+                  "Play O at Front, row 2, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.0
+                ],
+                [
+                  "Nuke the Front face (wipe every mark on it) \u2014 wipes 4 marks; no immediate win to deny; face stays in play; X to move here next",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.26
+              },
+              "usage": {
+                "input_tokens": 1343,
+                "output_tokens": 257
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              -1,
+              -1
+            ],
+            "latency_ms": 197.16,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              1
+            ],
+            "latency_ms": 351.72,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.68,
+              "top_probabilities": [
+                [
+                  "Play O at Back, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.72
+                ],
+                [
+                  "Play O at Back, row 0, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.09
+                ],
+                [
+                  "Play O at Back, row 1, column 2 \u2014 cube rotates to Left (face 2)",
+                  0.060000000000000005
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.23
+              },
+              "usage": {
+                "input_tokens": 1483,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              0,
+              1
+            ],
+            "latency_ms": 200.75,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              1
+            ],
+            "latency_ms": 343.3,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.64,
+              "top_probabilities": [
+                [
+                  "Play O at Bottom, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.68
+                ],
+                [
+                  "Play O at Bottom, row 0, column 1 \u2014 cube stays on this face (Front locked)",
+                  0.14
+                ],
+                [
+                  "Play O at Bottom, row 1, column 2 \u2014 cube rotates to Right (face 5)",
+                  0.05
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.23
+              },
+              "usage": {
+                "input_tokens": 1462,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              0,
+              2
+            ],
+            "latency_ms": 200.73,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 275.3,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.64,
+              "top_probabilities": [
+                [
+                  "Play O at Top, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.67
+                ],
+                [
+                  "Play O at Top, row 2, column 1 \u2014 cube stays on this face (Front locked)",
+                  0.08
+                ],
+                [
+                  "Play O at Top, row 0, column 1 \u2014 cube rotates to Back (face 4)",
+                  0.07
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.21
+              },
+              "usage": {
+                "input_tokens": 1463,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              1,
+              2
+            ],
+            "latency_ms": 198.78,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              0,
+              1
+            ],
+            "latency_ms": 231.92,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.25,
+              "top_probabilities": [
+                [
+                  "Play O at Right, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.35
+                ],
+                [
+                  "Play O at Right, row 0, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.18
+                ],
+                [
+                  "Play O at Right, row 2, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.14
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.26
+              },
+              "usage": {
+                "input_tokens": 1372,
+                "output_tokens": 258
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              2,
+              1
+            ],
+            "latency_ms": 197.46,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              0
+            ],
+            "latency_ms": 275.83,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.2,
+              "top_probabilities": [
+                [
+                  "Play O at Top, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.31
+                ],
+                [
+                  "Play O at Top, row 0, column 1 \u2014 cube rotates to Back (face 4)",
+                  0.16
+                ],
+                [
+                  "Play O at Top, row 2, column 2 \u2014 cube rotates to Bottom (face 3)",
+                  0.16
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.25
+              },
+              "usage": {
+                "input_tokens": 1372,
+                "output_tokens": 258
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              2,
+              2
+            ],
+            "latency_ms": 199.17,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              2,
+              1
+            ],
+            "latency_ms": 333.93,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.99,
+              "top_probabilities": [
+                [
+                  "Play O at Right, row 2, column 1 \u2014 completes O's line \u2014 this face locks for O; next face in play: Bottom (face 3)",
+                  1.0
+                ],
+                [
+                  "Play O at Right, row 2, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.0
+                ],
+                [
+                  "Nuke the Right face (wipe every mark on it) \u2014 wipes 4 marks; no immediate win to deny; face stays in play; X to move here next",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.27
+              },
+              "usage": {
+                "input_tokens": 1349,
+                "output_tokens": 257
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              0,
+              0
+            ],
+            "latency_ms": 200.92,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              0,
+              1
+            ],
+            "latency_ms": 256.81,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.12,
+              "top_probabilities": [
+                [
+                  "Play O at Top, row 0, column 1 \u2014 cube rotates to Back (face 4)",
+                  0.27
+                ],
+                [
+                  "Play O at Top, row 0, column 0 \u2014 cube rotates to Bottom (face 3)",
+                  0.18
+                ],
+                [
+                  "Play O at Top, row 2, column 0 \u2014 cube rotates to Bottom (face 3)",
+                  0.17
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.26
+              },
+              "usage": {
+                "input_tokens": 1335,
+                "output_tokens": 231
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              1,
+              2
+            ],
+            "latency_ms": 195.62,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              2
+            ],
+            "latency_ms": 369.84,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.92,
+              "top_probabilities": [
+                [
+                  "Play O at Left, row 1, column 2 \u2014 blocks X's win at row 1 col 2; cube stays on this face (Front locked)",
+                  0.93
+                ],
+                [
+                  "Nuke the Left face (wipe every mark on it) \u2014 wipes 3 marks; removes X's immediate win at row 1 col 2; face stays in play; X to move here next",
+                  0.06
+                ],
+                [
+                  "Play O at Left, row 1, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.01
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.78
+              },
+              "usage": {
+                "input_tokens": 1455,
+                "output_tokens": 323
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              2,
+              0
+            ],
+            "latency_ms": 306.4,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              0
+            ],
+            "latency_ms": 303.6,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.99,
+              "top_probabilities": [
+                [
+                  "Play O at Left, row 1, column 0 \u2014 completes O's line \u2014 this face locks for O; next face in play: Back (face 4)",
+                  1.0
+                ],
+                [
+                  "Nuke the Left face (wipe every mark on it) \u2014 wipes 5 marks; removes X's immediate win at row 2 col 1; face stays in play; X to move here next",
+                  0.0
+                ],
+                [
+                  "Play O at Left, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.82
+              },
+              "usage": {
+                "input_tokens": 1360,
+                "output_tokens": 266
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              2,
+              2
+            ],
+            "latency_ms": 197.53,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              0,
+              2
+            ],
+            "latency_ms": 314.51,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.86,
+              "top_probabilities": [
+                [
+                  "Play O at Back, row 0, column 2 \u2014 blocks X's win at row 0 col 2; cube stays on this face (Front locked)",
+                  0.88
+                ],
+                [
+                  "Nuke the Back face (wipe every mark on it) \u2014 wipes 4 marks; removes X's immediate win at row 0 col 2; face stays in play; X to move here next",
+                  0.11
+                ],
+                [
+                  "Play O at Back, row 2, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.01
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.84
+              },
+              "usage": {
+                "input_tokens": 1442,
+                "output_tokens": 313
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              0,
+              0
+            ],
+            "latency_ms": 196.08,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              2,
+              0
+            ],
+            "latency_ms": 315.85,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.99,
+              "top_probabilities": [
+                [
+                  "Play O at Back, row 2, column 0 \u2014 completes O's line \u2014 this face locks for O; next face in play: Top (face 0)",
+                  1.0
+                ],
+                [
+                  "Nuke the Back face (wipe every mark on it) \u2014 wipes 6 marks; no immediate win to deny; face stays in play; X to move here next",
+                  0.0
+                ],
+                [
+                  "Play O at Back, row 2, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.3
+              },
+              "usage": {
+                "input_tokens": 1291,
+                "output_tokens": 203
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              0,
+              0
+            ],
+            "latency_ms": 197.49,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              0,
+              1
+            ],
+            "latency_ms": 300.89,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.81,
+              "top_probabilities": [
+                [
+                  "Play O at Bottom, row 0, column 1 \u2014 blocks X's win at row 0 col 1; cube stays on this face (Front locked)",
+                  0.84
+                ],
+                [
+                  "Nuke the Bottom face (wipe every mark on it) \u2014 wipes 3 marks; removes X's immediate win at row 0 col 1; face stays in play; X to move here next",
+                  0.16
+                ],
+                [
+                  "Play O at Bottom, row 1, column 2 \u2014 cube stays on this face (Right locked); leaves X to play here with an immediate win at row 0 col 1",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.91
+              },
+              "usage": {
+                "input_tokens": 1489,
+                "output_tokens": 340
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              2,
+              2
+            ],
+            "latency_ms": 205.19,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              0,
+              2
+            ],
+            "latency_ms": 318.99,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.16,
+              "top_probabilities": [
+                [
+                  "Play O at Top, row 0, column 2 \u2014 cube rotates to Bottom (face 3)",
+                  0.37
+                ],
+                [
+                  "Play O at Top, row 2, column 0 \u2014 cube rotates to Bottom (face 3)",
+                  0.25
+                ],
+                [
+                  "Play O at Top, row 2, column 2 \u2014 cube rotates to Bottom (face 3)",
+                  0.23
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.24
+              },
+              "usage": {
+                "input_tokens": 1264,
+                "output_tokens": 177
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              1,
+              2
+            ],
+            "latency_ms": 199.14,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              2,
+              0
+            ],
+            "latency_ms": 317.73,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.98,
+              "top_probabilities": [
+                [
+                  "Play O at Top, row 2, column 0 \u2014 completes O's line \u2014 this face locks for O; this was the last face \u2014 match ends",
+                  0.99
+                ],
+                [
+                  "Play O at Top, row 2, column 2 \u2014 cube stays on this face (Bottom locked)",
+                  0.01
+                ],
+                [
+                  "Nuke the Top face (wipe every mark on it) \u2014 wipes 7 marks; no immediate win to deny; face stays in play; X to move here next",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.26
+              },
+              "usage": {
+                "input_tokens": 1257,
+                "output_tokens": 171
+              }
+            }
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "x_agent": "jev",
+        "o_agent": "clm",
+        "winner": "X",
+        "scores": {
+          "X": 4,
+          "O": 2
+        },
+        "result_label": "Player X wins 4-2!",
+        "moves": [
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 301.83,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.95,
+              "top_probabilities": [
+                [
+                  "Play X at Front, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.96
+                ],
+                [
+                  "Play X at Front, row 0, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.03
+                ],
+                [
+                  "Play X at Front, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.01
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.17
+              },
+              "usage": {
+                "input_tokens": 1448,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              2,
+              1
+            ],
+            "latency_ms": 632.76,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              1
+            ],
+            "latency_ms": 395.39,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.92,
+              "top_probabilities": [
+                [
+                  "Play X at Bottom, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.9400000000000001
+                ],
+                [
+                  "Play X at Bottom, row 0, column 1 \u2014 cube rotates to Front (face 1)",
+                  0.03
+                ],
+                [
+                  "Play X at Bottom, row 0, column 0 \u2014 cube rotates to Top (face 0)",
+                  0.02
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.22
+              },
+              "usage": {
+                "input_tokens": 1448,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              0,
+              0
+            ],
+            "latency_ms": 191.1,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 316.21,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.86,
+              "top_probabilities": [
+                [
+                  "Play X at Top, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.87
+                ],
+                [
+                  "Play X at Top, row 0, column 0 \u2014 cube rotates to Bottom (face 3)",
+                  0.04
+                ],
+                [
+                  "Play X at Top, row 2, column 1 \u2014 cube rotates to Front (face 1)",
+                  0.03
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.21
+              },
+              "usage": {
+                "input_tokens": 1448,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              1,
+              0
+            ],
+            "latency_ms": 191.33,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              1
+            ],
+            "latency_ms": 320.27,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.92,
+              "top_probabilities": [
+                [
+                  "Play X at Left, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.93
+                ],
+                [
+                  "Play X at Left, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.02
+                ],
+                [
+                  "Play X at Left, row 0, column 0 \u2014 cube rotates to Right (face 5)",
+                  0.02
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.2
+              },
+              "usage": {
+                "input_tokens": 1448,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              1,
+              2
+            ],
+            "latency_ms": 203.53,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              1
+            ],
+            "latency_ms": 308.68,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.32,
+              "top_probabilities": [
+                [
+                  "Play X at Front, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.4
+                ],
+                [
+                  "Play X at Front, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.18
+                ],
+                [
+                  "Play X at Front, row 0, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.1
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.21
+              },
+              "usage": {
+                "input_tokens": 1406,
+                "output_tokens": 285
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              -1,
+              -1
+            ],
+            "latency_ms": 192.05,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 322.49,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.71,
+              "top_probabilities": [
+                [
+                  "Play X at Top, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.74
+                ],
+                [
+                  "Play X at Top, row 2, column 1 \u2014 cube rotates to Front (face 1)",
+                  0.13
+                ],
+                [
+                  "Play X at Top, row 0, column 0 \u2014 cube rotates to Bottom (face 3)",
+                  0.04
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.2
+              },
+              "usage": {
+                "input_tokens": 1449,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              0,
+              0
+            ],
+            "latency_ms": 190.27,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              0,
+              1
+            ],
+            "latency_ms": 318.05,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.39,
+              "top_probabilities": [
+                [
+                  "Play X at Bottom, row 0, column 1 \u2014 cube rotates to Front (face 1)",
+                  0.47
+                ],
+                [
+                  "Play X at Bottom, row 2, column 1 \u2014 cube rotates to Back (face 4)",
+                  0.11
+                ],
+                [
+                  "Play X at Bottom, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.1
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.21
+              },
+              "usage": {
+                "input_tokens": 1406,
+                "output_tokens": 285
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              0
+            ],
+            "latency_ms": 192.03,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              0
+            ],
+            "latency_ms": 320.05,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.42,
+              "top_probabilities": [
+                [
+                  "Play X at Left, row 1, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.49
+                ],
+                [
+                  "Play X at Left, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.15
+                ],
+                [
+                  "Play X at Left, row 2, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.11
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.24
+              },
+              "usage": {
+                "input_tokens": 1406,
+                "output_tokens": 285
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              0,
+              0
+            ],
+            "latency_ms": 193.62,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              2
+            ],
+            "latency_ms": 268.67,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.44,
+              "top_probabilities": [
+                [
+                  "Play X at Front, row 1, column 2 \u2014 cube rotates to Right (face 5)",
+                  0.53
+                ],
+                [
+                  "Play X at Front, row 2, column 2 \u2014 cube rotates to Back (face 4)",
+                  0.11
+                ],
+                [
+                  "Play X at Front, row 0, column 0 \u2014 cube rotates to Back (face 4)",
+                  0.11
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.32
+              },
+              "usage": {
+                "input_tokens": 1322,
+                "output_tokens": 231
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 197.14,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              0
+            ],
+            "latency_ms": 261.81,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.18,
+              "top_probabilities": [
+                [
+                  "Play X at Right, row 1, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.28
+                ],
+                [
+                  "Play X at Right, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.24
+                ],
+                [
+                  "Play X at Right, row 0, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.2
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.21
+              },
+              "usage": {
+                "input_tokens": 1449,
+                "output_tokens": 312
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              2,
+              2
+            ],
+            "latency_ms": 199.32,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              1
+            ],
+            "latency_ms": 312.38,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.59,
+              "top_probabilities": [
+                [
+                  "Play X at Back, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.63
+                ],
+                [
+                  "Play X at Back, row 0, column 2 \u2014 cube rotates to Front (face 1)",
+                  0.11
+                ],
+                [
+                  "Play X at Back, row 0, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.07
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.2
+              },
+              "usage": {
+                "input_tokens": 1448,
+                "output_tokens": 312
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              0,
+              1
+            ],
+            "latency_ms": 196.85,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              2,
+              1
+            ],
+            "latency_ms": 317.88,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 1.0,
+              "top_probabilities": [
+                [
+                  "Play X at Bottom, row 2, column 1 \u2014 completes X's line \u2014 this face locks for X; next face in play: Back (face 4)",
+                  1.0
+                ],
+                [
+                  "Play X at Bottom, row 1, column 2 \u2014 cube rotates to Right (face 5)",
+                  0.0
+                ],
+                [
+                  "Play X at Bottom, row 2, column 2 \u2014 cube rotates to Top (face 0)",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.24
+              },
+              "usage": {
+                "input_tokens": 1384,
+                "output_tokens": 284
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              2,
+              1
+            ],
+            "latency_ms": 197.95,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              0,
+              1
+            ],
+            "latency_ms": 310.77,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.15,
+              "top_probabilities": [
+                [
+                  "Play X at Top, row 0, column 1 \u2014 cube rotates to Back (face 4)",
+                  0.26
+                ],
+                [
+                  "Play X at Top, row 2, column 1 \u2014 cube rotates to Front (face 1)",
+                  0.18
+                ],
+                [
+                  "Play X at Top, row 0, column 2 \u2014 cube stays on this face (Bottom locked)",
+                  0.16
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.21
+              },
+              "usage": {
+                "input_tokens": 1433,
+                "output_tokens": 285
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              0,
+              2
+            ],
+            "latency_ms": 195.39,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              2,
+              0
+            ],
+            "latency_ms": 238.09,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.78,
+              "top_probabilities": [
+                [
+                  "Play X at Front, row 2, column 0 \u2014 blocks O's win at row 2 col 0; cube stays on this face (Back locked)",
+                  0.84
+                ],
+                [
+                  "Nuke the Front face (wipe every mark on it) \u2014 wipes 6 marks; removes O's immediate win at row 2 col 0; face stays in play; O to move here next",
+                  0.16
+                ],
+                [
+                  "Play X at Front, row 0, column 0 \u2014 cube stays on this face (Back locked); leaves O to play here with an immediate win at row 2 col 0",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.95
+              },
+              "usage": {
+                "input_tokens": 1326,
+                "output_tokens": 242
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              0,
+              0
+            ],
+            "latency_ms": 196.99,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              2
+            ],
+            "latency_ms": 291.1,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 1.0,
+              "top_probabilities": [
+                [
+                  "Play X at Front, row 0, column 2 \u2014 completes X's line \u2014 this face locks for X; next face in play: Left (face 2)",
+                  1.0
+                ],
+                [
+                  "Nuke the Front face (wipe every mark on it) \u2014 wipes 8 marks; no immediate win to deny; face stays in play; O to move here next",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.24
+              },
+              "usage": {
+                "input_tokens": 1190,
+                "output_tokens": 149
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              2,
+              1
+            ],
+            "latency_ms": 193.32,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              0,
+              1
+            ],
+            "latency_ms": 322.33,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.26,
+              "top_probabilities": [
+                [
+                  "Play X at Left, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.38
+                ],
+                [
+                  "Play X at Left, row 2, column 0 \u2014 cube rotates to Right (face 5)",
+                  0.17
+                ],
+                [
+                  "Play X at Left, row 2, column 2 \u2014 cube rotates to Right (face 5)",
+                  0.14
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.26
+              },
+              "usage": {
+                "input_tokens": 1338,
+                "output_tokens": 231
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              2,
+              1
+            ],
+            "latency_ms": 198.78,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              0
+            ],
+            "latency_ms": 308.99,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.26,
+              "top_probabilities": [
+                [
+                  "Play X at Top, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.38
+                ],
+                [
+                  "Play X at Top, row 0, column 2 \u2014 cube stays on this face (Bottom locked)",
+                  0.24
+                ],
+                [
+                  "Play X at Top, row 1, column 2 \u2014 cube rotates to Right (face 5)",
+                  0.15
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.26
+              },
+              "usage": {
+                "input_tokens": 1359,
+                "output_tokens": 231
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              2,
+              0
+            ],
+            "latency_ms": 195.44,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              2
+            ],
+            "latency_ms": 316.16,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.36,
+              "top_probabilities": [
+                [
+                  "Play X at Right, row 1, column 2 \u2014 cube stays on this face (Back locked)",
+                  0.45
+                ],
+                [
+                  "Play X at Right, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.15
+                ],
+                [
+                  "Play X at Right, row 0, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.13
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.23
+              },
+              "usage": {
+                "input_tokens": 1436,
+                "output_tokens": 285
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              0,
+              1
+            ],
+            "latency_ms": 198.7,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              2
+            ],
+            "latency_ms": 313.33,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 1.0,
+              "top_probabilities": [
+                [
+                  "Play X at Top, row 1, column 2 \u2014 completes X's line \u2014 this face locks for X; next face in play: Right (face 5)",
+                  1.0
+                ],
+                [
+                  "Play X at Top, row 0, column 2 \u2014 cube stays on this face (Bottom locked)",
+                  0.0
+                ],
+                [
+                  "Play X at Top, row 2, column 2 \u2014 cube stays on this face (Bottom locked)",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.25
+              },
+              "usage": {
+                "input_tokens": 1336,
+                "output_tokens": 230
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              2,
+              2
+            ],
+            "latency_ms": 199.17,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              2,
+              2
+            ],
+            "latency_ms": 315.8,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.84,
+              "top_probabilities": [
+                [
+                  "Play X at Left, row 2, column 2 \u2014 blocks O's win at row 2 col 2; cube rotates to Right (face 5)",
+                  0.88
+                ],
+                [
+                  "Nuke the Left face (wipe every mark on it) \u2014 wipes 6 marks; removes O's immediate win at row 2 col 2; face stays in play; O to move here next",
+                  0.11
+                ],
+                [
+                  "Play X at Left, row 0, column 0 \u2014 cube rotates to Right (face 5)",
+                  0.01
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.94
+              },
+              "usage": {
+                "input_tokens": 1284,
+                "output_tokens": 208
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              2,
+              0
+            ],
+            "latency_ms": 194.38,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              0,
+              0
+            ],
+            "latency_ms": 314.38,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 1.0,
+              "top_probabilities": [
+                [
+                  "Play X at Left, row 0, column 0 \u2014 completes X's line \u2014 this face locks for X; next face in play: Right (face 5)",
+                  1.0
+                ],
+                [
+                  "Nuke the Left face (wipe every mark on it) \u2014 wipes 7 marks; no immediate win to deny; face stays in play; O to move here next",
+                  0.0
+                ],
+                [
+                  "Play X at Left, row 0, column 2 \u2014 cube rotates to Right (face 5)",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.27
+              },
+              "usage": {
+                "input_tokens": 1237,
+                "output_tokens": 176
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              2,
+              1
+            ],
+            "latency_ms": 196.27,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "x_agent": "clm",
+        "o_agent": "jev",
+        "winner": "O",
+        "scores": {
+          "X": 1,
+          "O": 5
+        },
+        "result_label": "Player O wins 5-1!",
+        "moves": [
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              0
+            ],
+            "latency_ms": 191.98,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              1
+            ],
+            "latency_ms": 331.08,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.9,
+              "top_probabilities": [
+                [
+                  "Play O at Left, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.92
+                ],
+                [
+                  "Play O at Left, row 1, column 2 \u2014 cube rotates to Front (face 1)",
+                  0.03
+                ],
+                [
+                  "Play O at Left, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.02
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.21
+              },
+              "usage": {
+                "input_tokens": 1448,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              1,
+              0
+            ],
+            "latency_ms": 303.47,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              1
+            ],
+            "latency_ms": 272.07,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.82,
+              "top_probabilities": [
+                [
+                  "Play O at Back, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.84
+                ],
+                [
+                  "Play O at Back, row 1, column 2 \u2014 cube rotates to Left (face 2)",
+                  0.08
+                ],
+                [
+                  "Play O at Back, row 0, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.02
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.18
+              },
+              "usage": {
+                "input_tokens": 1448,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              2,
+              1
+            ],
+            "latency_ms": 193.79,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 282.57,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.8,
+              "top_probabilities": [
+                [
+                  "Play O at Top, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.8099999999999999
+                ],
+                [
+                  "Play O at Top, row 0, column 1 \u2014 cube rotates to Back (face 4)",
+                  0.05
+                ],
+                [
+                  "Play O at Top, row 0, column 0 \u2014 cube rotates to Bottom (face 3)",
+                  0.04
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.21
+              },
+              "usage": {
+                "input_tokens": 1448,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              -1,
+              -1
+            ],
+            "latency_ms": 192.75,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 288.22,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.74,
+              "top_probabilities": [
+                [
+                  "Play O at Top, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.77
+                ],
+                [
+                  "Play O at Top, row 0, column 1 \u2014 cube rotates to Back (face 4)",
+                  0.07
+                ],
+                [
+                  "Play O at Top, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.05
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.21
+              },
+              "usage": {
+                "input_tokens": 1448,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              0,
+              0
+            ],
+            "latency_ms": 190.22,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              1
+            ],
+            "latency_ms": 321.18,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.79,
+              "top_probabilities": [
+                [
+                  "Play O at Bottom, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.81
+                ],
+                [
+                  "Play O at Bottom, row 2, column 1 \u2014 cube rotates to Back (face 4)",
+                  0.06
+                ],
+                [
+                  "Play O at Bottom, row 0, column 0 \u2014 cube rotates to Top (face 0)",
+                  0.04
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.2
+              },
+              "usage": {
+                "input_tokens": 1448,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              0,
+              2
+            ],
+            "latency_ms": 188.65,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              0,
+              1
+            ],
+            "latency_ms": 296.82,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.14,
+              "top_probabilities": [
+                [
+                  "Play O at Top, row 0, column 1 \u2014 cube rotates to Back (face 4)",
+                  0.24
+                ],
+                [
+                  "Play O at Top, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.21
+                ],
+                [
+                  "Play O at Top, row 2, column 2 \u2014 cube rotates to Bottom (face 3)",
+                  0.16
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.2
+              },
+              "usage": {
+                "input_tokens": 1406,
+                "output_tokens": 285
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              2,
+              2
+            ],
+            "latency_ms": 189.15,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 348.85,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.62,
+              "top_probabilities": [
+                [
+                  "Play O at Front, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.66
+                ],
+                [
+                  "Play O at Front, row 1, column 2 \u2014 cube rotates to Right (face 5)",
+                  0.09
+                ],
+                [
+                  "Play O at Front, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.07
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.22
+              },
+              "usage": {
+                "input_tokens": 1447,
+                "output_tokens": 312
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              2,
+              2
+            ],
+            "latency_ms": 189.26,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              2,
+              0
+            ],
+            "latency_ms": 264.17,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.82,
+              "top_probabilities": [
+                [
+                  "Play O at Back, row 2, column 0 \u2014 blocks X's win at row 2 col 0; cube rotates to Front (face 1)",
+                  0.85
+                ],
+                [
+                  "Nuke the Back face (wipe every mark on it) \u2014 wipes 3 marks; removes X's immediate win at row 2 col 0; face stays in play; X to move here next",
+                  0.11
+                ],
+                [
+                  "Play O at Back, row 1, column 0 \u2014 cube rotates to Right (face 5)",
+                  0.02
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.93
+              },
+              "usage": {
+                "input_tokens": 1390,
+                "output_tokens": 289
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              2
+            ],
+            "latency_ms": 189.75,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 277.65,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.8,
+              "top_probabilities": [
+                [
+                  "Play O at Right, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.83
+                ],
+                [
+                  "Play O at Right, row 1, column 2 \u2014 cube rotates to Back (face 4)",
+                  0.05
+                ],
+                [
+                  "Play O at Right, row 1, column 0 \u2014 cube rotates to Front (face 1)",
+                  0.04
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.21
+              },
+              "usage": {
+                "input_tokens": 1452,
+                "output_tokens": 299
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              0,
+              0
+            ],
+            "latency_ms": 202.36,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              2
+            ],
+            "latency_ms": 309.63,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.35,
+              "top_probabilities": [
+                [
+                  "Play O at Left, row 1, column 2 \u2014 cube rotates to Front (face 1)",
+                  0.43
+                ],
+                [
+                  "Play O at Left, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+                  0.18
+                ],
+                [
+                  "Play O at Left, row 2, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.09
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.21
+              },
+              "usage": {
+                "input_tokens": 1409,
+                "output_tokens": 285
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              2,
+              1
+            ],
+            "latency_ms": 192.97,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              0,
+              1
+            ],
+            "latency_ms": 318.3,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.12,
+              "top_probabilities": [
+                [
+                  "Play O at Bottom, row 0, column 1 \u2014 cube rotates to Front (face 1)",
+                  0.23
+                ],
+                [
+                  "Play O at Bottom, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+                  0.16
+                ],
+                [
+                  "Play O at Bottom, row 2, column 1 \u2014 cube rotates to Back (face 4)",
+                  0.13
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.24
+              },
+              "usage": {
+                "input_tokens": 1410,
+                "output_tokens": 285
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              0,
+              1
+            ],
+            "latency_ms": 189.4,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              2,
+              1
+            ],
+            "latency_ms": 247.28,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.99,
+              "top_probabilities": [
+                [
+                  "Play O at Top, row 2, column 1 \u2014 completes O's line \u2014 this face locks for O; next face in play: Front (face 1)",
+                  1.0
+                ],
+                [
+                  "Play O at Top, row 2, column 2 \u2014 cube rotates to Bottom (face 3)",
+                  0.0
+                ],
+                [
+                  "Nuke the Top face (wipe every mark on it) \u2014 wipes 3 marks; no immediate win to deny; face stays in play; X to move here next",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.23
+              },
+              "usage": {
+                "input_tokens": 1386,
+                "output_tokens": 284
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              2,
+              0
+            ],
+            "latency_ms": 190.29,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              0,
+              2
+            ],
+            "latency_ms": 294.21,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.98,
+              "top_probabilities": [
+                [
+                  "Play O at Back, row 0, column 2 \u2014 completes O's line \u2014 this face locks for O; next face in play: Left (face 2)",
+                  0.99
+                ],
+                [
+                  "Play O at Back, row 0, column 1 \u2014 cube rotates to Bottom (face 3)",
+                  0.01
+                ],
+                [
+                  "Play O at Back, row 1, column 2 \u2014 cube rotates to Left (face 2)",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.27
+              },
+              "usage": {
+                "input_tokens": 1366,
+                "output_tokens": 257
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              2,
+              0
+            ],
+            "latency_ms": 193.04,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              0,
+              1
+            ],
+            "latency_ms": 324.15,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.09,
+              "top_probabilities": [
+                [
+                  "Play O at Right, row 0, column 1 \u2014 cube stays on this face (Top locked)",
+                  0.21
+                ],
+                [
+                  "Play O at Right, row 1, column 0 \u2014 cube stays on this face (Front locked)",
+                  0.16
+                ],
+                [
+                  "Play O at Right, row 0, column 2 \u2014 cube rotates to Left (face 2)",
+                  0.14
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.22
+              },
+              "usage": {
+                "input_tokens": 1444,
+                "output_tokens": 285
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              1,
+              0
+            ],
+            "latency_ms": 193.13,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              2,
+              1
+            ],
+            "latency_ms": 315.09,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.97,
+              "top_probabilities": [
+                [
+                  "Play O at Right, row 2, column 1 \u2014 completes O's line \u2014 this face locks for O; next face in play: Bottom (face 3)",
+                  0.98
+                ],
+                [
+                  "Play O at Right, row 2, column 0 \u2014 blocks X's win at row 2 col 0; cube rotates to Left (face 2)",
+                  0.02
+                ],
+                [
+                  "Play O at Right, row 2, column 2 \u2014 cube rotates to Left (face 2)",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.8
+              },
+              "usage": {
+                "input_tokens": 1404,
+                "output_tokens": 293
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              2,
+              2
+            ],
+            "latency_ms": 191.67,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              2,
+              1
+            ],
+            "latency_ms": 321.29,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.99,
+              "top_probabilities": [
+                [
+                  "Play O at Bottom, row 2, column 1 \u2014 completes O's line \u2014 this face locks for O; next face in play: Left (face 2)",
+                  0.99
+                ],
+                [
+                  "Play O at Bottom, row 1, column 2 \u2014 blocks X's win at row 1 col 2; cube stays on this face (Right locked)",
+                  0.01
+                ],
+                [
+                  "Play O at Bottom, row 2, column 0 \u2014 cube stays on this face (Top locked); leaves X to play here with an immediate win at row 1 col 2",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.72
+              },
+              "usage": {
+                "input_tokens": 1446,
+                "output_tokens": 310
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              2,
+              1
+            ],
+            "latency_ms": 195.43,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              -1,
+              -1
+            ],
+            "latency_ms": 313.39,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.7,
+              "top_probabilities": [
+                [
+                  "Nuke the Left face (wipe every mark on it) \u2014 wipes 5 marks; removes X's immediate win at row 0 col 0; row 2 col 2; face stays in play; X to move here next",
+                  0.77
+                ],
+                [
+                  "Play O at Left, row 2, column 2 \u2014 blocks X's win at row 2 col 2; cube stays on this face (Right locked); leaves X to play here with an immediate win at row 0 col 0",
+                  0.14
+                ],
+                [
+                  "Play O at Left, row 0, column 0 \u2014 blocks X's win at row 0 col 0; cube stays on this face (Right locked); leaves X to play here with an immediate win at row 2 col 2",
+                  0.07
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.86
+              },
+              "usage": {
+                "input_tokens": 1462,
+                "output_tokens": 350
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              1,
+              0
+            ],
+            "latency_ms": 202.18,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              1
+            ],
+            "latency_ms": 262.95,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.8,
+              "top_probabilities": [
+                [
+                  "Play O at Left, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+                  0.82
+                ],
+                [
+                  "Play O at Left, row 0, column 0 \u2014 cube stays on this face (Right locked)",
+                  0.04
+                ],
+                [
+                  "Play O at Left, row 1, column 2 \u2014 cube stays on this face (Front locked)",
+                  0.04
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.23
+              },
+              "usage": {
+                "input_tokens": 1481,
+                "output_tokens": 272
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              2,
+              2
+            ],
+            "latency_ms": 195.28,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              2
+            ],
+            "latency_ms": 365.23,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.18,
+              "top_probabilities": [
+                [
+                  "Play O at Left, row 1, column 2 \u2014 cube stays on this face (Front locked)",
+                  0.31
+                ],
+                [
+                  "Play O at Left, row 2, column 1 \u2014 cube stays on this face (Bottom locked)",
+                  0.2
+                ],
+                [
+                  "Play O at Left, row 0, column 1 \u2014 cube stays on this face (Top locked)",
+                  0.2
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.27
+              },
+              "usage": {
+                "input_tokens": 1393,
+                "output_tokens": 218
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              0,
+              0
+            ],
+            "latency_ms": 193.9,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              2,
+              0
+            ],
+            "latency_ms": 315.08,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.99,
+              "top_probabilities": [
+                [
+                  "Play O at Left, row 2, column 0 \u2014 blocks X's win at row 2 col 0; cube stays on this face (Right locked)",
+                  1.0
+                ],
+                [
+                  "Play O at Left, row 2, column 1 \u2014 cube stays on this face (Bottom locked); leaves X to play here with an immediate win at row 2 col 0",
+                  0.0
+                ],
+                [
+                  "Play O at Left, row 0, column 1 \u2014 cube stays on this face (Top locked); leaves X to play here with an immediate win at row 2 col 0",
+                  0.0
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.89
+              },
+              "usage": {
+                "input_tokens": 1361,
+                "output_tokens": 239
+              }
+            }
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              2,
+              1
+            ],
+            "latency_ms": 192.05,
+            "invalid": true,
+            "error": "HTTPStatusError: Client error '404 Not Found' for url 'https://<old-pod-host>/v1/systemone'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+            "meta": {}
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              0,
+              2
+            ],
+            "latency_ms": 319.78,
+            "invalid": false,
+            "error": null,
+            "meta": {
+              "confidence": 0.99,
+              "top_probabilities": [
+                [
+                  "Play O at Left, row 0, column 2 \u2014 completes O's line \u2014 this face locks for O; this was the last face \u2014 match ends",
+                  0.99
+                ],
+                [
+                  "Play O at Left, row 0, column 1 \u2014 cube stays on this face (Top locked)",
+                  0.01
+                ]
+              ],
+              "threat_check": {
+                "type": "noul",
+                "noul": 0.27
+              },
+              "usage": {
+                "input_tokens": 1213,
+                "output_tokens": 131
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "jev": {
+        "name": "jev",
+        "games": 4,
+        "wins": 4,
+        "losses": 0,
+        "draws": 0,
+        "win_rate": 1.0,
+        "moves": 82,
+        "invalid_moves": 0,
+        "errors": 0,
+        "latency": {
+          "mean_ms": 309.76,
+          "p50_ms": 313.98,
+          "p95_ms": 365.34,
+          "max_ms": 423.98
+        }
+      },
+      "clm": {
+        "name": "clm",
+        "games": 4,
+        "wins": 0,
+        "losses": 4,
+        "draws": 0,
+        "win_rate": 0.0,
+        "moves": 81,
+        "invalid_moves": 81,
+        "errors": 81,
+        "latency": {
+          "mean_ms": 217.8,
+          "p50_ms": 195.39,
+          "p95_ms": 306.4,
+          "max_ms": 632.76
+        }
+      }
+    }
+  }
+}

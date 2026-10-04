@@ -1,0 +1,176 @@
+{
+  "A_game0_move33_jev_defends": {
+    "position": {
+      "to_move": "X",
+      "active_face": 4,
+      "scores": {
+        "X": 3,
+        "O": 2
+      },
+      "nukes_used": {
+        "X": false,
+        "O": false
+      },
+      "faces": {
+        "0": {
+          "status": "won_x",
+          "winner": "X"
+        },
+        "1": {
+          "status": "won_x",
+          "winner": "X"
+        },
+        "2": {
+          "status": "won_o",
+          "winner": "O"
+        },
+        "3": {
+          "status": "won_o",
+          "winner": "O"
+        },
+        "4": {
+          "status": "in_progress",
+          "winner": null
+        },
+        "5": {
+          "status": "won_x",
+          "winner": "X"
+        }
+      }
+    },
+    "options": [
+      "Play X at Back, row 0, column 1 \u2014 blocks O's win at row 0 col 1; cube stays on this face (Bottom locked); leaves O to play here with an immediate win at row 2 col 0",
+      "Play X at Back, row 1, column 2 \u2014 cube stays on this face (Left locked); leaves O to play here with an immediate win at row 0 col 1; row 2 col 0",
+      "Play X at Back, row 2, column 0 \u2014 blocks O's win at row 2 col 0; cube stays on this face (Front locked); leaves O to play here with an immediate win at row 0 col 1",
+      "Play X at Back, row 2, column 1 \u2014 cube stays on this face (Top locked); leaves O to play here with an immediate win at row 0 col 1; row 2 col 0",
+      "Play X at Back, row 2, column 2 \u2014 cube stays on this face (Front locked); leaves O to play here with an immediate win at row 0 col 1; row 2 col 0",
+      "Nuke the Back face (wipe every mark on it) \u2014 wipes 4 marks; removes O's immediate win at row 0 col 1; row 2 col 0; face stays in play; O to move here next"
+    ],
+    "recorded_move": [
+      4,
+      1,
+      2
+    ],
+    "recorded_meta": null,
+    "probe_result": {
+      "move": [
+        4,
+        -1,
+        -1
+      ],
+      "latency_ms": 259.56,
+      "invalid": false,
+      "error": null,
+      "meta": {
+        "confidence": 0.86,
+        "top_probabilities": [
+          [
+            "Nuke the Back face (wipe every mark on it) \u2014 wipes 4 marks; removes O's immediate win at row 0 col 1; row 2 col 0; face stays in play; O to move here next",
+            0.88
+          ],
+          [
+            "Play X at Back, row 0, column 1 \u2014 blocks O's win at row 0 col 1; cube stays on this face (Bottom locked); leaves O to play here with an immediate win at row 2 col 0",
+            0.06
+          ],
+          [
+            "Play X at Back, row 2, column 0 \u2014 blocks O's win at row 2 col 0; cube stays on this face (Front locked); leaves O to play here with an immediate win at row 0 col 1",
+            0.03
+          ]
+        ],
+        "threat_check": {
+          "type": "choice",
+          "choice": "Yes",
+          "confidence": 0.89,
+          "probabilities": {
+            "No": 0.05,
+            "Yes": 0.95
+          }
+        },
+        "usage": {
+          "input_tokens": 1462,
+          "output_tokens": 413
+        }
+      }
+    }
+  },
+  "B_game1_move31_clm_defends": {
+    "position": {
+      "to_move": "X",
+      "active_face": 3,
+      "scores": {
+        "X": 3,
+        "O": 2
+      },
+      "nukes_used": {
+        "X": false,
+        "O": false
+      },
+      "faces": {
+        "0": {
+          "status": "won_o",
+          "winner": "O"
+        },
+        "1": {
+          "status": "won_x",
+          "winner": "X"
+        },
+        "2": {
+          "status": "won_x",
+          "winner": "X"
+        },
+        "3": {
+          "status": "in_progress",
+          "winner": null
+        },
+        "4": {
+          "status": "won_x",
+          "winner": "X"
+        },
+        "5": {
+          "status": "won_o",
+          "winner": "O"
+        }
+      }
+    },
+    "options": [
+      "Play X at Bottom, row 1, column 2 \u2014 blocks O's win at row 1 col 2; cube stays on this face (Right locked); leaves O to play here with an immediate win at row 2 col 1",
+      "Play X at Bottom, row 2, column 0 \u2014 cube stays on this face (Top locked); leaves O to play here with an immediate win at row 1 col 2; row 2 col 1",
+      "Play X at Bottom, row 2, column 1 \u2014 blocks O's win at row 2 col 1; cube stays on this face (Back locked); leaves O to play here with an immediate win at row 1 col 2",
+      "Play X at Bottom, row 2, column 2 \u2014 cube stays on this face (Top locked); leaves O to play here with an immediate win at row 1 col 2; row 2 col 1",
+      "Nuke the Bottom face (wipe every mark on it) \u2014 wipes 5 marks; removes O's immediate win at row 1 col 2; row 2 col 1; face stays in play; O to move here next"
+    ],
+    "recorded_move": [
+      3,
+      1,
+      2
+    ],
+    "recorded_meta": null,
+    "probe_result": {
+      "move": [
+        3,
+        -1,
+        -1
+      ],
+      "latency_ms": 1233.05,
+      "invalid": false,
+      "error": null,
+      "meta": {
+        "probability": 0.48318389013723057,
+        "top_ranked": [
+          [
+            "Nuke the Bottom face (wipe every mark on it) \u2014 wipes 5 marks; removes O's immediate win at row 1 col 2; row 2 col 1; face stays in play; O to move here next",
+            0.48318389013723057
+          ],
+          [
+            "Play X at Bottom, row 2, column 0 \u2014 cube stays on this face (Top locked); leaves O to play here with an immediate win at row 1 col 2; row 2 col 1",
+            0.22623232709681568
+          ],
+          [
+            "Play X at Bottom, row 2, column 2 \u2014 cube stays on this face (Top locked); leaves O to play here with an immediate win at row 1 col 2; row 2 col 1",
+            0.22008727400034728
+          ]
+        ]
+      }
+    }
+  }
+}

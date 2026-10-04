@@ -1,0 +1,706 @@
+{
+  "baseline": {
+    "results": [
+      "game 0: jev(X) vs clm(O) -> It's a tie! 3-3",
+      "game 1: clm(X) vs jev(O) -> Player X wins 4-2!",
+      "game 2: jev(X) vs clm(O) -> It's a tie! 3-3",
+      "game 3: clm(X) vs jev(O) -> Player X wins 4-2!"
+    ],
+    "nukes": [],
+    "nukes_by": {},
+    "own_win_windows": 38,
+    "own_win_misses": [
+      {
+        "game": 0,
+        "move": 23,
+        "player": "jev",
+        "face": 0,
+        "chose": [
+          0,
+          1,
+          0
+        ],
+        "wins_available": [
+          [
+            0,
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "game": 0,
+        "move": 26,
+        "player": "clm",
+        "face": 4,
+        "chose": [
+          4,
+          1,
+          0
+        ],
+        "wins_available": [
+          [
+            4,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "game": 0,
+        "move": 29,
+        "player": "jev",
+        "face": 2,
+        "chose": [
+          2,
+          1,
+          2
+        ],
+        "wins_available": [
+          [
+            2,
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "game": 1,
+        "move": 12,
+        "player": "jev",
+        "face": 0,
+        "chose": [
+          0,
+          1,
+          2
+        ],
+        "wins_available": [
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "game": 1,
+        "move": 25,
+        "player": "clm",
+        "face": 1,
+        "chose": [
+          1,
+          1,
+          2
+        ],
+        "wins_available": [
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "game": 1,
+        "move": 30,
+        "player": "jev",
+        "face": 3,
+        "chose": [
+          3,
+          1,
+          0
+        ],
+        "wins_available": [
+          [
+            3,
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "game": 1,
+        "move": 32,
+        "player": "jev",
+        "face": 3,
+        "chose": [
+          3,
+          2,
+          0
+        ],
+        "wins_available": [
+          [
+            3,
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "game": 2,
+        "move": 23,
+        "player": "jev",
+        "face": 0,
+        "chose": [
+          0,
+          1,
+          0
+        ],
+        "wins_available": [
+          [
+            0,
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "game": 2,
+        "move": 26,
+        "player": "clm",
+        "face": 4,
+        "chose": [
+          4,
+          1,
+          0
+        ],
+        "wins_available": [
+          [
+            4,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "game": 2,
+        "move": 29,
+        "player": "jev",
+        "face": 2,
+        "chose": [
+          2,
+          1,
+          2
+        ],
+        "wins_available": [
+          [
+            2,
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "game": 3,
+        "move": 12,
+        "player": "jev",
+        "face": 0,
+        "chose": [
+          0,
+          1,
+          2
+        ],
+        "wins_available": [
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "game": 3,
+        "move": 25,
+        "player": "clm",
+        "face": 1,
+        "chose": [
+          1,
+          1,
+          2
+        ],
+        "wins_available": [
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "game": 3,
+        "move": 30,
+        "player": "jev",
+        "face": 3,
+        "chose": [
+          3,
+          1,
+          0
+        ],
+        "wins_available": [
+          [
+            3,
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "game": 3,
+        "move": 32,
+        "player": "jev",
+        "face": 3,
+        "chose": [
+          3,
+          2,
+          0
+        ],
+        "wins_available": [
+          [
+            3,
+            2,
+            1
+          ]
+        ]
+      }
+    ],
+    "defense_windows": 44,
+    "defense_blocks": 8,
+    "defense_nukes": 0,
+    "defense_ignores": 36,
+    "forced_windows": 8,
+    "forced_open": 8,
+    "forced_converted": 4,
+    "threat_check": {}
+  },
+  "coached_v1": {
+    "results": [
+      "game 0: jev(X) vs clm(O) -> Player X wins 4-2!",
+      "game 1: clm(X) vs jev(O) -> Player X wins 3-2!",
+      "game 2: jev(X) vs clm(O) -> Player X wins 4-2!",
+      "game 3: clm(X) vs jev(O) -> Player X wins 3-2!"
+    ],
+    "nukes": [
+      {
+        "game": 0,
+        "move": 2,
+        "player": "clm",
+        "face": 1,
+        "marks_wiped": 1,
+        "opp_threats_before": [],
+        "scores_before": {
+          "X": 0,
+          "O": 0
+        },
+        "face_outcome": "X"
+      },
+      {
+        "game": 0,
+        "move": 9,
+        "player": "jev",
+        "face": 5,
+        "marks_wiped": 2,
+        "opp_threats_before": [],
+        "scores_before": {
+          "X": 0,
+          "O": 0
+        },
+        "face_outcome": "X"
+      },
+      {
+        "game": 1,
+        "move": 2,
+        "player": "jev",
+        "face": 1,
+        "marks_wiped": 1,
+        "opp_threats_before": [],
+        "scores_before": {
+          "X": 0,
+          "O": 0
+        },
+        "face_outcome": "O"
+      },
+      {
+        "game": 1,
+        "move": 7,
+        "player": "clm",
+        "face": 5,
+        "marks_wiped": 1,
+        "opp_threats_before": [],
+        "scores_before": {
+          "X": 0,
+          "O": 0
+        },
+        "face_outcome": "O"
+      },
+      {
+        "game": 2,
+        "move": 2,
+        "player": "clm",
+        "face": 1,
+        "marks_wiped": 1,
+        "opp_threats_before": [],
+        "scores_before": {
+          "X": 0,
+          "O": 0
+        },
+        "face_outcome": "X"
+      },
+      {
+        "game": 2,
+        "move": 9,
+        "player": "jev",
+        "face": 5,
+        "marks_wiped": 2,
+        "opp_threats_before": [],
+        "scores_before": {
+          "X": 0,
+          "O": 0
+        },
+        "face_outcome": "X"
+      },
+      {
+        "game": 3,
+        "move": 2,
+        "player": "jev",
+        "face": 1,
+        "marks_wiped": 1,
+        "opp_threats_before": [],
+        "scores_before": {
+          "X": 0,
+          "O": 0
+        },
+        "face_outcome": "O"
+      },
+      {
+        "game": 3,
+        "move": 7,
+        "player": "clm",
+        "face": 5,
+        "marks_wiped": 1,
+        "opp_threats_before": [],
+        "scores_before": {
+          "X": 0,
+          "O": 0
+        },
+        "face_outcome": "O"
+      }
+    ],
+    "nukes_by": {
+      "clm": 4,
+      "jev": 4
+    },
+    "own_win_windows": 28,
+    "own_win_misses": [
+      {
+        "game": 0,
+        "move": 36,
+        "player": "clm",
+        "face": 0,
+        "chose": [
+          0,
+          0,
+          2
+        ],
+        "wins_available": [
+          [
+            0,
+            2,
+            0
+          ]
+        ]
+      },
+      {
+        "game": 0,
+        "move": 42,
+        "player": "clm",
+        "face": 0,
+        "chose": [
+          0,
+          2,
+          1
+        ],
+        "wins_available": [
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            2
+          ]
+        ]
+      },
+      {
+        "game": 1,
+        "move": 41,
+        "player": "clm",
+        "face": 4,
+        "chose": [
+          4,
+          0,
+          2
+        ],
+        "wins_available": [
+          [
+            4,
+            0,
+            0
+          ],
+          [
+            4,
+            2,
+            2
+          ]
+        ]
+      },
+      {
+        "game": 2,
+        "move": 36,
+        "player": "clm",
+        "face": 0,
+        "chose": [
+          0,
+          0,
+          2
+        ],
+        "wins_available": [
+          [
+            0,
+            2,
+            0
+          ]
+        ]
+      },
+      {
+        "game": 2,
+        "move": 42,
+        "player": "clm",
+        "face": 0,
+        "chose": [
+          0,
+          2,
+          1
+        ],
+        "wins_available": [
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            2
+          ]
+        ]
+      },
+      {
+        "game": 3,
+        "move": 41,
+        "player": "clm",
+        "face": 4,
+        "chose": [
+          4,
+          0,
+          2
+        ],
+        "wins_available": [
+          [
+            4,
+            0,
+            0
+          ],
+          [
+            4,
+            2,
+            2
+          ]
+        ]
+      }
+    ],
+    "defense_windows": 24,
+    "defense_blocks": 22,
+    "defense_nukes": 0,
+    "defense_ignores": 2,
+    "forced_windows": 10,
+    "forced_open": 4,
+    "forced_converted": 4,
+    "threat_check": {}
+  },
+  "coached_v2": {
+    "results": [
+      "game 0: jev(X) vs clm(O) -> Player X wins 5-1!",
+      "game 1: clm(X) vs jev(O) -> Player O wins 5-1!",
+      "game 2: jev(X) vs clm(O) -> Player X wins 5-1!",
+      "game 3: clm(X) vs jev(O) -> Player O wins 5-1!"
+    ],
+    "nukes": [
+      {
+        "game": 0,
+        "move": 2,
+        "player": "clm",
+        "face": 1,
+        "marks_wiped": 1,
+        "opp_threats_before": [],
+        "scores_before": {
+          "X": 0,
+          "O": 0
+        },
+        "face_outcome": "X"
+      },
+      {
+        "game": 1,
+        "move": 3,
+        "player": "clm",
+        "face": 5,
+        "marks_wiped": 1,
+        "opp_threats_before": [],
+        "scores_before": {
+          "X": 0,
+          "O": 0
+        },
+        "face_outcome": "O"
+      },
+      {
+        "game": 2,
+        "move": 2,
+        "player": "clm",
+        "face": 1,
+        "marks_wiped": 1,
+        "opp_threats_before": [],
+        "scores_before": {
+          "X": 0,
+          "O": 0
+        },
+        "face_outcome": "X"
+      },
+      {
+        "game": 2,
+        "move": 37,
+        "player": "jev",
+        "face": 0,
+        "marks_wiped": 7,
+        "opp_threats_before": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "scores_before": {
+          "X": 4,
+          "O": 1
+        },
+        "face_outcome": "X"
+      },
+      {
+        "game": 3,
+        "move": 3,
+        "player": "clm",
+        "face": 5,
+        "marks_wiped": 1,
+        "opp_threats_before": [],
+        "scores_before": {
+          "X": 0,
+          "O": 0
+        },
+        "face_outcome": "O"
+      },
+      {
+        "game": 3,
+        "move": 36,
+        "player": "jev",
+        "face": 4,
+        "marks_wiped": 6,
+        "opp_threats_before": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "scores_before": {
+          "X": 0,
+          "O": 4
+        },
+        "face_outcome": "O"
+      }
+    ],
+    "nukes_by": {
+      "clm": 4,
+      "jev": 2
+    },
+    "own_win_windows": 26,
+    "own_win_misses": [
+      {
+        "game": 2,
+        "move": 30,
+        "player": "clm",
+        "face": 0,
+        "chose": [
+          0,
+          0,
+          2
+        ],
+        "wins_available": [
+          [
+            0,
+            2,
+            0
+          ]
+        ]
+      },
+      {
+        "game": 2,
+        "move": 36,
+        "player": "clm",
+        "face": 0,
+        "chose": [
+          0,
+          2,
+          1
+        ],
+        "wins_available": [
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            2
+          ]
+        ]
+      }
+    ],
+    "defense_windows": 27,
+    "defense_blocks": 17,
+    "defense_nukes": 2,
+    "defense_ignores": 8,
+    "forced_windows": 5,
+    "forced_open": 2,
+    "forced_converted": 1,
+    "threat_check": {
+      "jev": {
+        "total": 83,
+        "yes": 18,
+        "no": 65,
+        "correct": 83,
+        "tp": 18,
+        "fp": 0,
+        "fn": 0,
+        "tn": 65,
+        "conf_sum": 73.99000000000001
+      }
+    }
+  }
+}

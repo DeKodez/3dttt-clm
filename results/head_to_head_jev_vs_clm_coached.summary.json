@@ -1,0 +1,2021 @@
+{
+  "agents": [
+    "jev",
+    "clm"
+  ],
+  "games": 4,
+  "seed": 11,
+  "min_move_delay": 0.0,
+  "elapsed_s": 73.8,
+  "frames": 185,
+  "result": {
+    "agents": [
+      "jev",
+      "clm"
+    ],
+    "games": [
+      {
+        "index": 0,
+        "x_agent": "jev",
+        "o_agent": "clm",
+        "winner": "X",
+        "scores": {
+          "X": 4,
+          "O": 2
+        },
+        "result_label": "Player X wins 4-2!",
+        "moves": [
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 336.82,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              -1,
+              -1
+            ],
+            "latency_ms": 1418.92,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 243.46,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              2
+            ],
+            "latency_ms": 369.43,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 308.63,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              0,
+              2
+            ],
+            "latency_ms": 612.47,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              1
+            ],
+            "latency_ms": 309.5,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              2,
+              0
+            ],
+            "latency_ms": 613.17,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              -1,
+              -1
+            ],
+            "latency_ms": 306.16,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              2,
+              0
+            ],
+            "latency_ms": 481.48,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              2,
+              1
+            ],
+            "latency_ms": 337.67,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              1,
+              2
+            ],
+            "latency_ms": 716.21,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 307.57,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              0,
+              2
+            ],
+            "latency_ms": 921.87,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              0,
+              1
+            ],
+            "latency_ms": 307.01,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              1,
+              0
+            ],
+            "latency_ms": 614.01,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 306.97,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              1,
+              2
+            ],
+            "latency_ms": 445.09,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              0,
+              0
+            ],
+            "latency_ms": 242.88,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              2,
+              2
+            ],
+            "latency_ms": 747.18,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              2
+            ],
+            "latency_ms": 247.06,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              1,
+              0
+            ],
+            "latency_ms": 570.64,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              0
+            ],
+            "latency_ms": 409.05,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              0
+            ],
+            "latency_ms": 613.97,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              1
+            ],
+            "latency_ms": 314.33,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              0,
+              0
+            ],
+            "latency_ms": 608.27,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              1
+            ],
+            "latency_ms": 408.72,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              1,
+              0
+            ],
+            "latency_ms": 496.66,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              0,
+              1
+            ],
+            "latency_ms": 323.68,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              2,
+              1
+            ],
+            "latency_ms": 510.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              2,
+              1
+            ],
+            "latency_ms": 274.5,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              0,
+              1
+            ],
+            "latency_ms": 544.95,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              1
+            ],
+            "latency_ms": 409.17,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              1,
+              2
+            ],
+            "latency_ms": 411.81,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              2,
+              1
+            ],
+            "latency_ms": 306.11,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              0,
+              2
+            ],
+            "latency_ms": 818.12,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              0,
+              1
+            ],
+            "latency_ms": 308.53,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              0,
+              0
+            ],
+            "latency_ms": 1330.72,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              0
+            ],
+            "latency_ms": 306.29,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              0,
+              2
+            ],
+            "latency_ms": 614.41,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              2
+            ],
+            "latency_ms": 308.3,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              2,
+              1
+            ],
+            "latency_ms": 615.11,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              2,
+              0
+            ],
+            "latency_ms": 305.07,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              2,
+              2
+            ],
+            "latency_ms": 511.56,
+            "invalid": false,
+            "error": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "x_agent": "clm",
+        "o_agent": "jev",
+        "winner": "X",
+        "scores": {
+          "X": 3,
+          "O": 2
+        },
+        "result_label": "Player X wins 3-2!",
+        "moves": [
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 518.69,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              -1,
+              -1
+            ],
+            "latency_ms": 300.07,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 409.85,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              0
+            ],
+            "latency_ms": 312.59,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              2,
+              0
+            ],
+            "latency_ms": 711.43,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 307.92,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              -1,
+              -1
+            ],
+            "latency_ms": 552.53,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 266.94,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              2,
+              0
+            ],
+            "latency_ms": 410.99,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              1
+            ],
+            "latency_ms": 305.46,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              0,
+              2
+            ],
+            "latency_ms": 510.2,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              2,
+              2
+            ],
+            "latency_ms": 409.56,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              0,
+              0
+            ],
+            "latency_ms": 513.08,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              0,
+              0
+            ],
+            "latency_ms": 307.12,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              1,
+              0
+            ],
+            "latency_ms": 612.79,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              1
+            ],
+            "latency_ms": 309.49,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              1,
+              0
+            ],
+            "latency_ms": 1329.06,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              2
+            ],
+            "latency_ms": 307.26,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              2,
+              1
+            ],
+            "latency_ms": 407.83,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 309.71,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              1,
+              2
+            ],
+            "latency_ms": 612.55,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              0
+            ],
+            "latency_ms": 308.46,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              2,
+              0
+            ],
+            "latency_ms": 613.4,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              1
+            ],
+            "latency_ms": 269.87,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              1,
+              2
+            ],
+            "latency_ms": 650.98,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              0
+            ],
+            "latency_ms": 308.15,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              0,
+              2
+            ],
+            "latency_ms": 511.36,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              2,
+              1
+            ],
+            "latency_ms": 307.04,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              2
+            ],
+            "latency_ms": 502.23,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              1
+            ],
+            "latency_ms": 322.51,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              0,
+              1
+            ],
+            "latency_ms": 506.99,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              0,
+              1
+            ],
+            "latency_ms": 306.67,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              2,
+              2
+            ],
+            "latency_ms": 511.79,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              0,
+              0
+            ],
+            "latency_ms": 308.72,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              2,
+              2
+            ],
+            "latency_ms": 572.06,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              0,
+              2
+            ],
+            "latency_ms": 348.25,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              2,
+              1
+            ],
+            "latency_ms": 510.75,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              0
+            ],
+            "latency_ms": 307.05,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              2,
+              0
+            ],
+            "latency_ms": 717.06,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              2
+            ],
+            "latency_ms": 307.05,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              0,
+              2
+            ],
+            "latency_ms": 615.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              0,
+              0
+            ],
+            "latency_ms": 306.75,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              2,
+              2
+            ],
+            "latency_ms": 394.72,
+            "invalid": false,
+            "error": null
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "x_agent": "jev",
+        "o_agent": "clm",
+        "winner": "X",
+        "scores": {
+          "X": 4,
+          "O": 2
+        },
+        "result_label": "Player X wins 4-2!",
+        "moves": [
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 321.2,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              -1,
+              -1
+            ],
+            "latency_ms": 411.46,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 305.88,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              2
+            ],
+            "latency_ms": 409.99,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 410.46,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              0,
+              2
+            ],
+            "latency_ms": 407.88,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              1
+            ],
+            "latency_ms": 408.43,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              2,
+              0
+            ],
+            "latency_ms": 717.81,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              -1,
+              -1
+            ],
+            "latency_ms": 306.23,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              2,
+              0
+            ],
+            "latency_ms": 312.87,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              2,
+              1
+            ],
+            "latency_ms": 258.33,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              1,
+              2
+            ],
+            "latency_ms": 312.27,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 347.45,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              0,
+              2
+            ],
+            "latency_ms": 408.5,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              0,
+              1
+            ],
+            "latency_ms": 306.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              1,
+              0
+            ],
+            "latency_ms": 410.26,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 411.28,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              1,
+              2
+            ],
+            "latency_ms": 406.64,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              0,
+              0
+            ],
+            "latency_ms": 308.71,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              2,
+              2
+            ],
+            "latency_ms": 408.56,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              2
+            ],
+            "latency_ms": 411.5,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              1,
+              0
+            ],
+            "latency_ms": 407.09,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              0
+            ],
+            "latency_ms": 306.78,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              0
+            ],
+            "latency_ms": 315.65,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              1
+            ],
+            "latency_ms": 300.17,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              0,
+              0
+            ],
+            "latency_ms": 410.61,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              1
+            ],
+            "latency_ms": 307.49,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              1,
+              0
+            ],
+            "latency_ms": 407.72,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              0,
+              1
+            ],
+            "latency_ms": 306.49,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              2,
+              1
+            ],
+            "latency_ms": 408.93,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              2,
+              1
+            ],
+            "latency_ms": 307.54,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              0,
+              1
+            ],
+            "latency_ms": 409.72,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              1
+            ],
+            "latency_ms": 307.44,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              1,
+              2
+            ],
+            "latency_ms": 511.35,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              2,
+              1
+            ],
+            "latency_ms": 249.63,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              0,
+              2
+            ],
+            "latency_ms": 364.51,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              0,
+              1
+            ],
+            "latency_ms": 307.13,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              0,
+              0
+            ],
+            "latency_ms": 643.05,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              0
+            ],
+            "latency_ms": 380.92,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              0,
+              2
+            ],
+            "latency_ms": 307.28,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              2
+            ],
+            "latency_ms": 307.27,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              2,
+              1
+            ],
+            "latency_ms": 409.98,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              2,
+              0
+            ],
+            "latency_ms": 268.48,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              2,
+              2
+            ],
+            "latency_ms": 343.66,
+            "invalid": false,
+            "error": null
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "x_agent": "clm",
+        "o_agent": "jev",
+        "winner": "X",
+        "scores": {
+          "X": 3,
+          "O": 2
+        },
+        "result_label": "Player X wins 3-2!",
+        "moves": [
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 410.47,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              -1,
+              -1
+            ],
+            "latency_ms": 305.28,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 409.99,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              0
+            ],
+            "latency_ms": 306.74,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              2,
+              0
+            ],
+            "latency_ms": 409.65,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 277.99,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              -1,
+              -1
+            ],
+            "latency_ms": 302.82,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 281.25,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              2,
+              0
+            ],
+            "latency_ms": 677.68,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              1
+            ],
+            "latency_ms": 302.74,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              0,
+              2
+            ],
+            "latency_ms": 410.21,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              2,
+              2
+            ],
+            "latency_ms": 308.45,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              0,
+              0
+            ],
+            "latency_ms": 311.55,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              0,
+              0
+            ],
+            "latency_ms": 303.27,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              1,
+              0
+            ],
+            "latency_ms": 407.0,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              1
+            ],
+            "latency_ms": 307.13,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              1,
+              0
+            ],
+            "latency_ms": 409.91,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              2
+            ],
+            "latency_ms": 306.22,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              2,
+              1
+            ],
+            "latency_ms": 410.39,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 306.51,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              1,
+              2
+            ],
+            "latency_ms": 313.49,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              0
+            ],
+            "latency_ms": 298.95,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              2,
+              0
+            ],
+            "latency_ms": 514.17,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              1
+            ],
+            "latency_ms": 308.27,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              1,
+              2
+            ],
+            "latency_ms": 408.23,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              0
+            ],
+            "latency_ms": 306.99,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              0,
+              2
+            ],
+            "latency_ms": 409.58,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              2,
+              1
+            ],
+            "latency_ms": 307.94,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              2
+            ],
+            "latency_ms": 409.57,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              1
+            ],
+            "latency_ms": 361.36,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              0,
+              1
+            ],
+            "latency_ms": 358.88,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              0,
+              1
+            ],
+            "latency_ms": 303.72,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              2,
+              2
+            ],
+            "latency_ms": 413.59,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              0,
+              0
+            ],
+            "latency_ms": 303.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              2,
+              2
+            ],
+            "latency_ms": 304.6,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              0,
+              2
+            ],
+            "latency_ms": 310.17,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              2,
+              1
+            ],
+            "latency_ms": 714.35,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              0
+            ],
+            "latency_ms": 307.38,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              2,
+              0
+            ],
+            "latency_ms": 413.17,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              2
+            ],
+            "latency_ms": 303.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              0,
+              2
+            ],
+            "latency_ms": 415.21,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              0,
+              0
+            ],
+            "latency_ms": 303.59,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              2,
+              2
+            ],
+            "latency_ms": 407.6,
+            "invalid": false,
+            "error": null
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "jev": {
+        "name": "jev",
+        "games": 4,
+        "wins": 2,
+        "losses": 2,
+        "draws": 0,
+        "win_rate": 0.5,
+        "moves": 86,
+        "invalid_moves": 0,
+        "errors": 0,
+        "latency": {
+          "mean_ms": 314.29,
+          "p50_ms": 307.12,
+          "p95_ms": 409.17,
+          "max_ms": 411.5
+        }
+      },
+      "clm": {
+        "name": "clm",
+        "games": 4,
+        "wins": 2,
+        "losses": 2,
+        "draws": 0,
+        "win_rate": 0.5,
+        "moves": 88,
+        "invalid_moves": 0,
+        "errors": 0,
+        "latency": {
+          "mean_ms": 518.97,
+          "p50_ms": 445.09,
+          "p95_ms": 818.12,
+          "max_ms": 1418.92
+        }
+      }
+    }
+  }
+}

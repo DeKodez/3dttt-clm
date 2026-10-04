@@ -1,0 +1,1724 @@
+{
+  "agent": "clm",
+  "opponent": "tactical",
+  "quiz": null,
+  "play": {
+    "agents": [
+      "clm",
+      "tactical"
+    ],
+    "games": [
+      {
+        "index": 0,
+        "x_agent": "clm",
+        "o_agent": "tactical",
+        "winner": "O",
+        "scores": {
+          "X": 1,
+          "O": 5
+        },
+        "result_label": "Player O wins 5-1!",
+        "moves": [
+          {
+            "player": "clm",
+            "move": [
+              2,
+              0,
+              2
+            ],
+            "latency_ms": 1094.64,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 1.4,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              0,
+              1
+            ],
+            "latency_ms": 407.2,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              2,
+              0,
+              0
+            ],
+            "latency_ms": 0.37,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              0,
+              0
+            ],
+            "latency_ms": 408.05,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              5,
+              0,
+              0
+            ],
+            "latency_ms": 1.17,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              0,
+              2
+            ],
+            "latency_ms": 407.95,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              5,
+              2,
+              2
+            ],
+            "latency_ms": 0.25,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              0,
+              1
+            ],
+            "latency_ms": 408.76,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              1,
+              0,
+              0
+            ],
+            "latency_ms": 0.25,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              1,
+              1
+            ],
+            "latency_ms": 409.39,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              2,
+              2,
+              0
+            ],
+            "latency_ms": 0.33,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              1,
+              2
+            ],
+            "latency_ms": 410.85,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              2,
+              1,
+              0
+            ],
+            "latency_ms": 0.11,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              0,
+              0
+            ],
+            "latency_ms": 409.16,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              1,
+              1
+            ],
+            "latency_ms": 0.82,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 408.2,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              1,
+              2,
+              0
+            ],
+            "latency_ms": 0.21,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              2
+            ],
+            "latency_ms": 385.81,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              1,
+              1,
+              0
+            ],
+            "latency_ms": 0.07,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              0,
+              2
+            ],
+            "latency_ms": 432.98,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              0,
+              0,
+              1
+            ],
+            "latency_ms": 0.14,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              1,
+              1
+            ],
+            "latency_ms": 1088.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              4,
+              2,
+              2
+            ],
+            "latency_ms": 0.22,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              0,
+              2
+            ],
+            "latency_ms": 449.62,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              4,
+              0,
+              1
+            ],
+            "latency_ms": 0.18,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              1,
+              2
+            ],
+            "latency_ms": 407.17,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              4,
+              1,
+              0
+            ],
+            "latency_ms": 0.19,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              1,
+              2
+            ],
+            "latency_ms": 410.42,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              0,
+              2,
+              2
+            ],
+            "latency_ms": 0.13,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 410.98,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              0,
+              1,
+              0
+            ],
+            "latency_ms": 0.09,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              2,
+              1
+            ],
+            "latency_ms": 407.41,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              0,
+              2,
+              0
+            ],
+            "latency_ms": 0.08,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              0,
+              2
+            ],
+            "latency_ms": 409.97,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              0,
+              2,
+              1
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              0,
+              1
+            ],
+            "latency_ms": 400.31,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              0,
+              0
+            ],
+            "latency_ms": 0.06,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              2,
+              0
+            ],
+            "latency_ms": 369.58,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              2,
+              2
+            ],
+            "latency_ms": 0.04,
+            "invalid": false,
+            "error": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "x_agent": "tactical",
+        "o_agent": "clm",
+        "winner": "X",
+        "scores": {
+          "X": 4,
+          "O": 1
+        },
+        "result_label": "Player X wins 4-1!",
+        "moves": [
+          {
+            "player": "tactical",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 1.31,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              0,
+              0
+            ],
+            "latency_ms": 463.76,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              0,
+              0,
+              2
+            ],
+            "latency_ms": 1.27,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              0,
+              0
+            ],
+            "latency_ms": 502.69,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              0,
+              2,
+              0
+            ],
+            "latency_ms": 0.05,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              0,
+              1
+            ],
+            "latency_ms": 1055.8,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 1.08,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              0,
+              0
+            ],
+            "latency_ms": 480.4,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              5,
+              0,
+              2
+            ],
+            "latency_ms": 0.99,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              0,
+              0
+            ],
+            "latency_ms": 407.79,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              5,
+              2,
+              0
+            ],
+            "latency_ms": 0.19,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              0,
+              0
+            ],
+            "latency_ms": 410.32,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              1,
+              0,
+              2
+            ],
+            "latency_ms": 0.17,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              1,
+              0
+            ],
+            "latency_ms": 407.65,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              2,
+              0
+            ],
+            "latency_ms": 0.28,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              0,
+              2
+            ],
+            "latency_ms": 410.07,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              2,
+              0,
+              1
+            ],
+            "latency_ms": 0.18,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              0,
+              2
+            ],
+            "latency_ms": 411.84,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              0,
+              1
+            ],
+            "latency_ms": 0.19,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 610.53,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              1,
+              2,
+              1
+            ],
+            "latency_ms": 0.14,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              1,
+              0
+            ],
+            "latency_ms": 513.77,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              1,
+              2,
+              2
+            ],
+            "latency_ms": 0.14,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              1,
+              1
+            ],
+            "latency_ms": 406.59,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              1,
+              1,
+              2
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              1,
+              0
+            ],
+            "latency_ms": 1127.35,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              2,
+              2,
+              0
+            ],
+            "latency_ms": 0.1,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              0,
+              2
+            ],
+            "latency_ms": 419.27,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              1,
+              2
+            ],
+            "latency_ms": 0.1,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              2,
+              0
+            ],
+            "latency_ms": 399.12,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              2,
+              2
+            ],
+            "latency_ms": 0.07,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              2,
+              1
+            ],
+            "latency_ms": 409.85,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              2,
+              2,
+              1
+            ],
+            "latency_ms": 0.16,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              1,
+              1
+            ],
+            "latency_ms": 408.97,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              2,
+              2,
+              2
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "x_agent": "clm",
+        "o_agent": "tactical",
+        "winner": "O",
+        "scores": {
+          "X": 0,
+          "O": 6
+        },
+        "result_label": "Player O wins 6-0!",
+        "moves": [
+          {
+            "player": "clm",
+            "move": [
+              2,
+              0,
+              2
+            ],
+            "latency_ms": 307.82,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 1.41,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              0,
+              1
+            ],
+            "latency_ms": 411.88,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              2,
+              0,
+              0
+            ],
+            "latency_ms": 0.35,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              0,
+              0
+            ],
+            "latency_ms": 406.11,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              0,
+              0,
+              0
+            ],
+            "latency_ms": 1.21,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              0,
+              2
+            ],
+            "latency_ms": 411.44,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              0,
+              2,
+              2
+            ],
+            "latency_ms": 0.06,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              0,
+              1
+            ],
+            "latency_ms": 406.22,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              1,
+              0,
+              0
+            ],
+            "latency_ms": 0.21,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              0,
+              2
+            ],
+            "latency_ms": 411.11,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              1,
+              1
+            ],
+            "latency_ms": 0.92,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              1,
+              1
+            ],
+            "latency_ms": 695.83,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              2,
+              2,
+              0
+            ],
+            "latency_ms": 0.22,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              2,
+              1,
+              2
+            ],
+            "latency_ms": 425.91,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              2,
+              1,
+              0
+            ],
+            "latency_ms": 0.06,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              0,
+              1
+            ],
+            "latency_ms": 411.1,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              5,
+              0,
+              0
+            ],
+            "latency_ms": 0.26,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 354.59,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              1,
+              2,
+              0
+            ],
+            "latency_ms": 0.16,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              2
+            ],
+            "latency_ms": 429.15,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              1,
+              1,
+              0
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              0,
+              1
+            ],
+            "latency_ms": 443.27,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              4,
+              0,
+              2
+            ],
+            "latency_ms": 0.17,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              1,
+              1
+            ],
+            "latency_ms": 512.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              4,
+              2,
+              1
+            ],
+            "latency_ms": 0.16,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              1,
+              2
+            ],
+            "latency_ms": 409.28,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              4,
+              2,
+              2
+            ],
+            "latency_ms": 0.15,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              1,
+              2
+            ],
+            "latency_ms": 409.34,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              4,
+              2,
+              0
+            ],
+            "latency_ms": 0.06,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 411.01,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              5,
+              1,
+              0
+            ],
+            "latency_ms": 0.11,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              0,
+              2
+            ],
+            "latency_ms": 415.0,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              5,
+              2,
+              0
+            ],
+            "latency_ms": 0.05,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              0,
+              0
+            ],
+            "latency_ms": 402.38,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              0,
+              1
+            ],
+            "latency_ms": 0.04,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              1,
+              2
+            ],
+            "latency_ms": 410.65,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              2,
+              1
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "x_agent": "tactical",
+        "o_agent": "clm",
+        "winner": "X",
+        "scores": {
+          "X": 4,
+          "O": 2
+        },
+        "result_label": "Player X wins 4-2!",
+        "moves": [
+          {
+            "player": "tactical",
+            "move": [
+              2,
+              1,
+              1
+            ],
+            "latency_ms": 1.34,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              0,
+              0
+            ],
+            "latency_ms": 406.73,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              2,
+              2,
+              0
+            ],
+            "latency_ms": 1.24,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              0,
+              0
+            ],
+            "latency_ms": 377.36,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              2,
+              0,
+              2
+            ],
+            "latency_ms": 0.13,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              0,
+              1
+            ],
+            "latency_ms": 441.63,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              4,
+              1,
+              1
+            ],
+            "latency_ms": 1.07,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              4,
+              0,
+              0
+            ],
+            "latency_ms": 407.88,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 0.96,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              0,
+              2
+            ],
+            "latency_ms": 409.46,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              0,
+              0,
+              1
+            ],
+            "latency_ms": 0.2,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              0,
+              0
+            ],
+            "latency_ms": 408.61,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              1,
+              0,
+              2
+            ],
+            "latency_ms": 0.22,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              0,
+              0
+            ],
+            "latency_ms": 408.87,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              4,
+              2,
+              1
+            ],
+            "latency_ms": 0.81,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              0,
+              2
+            ],
+            "latency_ms": 409.05,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              4,
+              0,
+              1
+            ],
+            "latency_ms": 0.12,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              1,
+              0
+            ],
+            "latency_ms": 409.77,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              2,
+              0
+            ],
+            "latency_ms": 0.21,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              3,
+              0,
+              2
+            ],
+            "latency_ms": 409.01,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              0,
+              1
+            ],
+            "latency_ms": 0.18,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              5,
+              0,
+              1
+            ],
+            "latency_ms": 410.16,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              2,
+              1
+            ],
+            "latency_ms": 0.42,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 407.83,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              1,
+              1
+            ],
+            "latency_ms": 0.08,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              1,
+              1,
+              0
+            ],
+            "latency_ms": 410.25,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              1,
+              1,
+              2
+            ],
+            "latency_ms": 0.09,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              1,
+              2
+            ],
+            "latency_ms": 409.23,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              1,
+              2,
+              2
+            ],
+            "latency_ms": 0.05,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              1,
+              0
+            ],
+            "latency_ms": 512.56,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 0.04,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              2,
+              1
+            ],
+            "latency_ms": 408.6,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              0,
+              2,
+              0
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "clm",
+            "move": [
+              0,
+              2,
+              2
+            ],
+            "latency_ms": 412.23,
+            "invalid": false,
+            "error": null
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "clm": {
+        "name": "clm",
+        "games": 4,
+        "wins": 0,
+        "losses": 4,
+        "draws": 0,
+        "win_rate": 0.0,
+        "moves": 73,
+        "invalid_moves": 0,
+        "errors": 0,
+        "latency": {
+          "mean_ms": 459.25,
+          "p50_ms": 409.85,
+          "p95_ms": 695.83,
+          "max_ms": 1127.35
+        }
+      },
+      "tactical": {
+        "name": "tactical",
+        "games": 4,
+        "wins": 4,
+        "losses": 0,
+        "draws": 0,
+        "win_rate": 1.0,
+        "moves": 74,
+        "invalid_moves": 0,
+        "errors": 0,
+        "latency": {
+          "mean_ms": 0.34,
+          "p50_ms": 0.17,
+          "p95_ms": 1.27,
+          "max_ms": 1.41
+        }
+      }
+    }
+  },
+  "summary": {
+    "quiz_accuracy": null,
+    "win_rate": 0.0,
+    "invalid_moves": 0,
+    "errors": 0
+  }
+}

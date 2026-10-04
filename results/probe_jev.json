@@ -1,0 +1,2776 @@
+{
+  "agent": "jev",
+  "opponent": "random",
+  "quiz": {
+    "results": [
+      {
+        "id": "rules_faces",
+        "category": "rules",
+        "expected": "6",
+        "choice": "6",
+        "correct": true,
+        "latency_ms": 360.33,
+        "confidence": 1.0,
+        "error": null
+      },
+      {
+        "id": "rules_first",
+        "category": "rules",
+        "expected": "X",
+        "choice": "X",
+        "correct": true,
+        "latency_ms": 410.32,
+        "confidence": 1.0,
+        "error": null
+      },
+      {
+        "id": "rules_turns",
+        "category": "rules",
+        "expected": "Turns alternate globally: X then O then X, regardless of which face is played",
+        "choice": "Turns alternate globally: X then O then X, regardless of which face is played",
+        "correct": true,
+        "latency_ms": 407.58,
+        "confidence": 1.0,
+        "error": null
+      },
+      {
+        "id": "rules_lock_win",
+        "category": "rules",
+        "expected": "That face is locked immediately and can never be played again",
+        "choice": "That face is locked immediately and can never be played again",
+        "correct": true,
+        "latency_ms": 307.41,
+        "confidence": 1.0,
+        "error": null
+      },
+      {
+        "id": "rules_lock_draw",
+        "category": "rules",
+        "expected": "The face is a draw and is locked",
+        "choice": "The face is a draw and is locked",
+        "correct": true,
+        "latency_ms": 308.37,
+        "confidence": 1.0,
+        "error": null
+      },
+      {
+        "id": "rules_end",
+        "category": "rules",
+        "expected": "When all 6 faces are locked",
+        "choice": "When all 6 faces are locked",
+        "correct": true,
+        "latency_ms": 262.87,
+        "confidence": 1.0,
+        "error": null
+      },
+      {
+        "id": "rules_overall",
+        "category": "rules",
+        "expected": "The player who won the most faces",
+        "choice": "The player who won the most faces",
+        "correct": true,
+        "latency_ms": 354.91,
+        "confidence": 1.0,
+        "error": null
+      },
+      {
+        "id": "rules_win_count",
+        "category": "rules",
+        "expected": "Strictly more face wins than the opponent when all faces are locked",
+        "choice": "Strictly more face wins than the opponent when all faces are locked",
+        "correct": true,
+        "latency_ms": 303.35,
+        "confidence": 0.97,
+        "error": null
+      },
+      {
+        "id": "board_turn",
+        "category": "board",
+        "expected": "X",
+        "choice": "X",
+        "correct": true,
+        "latency_ms": 306.32,
+        "confidence": 0.99,
+        "error": null
+      },
+      {
+        "id": "board_locked",
+        "category": "board",
+        "expected": "Top and Left",
+        "choice": "Top and Left",
+        "correct": true,
+        "latency_ms": 513.84,
+        "confidence": 1.0,
+        "error": null
+      },
+      {
+        "id": "board_top_winner",
+        "category": "board",
+        "expected": "X",
+        "choice": "X",
+        "correct": true,
+        "latency_ms": 309.04,
+        "confidence": 1.0,
+        "error": null
+      },
+      {
+        "id": "board_left_legal",
+        "category": "board",
+        "expected": "No",
+        "choice": "No",
+        "correct": true,
+        "latency_ms": 308.41,
+        "confidence": 0.99,
+        "error": null
+      },
+      {
+        "id": "board_scores",
+        "category": "board",
+        "expected": "X 1 - O 1",
+        "choice": "X 1 - O 1",
+        "correct": true,
+        "latency_ms": 301.86,
+        "confidence": 1.0,
+        "error": null
+      },
+      {
+        "id": "board_empty_front",
+        "category": "board",
+        "expected": "7",
+        "choice": "7",
+        "correct": true,
+        "latency_ms": 411.89,
+        "confidence": 0.99,
+        "error": null
+      },
+      {
+        "id": "board_win_move",
+        "category": "board",
+        "expected": "Yes",
+        "choice": "Yes",
+        "correct": true,
+        "latency_ms": 407.38,
+        "confidence": 0.54,
+        "error": null
+      },
+      {
+        "id": "board_nonwin_move",
+        "category": "board",
+        "expected": "No",
+        "choice": "No",
+        "correct": true,
+        "latency_ms": 411.58,
+        "confidence": 0.97,
+        "error": null
+      },
+      {
+        "id": "board_legal_bottom",
+        "category": "board",
+        "expected": "Yes",
+        "choice": "Yes",
+        "correct": true,
+        "latency_ms": 288.29,
+        "confidence": 0.99,
+        "error": null
+      }
+    ],
+    "summary": {
+      "correct": 17,
+      "total": 17,
+      "accuracy": 1.0,
+      "by_category": {
+        "rules": {
+          "correct": 8,
+          "total": 8,
+          "accuracy": 1.0
+        },
+        "board": {
+          "correct": 9,
+          "total": 9,
+          "accuracy": 1.0
+        }
+      }
+    }
+  },
+  "play": {
+    "agents": [
+      "jev",
+      "random"
+    ],
+    "games": [
+      {
+        "index": 0,
+        "x_agent": "jev",
+        "o_agent": "random",
+        "winner": "X",
+        "scores": {
+          "X": 4,
+          "O": 2
+        },
+        "result_label": "Player X wins 4-2!",
+        "moves": [
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 324.37,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              1,
+              2,
+              1
+            ],
+            "latency_ms": 0.05,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              0
+            ],
+            "latency_ms": 307.22,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              4,
+              2,
+              0
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              2
+            ],
+            "latency_ms": 306.78,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              5,
+              1,
+              0
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 271.59,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              4,
+              0,
+              2
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              1
+            ],
+            "latency_ms": 345.11,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              4,
+              2,
+              2
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              0
+            ],
+            "latency_ms": 305.44,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              3,
+              1,
+              2
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              2
+            ],
+            "latency_ms": 408.27,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              5,
+              2,
+              2
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              1
+            ],
+            "latency_ms": 516.86,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              2,
+              1,
+              2
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              0
+            ],
+            "latency_ms": 304.63,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              3,
+              2,
+              2
+            ],
+            "latency_ms": 0.07,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              0,
+              2
+            ],
+            "latency_ms": 309.39,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              4,
+              2,
+              1
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              0,
+              1
+            ],
+            "latency_ms": 284.55,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              2,
+              2,
+              2
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              0,
+              0
+            ],
+            "latency_ms": 325.62,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              3,
+              1,
+              1
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              0
+            ],
+            "latency_ms": 255.33,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              3,
+              2,
+              1
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              2,
+              0
+            ],
+            "latency_ms": 361.67,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              5,
+              2,
+              1
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              0,
+              0
+            ],
+            "latency_ms": 408.53,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              5,
+              0,
+              0
+            ],
+            "latency_ms": 0.01,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              2,
+              0
+            ],
+            "latency_ms": 281.58,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "x_agent": "random",
+        "o_agent": "jev",
+        "winner": "O",
+        "scores": {
+          "X": 2,
+          "O": 4
+        },
+        "result_label": "Player O wins 4-2!",
+        "moves": [
+          {
+            "player": "random",
+            "move": [
+              2,
+              0,
+              2
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              2
+            ],
+            "latency_ms": 331.4,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              1,
+              1,
+              0
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 306.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              1,
+              0,
+              2
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              2
+            ],
+            "latency_ms": 260.46,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              4,
+              2,
+              1
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              1
+            ],
+            "latency_ms": 357.93,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              1,
+              2,
+              2
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              2,
+              0
+            ],
+            "latency_ms": 305.04,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              1,
+              0,
+              0
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              2,
+              1
+            ],
+            "latency_ms": 278.37,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              5,
+              0,
+              1
+            ],
+            "latency_ms": 0.06,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              1
+            ],
+            "latency_ms": 296.23,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              0,
+              2,
+              2
+            ],
+            "latency_ms": 0.04,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              0
+            ],
+            "latency_ms": 276.46,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              3,
+              2,
+              1
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              2,
+              1
+            ],
+            "latency_ms": 375.76,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              3,
+              1,
+              1
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 310.04,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              0,
+              1,
+              0
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              2
+            ],
+            "latency_ms": 304.32,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              0,
+              0,
+              2
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              0,
+              1
+            ],
+            "latency_ms": 266.39,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              3,
+              2,
+              0
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              2,
+              2
+            ],
+            "latency_ms": 264.99,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              3,
+              0,
+              2
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              1
+            ],
+            "latency_ms": 268.48,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              5,
+              0,
+              0
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              0,
+              2
+            ],
+            "latency_ms": 326.24,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              4,
+              1,
+              0
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              2
+            ],
+            "latency_ms": 308.44,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              4,
+              0,
+              2
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 512.37,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              5,
+              2,
+              1
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              0
+            ],
+            "latency_ms": 514.01,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              4,
+              2,
+              0
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              2
+            ],
+            "latency_ms": 417.89,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              4,
+              0,
+              0
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "x_agent": "jev",
+        "o_agent": "random",
+        "winner": "X",
+        "scores": {
+          "X": 4,
+          "O": 2
+        },
+        "result_label": "Player X wins 4-2!",
+        "moves": [
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 294.08,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              1,
+              2,
+              1
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              0
+            ],
+            "latency_ms": 307.35,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              2,
+              0,
+              2
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              2
+            ],
+            "latency_ms": 249.43,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              4,
+              0,
+              2
+            ],
+            "latency_ms": 0.05,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 321.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              4,
+              1,
+              1
+            ],
+            "latency_ms": 0.04,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              1
+            ],
+            "latency_ms": 457.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              3,
+              0,
+              1
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              0
+            ],
+            "latency_ms": 309.78,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              1,
+              2,
+              2
+            ],
+            "latency_ms": 0.04,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              2
+            ],
+            "latency_ms": 505.94,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              4,
+              1,
+              2
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              0
+            ],
+            "latency_ms": 278.93,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              3,
+              1,
+              2
+            ],
+            "latency_ms": 0.04,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              1
+            ],
+            "latency_ms": 337.07,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              3,
+              1,
+              0
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              1
+            ],
+            "latency_ms": 406.07,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              5,
+              2,
+              2
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              0
+            ],
+            "latency_ms": 308.63,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              3,
+              2,
+              1
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              2
+            ],
+            "latency_ms": 258.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              3,
+              0,
+              2
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              2,
+              2
+            ],
+            "latency_ms": 356.9,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              5,
+              2,
+              0
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              2,
+              1
+            ],
+            "latency_ms": 257.0,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              4,
+              2,
+              2
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              2,
+              0
+            ],
+            "latency_ms": 356.46,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              0,
+              0
+            ],
+            "latency_ms": 412.66,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              5,
+              0,
+              2
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "x_agent": "random",
+        "o_agent": "jev",
+        "winner": null,
+        "scores": {
+          "X": 3,
+          "O": 3
+        },
+        "result_label": "It's a tie! 3-3",
+        "moves": [
+          {
+            "player": "random",
+            "move": [
+              1,
+              0,
+              1
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 303.48,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              1,
+              2,
+              1
+            ],
+            "latency_ms": 0.05,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              0
+            ],
+            "latency_ms": 386.63,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              2,
+              0,
+              0
+            ],
+            "latency_ms": 0.05,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              2
+            ],
+            "latency_ms": 354.14,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              5,
+              0,
+              1
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 290.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              0,
+              2,
+              1
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              0,
+              1
+            ],
+            "latency_ms": 299.85,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              5,
+              2,
+              1
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              2,
+              0
+            ],
+            "latency_ms": 307.32,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              4,
+              2,
+              0
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              2,
+              2
+            ],
+            "latency_ms": 409.49,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              3,
+              0,
+              1
+            ],
+            "latency_ms": 0.1,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              0,
+              0
+            ],
+            "latency_ms": 249.1,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              5,
+              0,
+              2
+            ],
+            "latency_ms": 0.04,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              1
+            ],
+            "latency_ms": 364.89,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              4,
+              1,
+              2
+            ],
+            "latency_ms": 0.04,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 306.04,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              5,
+              2,
+              2
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              1
+            ],
+            "latency_ms": 311.67,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              5,
+              0,
+              0
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              0,
+              1
+            ],
+            "latency_ms": 305.25,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              3,
+              0,
+              0
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              0,
+              2
+            ],
+            "latency_ms": 305.3,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              3,
+              2,
+              1
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              0
+            ],
+            "latency_ms": 307.25,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              4,
+              2,
+              2
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              2
+            ],
+            "latency_ms": 308.25,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              4,
+              0,
+              2
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              0,
+              2
+            ],
+            "latency_ms": 305.94,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              3,
+              2,
+              2
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              0
+            ],
+            "latency_ms": 288.84,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              3,
+              2,
+              0
+            ],
+            "latency_ms": 0.01,
+            "invalid": false,
+            "error": null
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "x_agent": "jev",
+        "o_agent": "random",
+        "winner": "X",
+        "scores": {
+          "X": 4,
+          "O": 2
+        },
+        "result_label": "Player X wins 4-2!",
+        "moves": [
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 325.27,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              0,
+              0,
+              0
+            ],
+            "latency_ms": 0.04,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              0,
+              1
+            ],
+            "latency_ms": 311.25,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              3,
+              0,
+              0
+            ],
+            "latency_ms": 0.04,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              0,
+              2
+            ],
+            "latency_ms": 303.31,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              4,
+              2,
+              2
+            ],
+            "latency_ms": 0.05,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              0
+            ],
+            "latency_ms": 412.43,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              4,
+              2,
+              0
+            ],
+            "latency_ms": 0.04,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              2
+            ],
+            "latency_ms": 303.14,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              1,
+              0,
+              2
+            ],
+            "latency_ms": 0.04,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              2,
+              1
+            ],
+            "latency_ms": 310.64,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              5,
+              0,
+              0
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              1
+            ],
+            "latency_ms": 302.85,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              3,
+              2,
+              2
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              0
+            ],
+            "latency_ms": 410.44,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              1,
+              2,
+              2
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              2
+            ],
+            "latency_ms": 409.38,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              3,
+              2,
+              0
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 312.94,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              3,
+              0,
+              2
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              1
+            ],
+            "latency_ms": 279.09,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              2,
+              1,
+              1
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              0,
+              1
+            ],
+            "latency_ms": 328.88,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              2,
+              0,
+              2
+            ],
+            "latency_ms": 0.04,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              2,
+              1
+            ],
+            "latency_ms": 409.6,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              1,
+              0,
+              0
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              1
+            ],
+            "latency_ms": 410.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              2,
+              1,
+              2
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              0
+            ],
+            "latency_ms": 308.24,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              2
+            ],
+            "latency_ms": 306.46,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              5,
+              2,
+              1
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              0
+            ],
+            "latency_ms": 311.31,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              5,
+              1,
+              2
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              0
+            ],
+            "latency_ms": 405.38,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              2,
+              2,
+              2
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              0,
+              1
+            ],
+            "latency_ms": 257.73,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              5,
+              2,
+              0
+            ],
+            "latency_ms": 0.01,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              0,
+              2
+            ],
+            "latency_ms": 267.93,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              5,
+              2,
+              2
+            ],
+            "latency_ms": 0.01,
+            "invalid": false,
+            "error": null
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "x_agent": "random",
+        "o_agent": "jev",
+        "winner": null,
+        "scores": {
+          "X": 3,
+          "O": 3
+        },
+        "result_label": "It's a tie! 3-3",
+        "moves": [
+          {
+            "player": "random",
+            "move": [
+              2,
+              2,
+              0
+            ],
+            "latency_ms": 0.04,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              2,
+              1
+            ],
+            "latency_ms": 249.86,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              4,
+              2,
+              0
+            ],
+            "latency_ms": 0.04,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              2,
+              2
+            ],
+            "latency_ms": 349.47,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              5,
+              0,
+              1
+            ],
+            "latency_ms": 0.04,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              2,
+              1
+            ],
+            "latency_ms": 512.35,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              2,
+              1,
+              2
+            ],
+            "latency_ms": 0.05,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              2,
+              2
+            ],
+            "latency_ms": 306.43,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              5,
+              2,
+              0
+            ],
+            "latency_ms": 0.04,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              1
+            ],
+            "latency_ms": 408.88,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              4,
+              1,
+              2
+            ],
+            "latency_ms": 0.05,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              0
+            ],
+            "latency_ms": 267.08,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              4,
+              0,
+              2
+            ],
+            "latency_ms": 0.04,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              0,
+              0
+            ],
+            "latency_ms": 308.47,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              1,
+              2,
+              0
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              1
+            ],
+            "latency_ms": 451.76,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              3,
+              2,
+              2
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              0
+            ],
+            "latency_ms": 255.25,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              5,
+              0,
+              0
+            ],
+            "latency_ms": 0.04,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              0,
+              2
+            ],
+            "latency_ms": 257.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              4,
+              0,
+              1
+            ],
+            "latency_ms": 0.04,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              0,
+              0
+            ],
+            "latency_ms": 317.15,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 299.5,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              1,
+              1,
+              2
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 262.15,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              5,
+              1,
+              0
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              0
+            ],
+            "latency_ms": 345.84,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              3,
+              0,
+              1
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              2,
+              1
+            ],
+            "latency_ms": 308.56,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              3,
+              0,
+              2
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              2,
+              2
+            ],
+            "latency_ms": 278.93,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              3,
+              1,
+              1
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              2
+            ],
+            "latency_ms": 333.54,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              3,
+              0,
+              0
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              0
+            ],
+            "latency_ms": 308.77,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              0,
+              0,
+              1
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              2
+            ],
+            "latency_ms": 310.01,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              0,
+              2,
+              2
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              0,
+              2
+            ],
+            "latency_ms": 303.01,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              0,
+              2,
+              0
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              2,
+              1
+            ],
+            "latency_ms": 307.05,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              1,
+              0,
+              0
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              1
+            ],
+            "latency_ms": 238.24,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "random",
+            "move": [
+              0,
+              0,
+              0
+            ],
+            "latency_ms": 0.01,
+            "invalid": false,
+            "error": null
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "jev": {
+        "name": "jev",
+        "games": 6,
+        "wins": 4,
+        "losses": 0,
+        "draws": 2,
+        "win_rate": 0.6667,
+        "moves": 110,
+        "invalid_moves": 0,
+        "errors": 0,
+        "latency": {
+          "mean_ms": 328.03,
+          "p50_ms": 308.25,
+          "p95_ms": 457.03,
+          "max_ms": 516.86
+        }
+      },
+      "random": {
+        "name": "random",
+        "games": 6,
+        "wins": 0,
+        "losses": 4,
+        "draws": 2,
+        "win_rate": 0.0,
+        "moves": 113,
+        "invalid_moves": 0,
+        "errors": 0,
+        "latency": {
+          "mean_ms": 0.03,
+          "p50_ms": 0.03,
+          "p95_ms": 0.05,
+          "max_ms": 0.1
+        }
+      }
+    }
+  },
+  "summary": {
+    "quiz_accuracy": 1.0,
+    "win_rate": 0.6666666666666666,
+    "invalid_moves": 0,
+    "errors": 0
+  }
+}

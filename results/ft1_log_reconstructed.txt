@@ -1,0 +1,34 @@
+# ft1 log — RECONSTRUCTED (2026-10-04)
+# The exact ft1.log (2272 B) was pulled to the Mac on Oct 1 00:15:28 then deleted
+# before its contents were read into any transcript. This file merges the log
+# tails captured in poll outputs, plus the exact [done] JSON line.
+# Original: 20 epochs, no early stop, 51.18 min CPU training, seed 1234.
+
+[choice] epoch 0 (init) val acc 0.4366 test acc 0.2932
+[choice] epoch 1 loss 3.2429 val acc 0.8738
+[choice] epoch 2 loss 1.5771 val acc 0.891
+[choice] epoch 3 loss 1.115 val acc 0.8911
+[choice] epoch 4 loss 0.9535 val acc 0.8898
+[choice] epoch 5 loss 0.8608 val acc 0.9014
+[choice] epoch 6 loss 0.7946 val acc 0.9116
+[choice] epoch 7 loss 0.7357 val acc 0.9203
+[choice] epoch 8 loss 0.6894 val acc 0.921
+[choice] epoch 9 loss 0.651 val acc 0.9251
+[choice] epoch 10 loss 0.6152 val acc 0.9274
+[choice] epoch 11 loss 0.5839 val acc 0.9272
+[choice] epoch 12 loss 0.5561 val acc 0.9291
+[choice] epoch 13 loss 0.5304 val acc 0.9321
+[choice] epoch 14 loss 0.5072 val acc 0.9345
+[choice] epoch 15 loss 0.4871 val acc 0.9379
+[choice] epoch 16 loss 0.4693 val acc 0.9366
+[choice] epoch 17 loss 0.4584 val acc 0.9388
+[choice] epoch 18 loss 0.4478 val acc 0.9387
+[choice] epoch 19 loss 0.443 val acc 0.9395
+[choice] epoch 20 loss 0.4396 val acc 0.9412
+
+[done] {"best_epoch": 20, "val_acc": 0.9411941796287004, "test": {"acc": 0.891668327685868,
+"soft_ce": 0.30958673691212574, "per_question": {"answer": 0.7833, "threat_check": 1.0}},
+"init_test": {"acc": 0.2925054813633646, "soft_ce": 1.531224695410604,
+"per_question": {"answer": 0.2511, "threat_check": 0.3339}},
+"majority_val": 0.4041144004014049, "majority_test": 0.2972892166633446,
+"train_questions": 179366, "minutes": 51.18}

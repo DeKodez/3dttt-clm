@@ -1,0 +1,1702 @@
+{
+  "agent": "jev",
+  "opponent": "tactical",
+  "quiz": null,
+  "play": {
+    "agents": [
+      "jev",
+      "tactical"
+    ],
+    "games": [
+      {
+        "index": 0,
+        "x_agent": "jev",
+        "o_agent": "tactical",
+        "winner": "O",
+        "scores": {
+          "X": 2,
+          "O": 3
+        },
+        "result_label": "Player O wins 3-2!",
+        "moves": [
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 369.31,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 1.81,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              1
+            ],
+            "latency_ms": 407.34,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              1,
+              0,
+              2
+            ],
+            "latency_ms": 1.73,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              1
+            ],
+            "latency_ms": 312.07,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              1,
+              2,
+              0
+            ],
+            "latency_ms": 0.12,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              1
+            ],
+            "latency_ms": 302.61,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 1.37,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              0
+            ],
+            "latency_ms": 273.22,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              0,
+              1,
+              2
+            ],
+            "latency_ms": 0.31,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              0,
+              1
+            ],
+            "latency_ms": 438.59,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              0,
+              2,
+              1
+            ],
+            "latency_ms": 0.25,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              0,
+              0
+            ],
+            "latency_ms": 267.95,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              0,
+              0,
+              2
+            ],
+            "latency_ms": 0.22,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              2,
+              0
+            ],
+            "latency_ms": 345.2,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              5,
+              2,
+              2
+            ],
+            "latency_ms": 0.92,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              0
+            ],
+            "latency_ms": 305.79,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              5,
+              0,
+              0
+            ],
+            "latency_ms": 0.13,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              2
+            ],
+            "latency_ms": 412.85,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              4,
+              2,
+              0
+            ],
+            "latency_ms": 0.47,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              0
+            ],
+            "latency_ms": 303.41,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              1,
+              2
+            ],
+            "latency_ms": 0.11,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              0,
+              1
+            ],
+            "latency_ms": 413.55,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              2,
+              1
+            ],
+            "latency_ms": 0.11,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              2,
+              2
+            ],
+            "latency_ms": 302.8,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              0,
+              0
+            ],
+            "latency_ms": 0.08,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              0,
+              2
+            ],
+            "latency_ms": 308.34,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              2,
+              0
+            ],
+            "latency_ms": 0.07,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              2,
+              1
+            ],
+            "latency_ms": 306.02,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              4,
+              0,
+              1
+            ],
+            "latency_ms": 0.06,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              2,
+              2
+            ],
+            "latency_ms": 306.67,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              4,
+              0,
+              0
+            ],
+            "latency_ms": 0.04,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              0,
+              2
+            ],
+            "latency_ms": 411.6,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              4,
+              1,
+              0
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "x_agent": "tactical",
+        "o_agent": "jev",
+        "winner": "X",
+        "scores": {
+          "X": 4,
+          "O": 2
+        },
+        "result_label": "Player X wins 4-2!",
+        "moves": [
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              1,
+              1
+            ],
+            "latency_ms": 1.55,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              0
+            ],
+            "latency_ms": 311.27,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              2,
+              2
+            ],
+            "latency_ms": 1.5,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              2
+            ],
+            "latency_ms": 302.26,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              0,
+              0
+            ],
+            "latency_ms": 0.2,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 306.23,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              4,
+              1,
+              1
+            ],
+            "latency_ms": 1.27,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 301.94,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              4,
+              0,
+              2
+            ],
+            "latency_ms": 1.19,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              1
+            ],
+            "latency_ms": 310.51,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              4,
+              2,
+              0
+            ],
+            "latency_ms": 0.18,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 408.71,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              1,
+              0,
+              0
+            ],
+            "latency_ms": 0.9,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              1
+            ],
+            "latency_ms": 405.2,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              1,
+              2,
+              1
+            ],
+            "latency_ms": 0.25,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              2
+            ],
+            "latency_ms": 310.98,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              1,
+              2,
+              0
+            ],
+            "latency_ms": 0.23,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              2,
+              2
+            ],
+            "latency_ms": 268.0,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              1,
+              1,
+              0
+            ],
+            "latency_ms": 0.09,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              0
+            ],
+            "latency_ms": 267.71,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              0,
+              1,
+              2
+            ],
+            "latency_ms": 0.19,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              0,
+              1
+            ],
+            "latency_ms": 362.06,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              0,
+              2,
+              1
+            ],
+            "latency_ms": 0.16,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              0,
+              0
+            ],
+            "latency_ms": 325.75,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              0,
+              0,
+              2
+            ],
+            "latency_ms": 0.13,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              2,
+              0
+            ],
+            "latency_ms": 307.63,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              5,
+              0,
+              2
+            ],
+            "latency_ms": 0.46,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              0
+            ],
+            "latency_ms": 278.18,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              2,
+              1,
+              2
+            ],
+            "latency_ms": 0.11,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              0,
+              1
+            ],
+            "latency_ms": 430.27,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              2,
+              2,
+              1
+            ],
+            "latency_ms": 0.1,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              0,
+              0
+            ],
+            "latency_ms": 317.19,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              2,
+              0,
+              2
+            ],
+            "latency_ms": 0.08,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              2,
+              0
+            ],
+            "latency_ms": 408.48,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              5,
+              2,
+              0
+            ],
+            "latency_ms": 0.21,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              2,
+              2
+            ],
+            "latency_ms": 292.96,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              5,
+              0,
+              0
+            ],
+            "latency_ms": 0.05,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              5,
+              0,
+              1
+            ],
+            "latency_ms": 320.04,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              5,
+              1,
+              0
+            ],
+            "latency_ms": 0.02,
+            "invalid": false,
+            "error": null
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "x_agent": "jev",
+        "o_agent": "tactical",
+        "winner": null,
+        "scores": {
+          "X": 2,
+          "O": 2
+        },
+        "result_label": "It's a tie! 2-2",
+        "moves": [
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 409.31,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 1.83,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              0
+            ],
+            "latency_ms": 274.73,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              0,
+              1,
+              2
+            ],
+            "latency_ms": 0.33,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              0,
+              1
+            ],
+            "latency_ms": 437.46,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              0,
+              2,
+              1
+            ],
+            "latency_ms": 0.32,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              0,
+              0
+            ],
+            "latency_ms": 309.47,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              0,
+              0,
+              2
+            ],
+            "latency_ms": 0.31,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              2,
+              0
+            ],
+            "latency_ms": 306.54,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              5,
+              0,
+              2
+            ],
+            "latency_ms": 1.25,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 409.3,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              5,
+              2,
+              0
+            ],
+            "latency_ms": 0.29,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              1
+            ],
+            "latency_ms": 406.89,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              4,
+              1,
+              1
+            ],
+            "latency_ms": 0.97,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              1
+            ],
+            "latency_ms": 307.93,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              4,
+              0,
+              2
+            ],
+            "latency_ms": 0.89,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              2
+            ],
+            "latency_ms": 406.94,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              4,
+              2,
+              0
+            ],
+            "latency_ms": 0.17,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              0
+            ],
+            "latency_ms": 306.78,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              1,
+              1,
+              2
+            ],
+            "latency_ms": 0.16,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              1
+            ],
+            "latency_ms": 257.47,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              1,
+              2,
+              1
+            ],
+            "latency_ms": 0.16,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              0,
+              0
+            ],
+            "latency_ms": 356.77,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              1,
+              0,
+              2
+            ],
+            "latency_ms": 0.15,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              2,
+              0
+            ],
+            "latency_ms": 306.91,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              2,
+              0,
+              0
+            ],
+            "latency_ms": 0.46,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              0
+            ],
+            "latency_ms": 309.0,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              2,
+              1,
+              2
+            ],
+            "latency_ms": 0.1,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              0,
+              1
+            ],
+            "latency_ms": 303.79,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              2,
+              2,
+              1
+            ],
+            "latency_ms": 0.1,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              0,
+              2
+            ],
+            "latency_ms": 307.66,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              2,
+              2,
+              0
+            ],
+            "latency_ms": 0.09,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              2,
+              2
+            ],
+            "latency_ms": 277.98,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              0,
+              0
+            ],
+            "latency_ms": 0.31,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              0,
+              1
+            ],
+            "latency_ms": 337.81,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              2,
+              1
+            ],
+            "latency_ms": 0.08,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              0
+            ],
+            "latency_ms": 408.63,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              1,
+              2
+            ],
+            "latency_ms": 0.05,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              0,
+              2
+            ],
+            "latency_ms": 306.41,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              2,
+              0
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              2,
+              2
+            ],
+            "latency_ms": 309.12,
+            "invalid": false,
+            "error": null
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "x_agent": "tactical",
+        "o_agent": "jev",
+        "winner": "X",
+        "scores": {
+          "X": 4,
+          "O": 2
+        },
+        "result_label": "Player X wins 4-2!",
+        "moves": [
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              1,
+              1
+            ],
+            "latency_ms": 1.57,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              0
+            ],
+            "latency_ms": 460.75,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              0,
+              2
+            ],
+            "latency_ms": 1.51,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              3,
+              1,
+              2
+            ],
+            "latency_ms": 352.83,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              3,
+              2,
+              0
+            ],
+            "latency_ms": 0.2,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              1
+            ],
+            "latency_ms": 311.05,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              1,
+              1,
+              1
+            ],
+            "latency_ms": 1.4,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              1
+            ],
+            "latency_ms": 303.4,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              1,
+              0,
+              2
+            ],
+            "latency_ms": 1.44,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              1,
+              1,
+              2
+            ],
+            "latency_ms": 410.5,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              1,
+              2,
+              0
+            ],
+            "latency_ms": 0.11,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              1,
+              1
+            ],
+            "latency_ms": 405.54,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              5,
+              1,
+              1
+            ],
+            "latency_ms": 0.96,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              1,
+              0
+            ],
+            "latency_ms": 314.61,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              0,
+              1,
+              2
+            ],
+            "latency_ms": 0.31,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              0,
+              1
+            ],
+            "latency_ms": 402.08,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              0,
+              2,
+              1
+            ],
+            "latency_ms": 0.2,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              0,
+              0
+            ],
+            "latency_ms": 324.15,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              0,
+              0,
+              2
+            ],
+            "latency_ms": 0.27,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              0,
+              2,
+              0
+            ],
+            "latency_ms": 257.8,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              5,
+              2,
+              2
+            ],
+            "latency_ms": 0.97,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              0
+            ],
+            "latency_ms": 337.45,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              5,
+              0,
+              0
+            ],
+            "latency_ms": 0.15,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              2,
+              1,
+              2
+            ],
+            "latency_ms": 411.25,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              4,
+              2,
+              0
+            ],
+            "latency_ms": 0.24,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              2,
+              1
+            ],
+            "latency_ms": 409.7,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              4,
+              0,
+              1
+            ],
+            "latency_ms": 0.07,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              2,
+              2
+            ],
+            "latency_ms": 611.15,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              4,
+              0,
+              0
+            ],
+            "latency_ms": 0.04,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "jev",
+            "move": [
+              4,
+              0,
+              2
+            ],
+            "latency_ms": 411.18,
+            "invalid": false,
+            "error": null
+          },
+          {
+            "player": "tactical",
+            "move": [
+              4,
+              1,
+              0
+            ],
+            "latency_ms": 0.03,
+            "invalid": false,
+            "error": null
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "jev": {
+        "name": "jev",
+        "games": 4,
+        "wins": 0,
+        "losses": 3,
+        "draws": 1,
+        "win_rate": 0.0,
+        "moves": 72,
+        "invalid_moves": 0,
+        "errors": 0,
+        "latency": {
+          "mean_ms": 344.49,
+          "p50_ms": 312.07,
+          "p95_ms": 430.27,
+          "max_ms": 611.15
+        }
+      },
+      "tactical": {
+        "name": "tactical",
+        "games": 4,
+        "wins": 3,
+        "losses": 0,
+        "draws": 1,
+        "win_rate": 0.75,
+        "moves": 73,
+        "invalid_moves": 0,
+        "errors": 0,
+        "latency": {
+          "mean_ms": 0.47,
+          "p50_ms": 0.2,
+          "p95_ms": 1.55,
+          "max_ms": 1.83
+        }
+      }
+    }
+  },
+  "summary": {
+    "quiz_accuracy": null,
+    "win_rate": 0.0,
+    "invalid_moves": 0,
+    "errors": 0
+  }
+}

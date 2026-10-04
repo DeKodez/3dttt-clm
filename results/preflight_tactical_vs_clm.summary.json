@@ -1,0 +1,1802 @@
+{
+ "agents": [
+  "tactical",
+  "clm"
+ ],
+ "games": 2,
+ "seed": 5,
+ "min_move_delay": 0.0,
+ "elapsed_s": 16.8,
+ "frames": 71,
+ "invalid_moves": [],
+ "result": {
+  "agents": [
+   "tactical",
+   "clm"
+  ],
+  "games": [
+   {
+    "index": 0,
+    "x_agent": "tactical",
+    "o_agent": "clm",
+    "winner": "O",
+    "scores": {
+     "X": 2,
+     "O": 3
+    },
+    "result_label": "Player O wins 3-2!",
+    "moves": [
+     {
+      "player": "tactical",
+      "move": [
+       1,
+       1,
+       1
+      ],
+      "latency_ms": 0.16,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "positional"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       1,
+       0,
+       0
+      ],
+      "latency_ms": 822.26,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.6183295677865004,
+       "top_probabilities": [
+        [
+         "Play O at Front, row 0, column 0 \u2014 cube rotates to Back (face 4)",
+         0.6607373935880003
+        ],
+        [
+         "Play O at Front, row 2, column 0 \u2014 cube rotates to Back (face 4)",
+         0.14037274865753357
+        ],
+        [
+         "Play O at Front, row 0, column 2 \u2014 cube rotates to Back (face 4)",
+         0.11903400138406793
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 1.9195281069100896e-06
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1839,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       4,
+       1,
+       1
+      ],
+      "latency_ms": 0.25,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "positional"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       4,
+       0,
+       0
+      ],
+      "latency_ms": 453.56,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.8072139361141644,
+       "top_probabilities": [
+        [
+         "Play O at Back, row 0, column 0 \u2014 cube rotates to Front (face 1)",
+         0.8286346098792572
+        ],
+        [
+         "Play O at Back, row 0, column 2 \u2014 cube rotates to Front (face 1)",
+         0.0959470355966144
+        ],
+        [
+         "Play O at Back, row 0, column 1 \u2014 cube rotates to Bottom (face 3)",
+         0.04761214793525352
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 2.4445103307541643e-06
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1794,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       1,
+       1,
+       2
+      ],
+      "latency_ms": 0.16,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "positional"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       5,
+       1,
+       1
+      ],
+      "latency_ms": 467.2,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.92585414227768,
+       "top_probabilities": [
+        [
+         "Play O at Right, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+         0.9340925709134934
+        ],
+        [
+         "Play O at Right, row 0, column 0 \u2014 cube rotates to Left (face 2)",
+         0.06307316934055816
+        ],
+        [
+         "Play O at Right, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+         0.0020748912056660616
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 2.036261475106449e-06
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1810,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       5,
+       2,
+       0
+      ],
+      "latency_ms": 0.19,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "positional"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       2,
+       1,
+       1
+      ],
+      "latency_ms": 512.19,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.9796127849023767,
+       "top_probabilities": [
+        [
+         "Play O at Left, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+         0.9818780310243348
+        ],
+        [
+         "Play O at Left, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+         0.008215868885562057
+        ],
+        [
+         "Play O at Left, row 0, column 0 \u2014 cube rotates to Right (face 5)",
+         0.0067430217639429585
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 2.003698330579466e-06
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1810,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       2,
+       2,
+       2
+      ],
+      "latency_ms": 0.17,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "positional"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       5,
+       0,
+       1
+      ],
+      "latency_ms": 389.58,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.8371246077108385,
+       "top_probabilities": [
+        [
+         "Play O at Right, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+         0.8574840317469837
+        ],
+        [
+         "Play O at Right, row 0, column 0 \u2014 cube rotates to Left (face 2)",
+         0.10417253675084977
+        ],
+        [
+         "Play O at Right, row 0, column 2 \u2014 cube rotates to Left (face 2)",
+         0.014848542490744448
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 3.564568048687604e-06
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1592,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       0,
+       1,
+       1
+      ],
+      "latency_ms": 0.2,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "positional"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       0,
+       0,
+       0
+      ],
+      "latency_ms": 509.07,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.9781834294611422,
+       "top_probabilities": [
+        [
+         "Play O at Top, row 0, column 0 \u2014 cube rotates to Bottom (face 3)",
+         0.9806074928543487
+        ],
+        [
+         "Play O at Top, row 0, column 2 \u2014 cube rotates to Bottom (face 3)",
+         0.010603005628225713
+        ],
+        [
+         "Play O at Top, row 0, column 1 \u2014 cube rotates to Back (face 4)",
+         0.0041652847307285445
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 1.0651526654741356e-05
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1798,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       3,
+       1,
+       1
+      ],
+      "latency_ms": 0.27,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "positional"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       3,
+       0,
+       0
+      ],
+      "latency_ms": 533.34,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.9593113300996431,
+       "top_probabilities": [
+        [
+         "Play O at Bottom, row 0, column 0 \u2014 cube rotates to Top (face 0)",
+         0.963832293421905
+        ],
+        [
+         "Play O at Bottom, row 0, column 2 \u2014 cube rotates to Top (face 0)",
+         0.01983686632692347
+        ],
+        [
+         "Play O at Bottom, row 2, column 0 \u2014 cube rotates to Top (face 0)",
+         0.008445901440280252
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 5.392546505689188e-06
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1798,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       0,
+       2,
+       1
+      ],
+      "latency_ms": 0.22,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "positional"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       1,
+       1,
+       0
+      ],
+      "latency_ms": 408.95,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.9981703772548779,
+       "top_probabilities": [
+        [
+         "Play O at Front, row 1, column 0 \u2014 blocks X's win at row 1 col 0; cube rotates to Left (face 2)",
+         0.9984317519327525
+        ],
+        [
+         "Play O at Front, row 2, column 1 \u2014 cube rotates to Bottom (face 3)",
+         0.0014531785253641151
+        ],
+        [
+         "Play O at Front, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+         0.00010882158871287556
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 0.9998943459996146
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1613,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       2,
+       0,
+       0
+      ],
+      "latency_ms": 0.19,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "positional"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       5,
+       2,
+       1
+      ],
+      "latency_ms": 410.27,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.9999919793703881,
+       "top_probabilities": [
+        [
+         "Play O at Right, row 2, column 1 \u2014 completes O's line \u2014 this face locks for O; next face in play: Bottom (face 3)",
+         0.9999931251746184
+        ],
+        [
+         "Play O at Right, row 1, column 2 \u2014 cube rotates to Back (face 4)",
+         5.141760177259909e-06
+        ],
+        [
+         "Play O at Right, row 1, column 0 \u2014 cube rotates to Front (face 1)",
+         1.1996184932246274e-06
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 0.0013013521498945945
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1607,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       3,
+       2,
+       1
+      ],
+      "latency_ms": 0.19,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "positional"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       4,
+       2,
+       0
+      ],
+      "latency_ms": 384.44,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.5125523602345801,
+       "top_probabilities": [
+        [
+         "Play O at Back, row 2, column 0 \u2014 cube rotates to Front (face 1)",
+         0.5734833152052575
+        ],
+        [
+         "Play O at Back, row 0, column 2 \u2014 cube rotates to Front (face 1)",
+         0.3151192290783107
+        ],
+        [
+         "Play O at Back, row 2, column 2 \u2014 cube rotates to Front (face 1)",
+         0.1093251866555512
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 1.8785346799019698e-06
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1636,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       1,
+       2,
+       0
+      ],
+      "latency_ms": 0.05,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "block"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       4,
+       1,
+       0
+      ],
+      "latency_ms": 406.42,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.996634995606851,
+       "top_probabilities": [
+        [
+         "Play O at Back, row 1, column 0 \u2014 completes O's line \u2014 this face locks for O; next face in play: Bottom (face 3)",
+         0.997115710520158
+        ],
+        [
+         "Play O at Back, row 2, column 2 \u2014 cube rotates to Front (face 1)",
+         0.0014026713924904684
+        ],
+        [
+         "Play O at Back, row 1, column 2 \u2014 cube rotates to Left (face 2)",
+         0.0008812737342170332
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 2.417846649789916e-05
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1629,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       3,
+       0,
+       1
+      ],
+      "latency_ms": 0.02,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "win"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       1,
+       0,
+       2
+      ],
+      "latency_ms": 540.29,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.9977355305014596,
+       "top_probabilities": [
+        [
+         "Play O at Front, row 0, column 2 \u2014 blocks X's win at row 0 col 2; cube stays on this face (Back locked)",
+         0.9981884244011676
+        ],
+        [
+         "Play O at Front, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+         0.0018111721108818896
+        ],
+        [
+         "Nuke the Front face (wipe every mark on it) \u2014 wipes 5 marks; removes X's immediate win at row 0 col 2; face stays in play; X to move here next",
+         4.033583541363815e-07
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 0.9988732006949652
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1695,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       1,
+       0,
+       1
+      ],
+      "latency_ms": 0.04,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "block"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       0,
+       0,
+       1
+      ],
+      "latency_ms": 510.58,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.9988727287857017,
+       "top_probabilities": [
+        [
+         "Play O at Top, row 0, column 1 \u2014 blocks X's win at row 0 col 1; cube stays on this face (Back locked)",
+         0.9990337675306015
+        ],
+        [
+         "Play O at Top, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+         0.0009661460292796872
+        ],
+        [
+         "Nuke the Top face (wipe every mark on it) \u2014 wipes 3 marks; removes X's immediate win at row 0 col 1; face stays in play; X to move here next",
+         5.073447906180753e-08
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 0.999562156692279
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1861,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       0,
+       0,
+       2
+      ],
+      "latency_ms": 0.03,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "block"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       0,
+       2,
+       0
+      ],
+      "latency_ms": 511.52,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.9999864198321989,
+       "top_probabilities": [
+        [
+         "Play O at Top, row 2, column 0 \u2014 blocks X's win at row 2 col 0; cube stays on this face (Bottom locked)",
+         0.9999891358657591
+        ],
+        [
+         "Play O at Top, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+         1.0662887185896583e-05
+        ],
+        [
+         "Nuke the Top face (wipe every mark on it) \u2014 wipes 5 marks; removes X's immediate win at row 2 col 0; face stays in play; X to move here next",
+         2.0122354852841997e-07
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 0.9998651037378923
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1699,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       0,
+       1,
+       0
+      ],
+      "latency_ms": 0.03,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "block"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       2,
+       0,
+       1
+      ],
+      "latency_ms": 512.79,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.754647232853907,
+       "top_probabilities": [
+        [
+         "Play O at Left, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+         0.7896976281604917
+        ],
+        [
+         "Play O at Left, row 1, column 2 \u2014 cube rotates to Front (face 1)",
+         0.14935512591759872
+        ],
+        [
+         "Play O at Left, row 0, column 2 \u2014 cube stays on this face (Right locked)",
+         0.035159161175949374
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 1.9861156524684867e-06
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1734,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       0,
+       1,
+       2
+      ],
+      "latency_ms": 0.02,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "win"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       1,
+       2,
+       1
+      ],
+      "latency_ms": 511.01,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.9983359097399462,
+       "top_probabilities": [
+        [
+         "Play O at Front, row 2, column 1 \u2014 blocks X's win at row 2 col 1; cube stays on this face (Bottom locked)",
+         0.9988906064932974
+        ],
+        [
+         "Nuke the Front face (wipe every mark on it) \u2014 wipes 7 marks; removes X's immediate win at row 2 col 1; face stays in play; X to move here next",
+         0.0011089324744830264
+        ],
+        [
+         "Play O at Front, row 2, column 2 \u2014 cube stays on this face (Back locked); leaves X to play here with an immediate win at row 2 col 1",
+         4.6103221943949024e-07
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 0.9999305748195381
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1597,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       1,
+       2,
+       2
+      ],
+      "latency_ms": 0.04,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "positional"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       2,
+       2,
+       1
+      ],
+      "latency_ms": 512.16,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.9998576978895142,
+       "top_probabilities": [
+        [
+         "Play O at Left, row 2, column 1 \u2014 completes O's line \u2014 this face locks for O; this was the last face \u2014 match ends",
+         0.9998814149079285
+        ],
+        [
+         "Play O at Left, row 2, column 0 \u2014 cube stays on this face (Right locked)",
+         5.114370433224793e-05
+        ],
+        [
+         "Play O at Left, row 0, column 2 \u2014 cube stays on this face (Right locked)",
+         4.7011255176466255e-05
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 2.2518112363179583e-05
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1716,
+        "output_tokens": 0
+       }
+      }
+     }
+    ]
+   },
+   {
+    "index": 1,
+    "x_agent": "clm",
+    "o_agent": "tactical",
+    "winner": "X",
+    "scores": {
+     "X": 4,
+     "O": 2
+    },
+    "result_label": "Player X wins 4-2!",
+    "moves": [
+     {
+      "player": "clm",
+      "move": [
+       1,
+       1,
+       1
+      ],
+      "latency_ms": 512.38,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.9994675197954039,
+       "top_probabilities": [
+        [
+         "Play X at Front, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+         0.9995266842625813
+        ],
+        [
+         "Play X at Front, row 0, column 0 \u2014 cube rotates to Back (face 4)",
+         0.00028623496353192814
+        ],
+        [
+         "Play X at Front, row 2, column 0 \u2014 cube rotates to Back (face 4)",
+         0.00010709945723387416
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 7.400810006747072e-10
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1853,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       1,
+       0,
+       2
+      ],
+      "latency_ms": 0.23,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "positional"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       4,
+       1,
+       1
+      ],
+      "latency_ms": 510.54,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.9893356018377687,
+       "top_probabilities": [
+        [
+         "Play X at Back, row 1, column 1 \u2014 cube stays on this face (middle cell)",
+         0.9905205349669055
+        ],
+        [
+         "Play X at Back, row 0, column 0 \u2014 cube rotates to Front (face 1)",
+         0.004542122441530109
+        ],
+        [
+         "Play X at Back, row 0, column 1 \u2014 cube rotates to Bottom (face 3)",
+         0.002595344295394291
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 6.060656193528247e-09
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1810,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       4,
+       2,
+       2
+      ],
+      "latency_ms": 0.2,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "positional"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       1,
+       0,
+       0
+      ],
+      "latency_ms": 396.59,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.1646076766171934,
+       "top_probabilities": [
+        [
+         "Play X at Front, row 0, column 0 \u2014 cube rotates to Back (face 4)",
+         0.2690317170400442
+        ],
+        [
+         "Play X at Front, row 0, column 1 \u2014 cube rotates to Top (face 0)",
+         0.18673068359745748
+        ],
+        [
+         "Play X at Front, row 1, column 2 \u2014 cube rotates to Right (face 5)",
+         0.18454147731584994
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 6.794503902353562e-09
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1592,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       4,
+       0,
+       0
+      ],
+      "latency_ms": 0.17,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "positional"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       1,
+       2,
+       2
+      ],
+      "latency_ms": 400.74,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.9999991417916836,
+       "top_probabilities": [
+        [
+         "Play X at Front, row 2, column 2 \u2014 completes X's line \u2014 this face locks for X; next face in play: Back (face 4)",
+         0.9999992643928717
+        ],
+        [
+         "Play X at Front, row 1, column 2 \u2014 cube rotates to Right (face 5)",
+         3.991999047874369e-07
+        ],
+        [
+         "Play X at Front, row 2, column 0 \u2014 cube rotates to Back (face 4)",
+         2.106856051985147e-07
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 2.844503977402511e-05
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1607,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       4,
+       0,
+       2
+      ],
+      "latency_ms": 0.14,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "positional"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       4,
+       0,
+       1
+      ],
+      "latency_ms": 534.45,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.8594816999162144,
+       "top_probabilities": [
+        [
+         "Play X at Back, row 0, column 1 \u2014 blocks O's win at row 0 col 1; cube rotates to Bottom (face 3)",
+         0.8829014165968453
+        ],
+        [
+         "Play X at Back, row 1, column 2 \u2014 blocks O's win at row 1 col 2; cube rotates to Left (face 2)",
+         0.11651848126304558
+        ],
+        [
+         "Play X at Back, row 1, column 0 \u2014 cube rotates to Right (face 5)",
+         0.0005586795999829942
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 0.9999908299429165
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1709,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       3,
+       1,
+       1
+      ],
+      "latency_ms": 0.22,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "positional"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       3,
+       0,
+       0
+      ],
+      "latency_ms": 510.03,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.905740150086376,
+       "top_probabilities": [
+        [
+         "Play X at Bottom, row 0, column 0 \u2014 cube rotates to Top (face 0)",
+         0.9162134667434453
+        ],
+        [
+         "Play X at Bottom, row 0, column 2 \u2014 cube rotates to Top (face 0)",
+         0.021783727120638904
+        ],
+        [
+         "Play X at Bottom, row 2, column 0 \u2014 cube rotates to Top (face 0)",
+         0.02157079644030246
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 3.055404757798937e-09
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1824,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       0,
+       1,
+       1
+      ],
+      "latency_ms": 0.2,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "positional"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       0,
+       0,
+       0
+      ],
+      "latency_ms": 513.57,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.7421681008130265,
+       "top_probabilities": [
+        [
+         "Play X at Top, row 0, column 0 \u2014 cube rotates to Bottom (face 3)",
+         0.7708160896115791
+        ],
+        [
+         "Play X at Top, row 0, column 1 \u2014 cube rotates to Back (face 4)",
+         0.15015406190344655
+        ],
+        [
+         "Play X at Top, row 0, column 2 \u2014 cube rotates to Bottom (face 3)",
+         0.042608939047018
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 1.2314573177707862e-08
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1824,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       3,
+       2,
+       1
+      ],
+      "latency_ms": 0.17,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "positional"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       4,
+       2,
+       1
+      ],
+      "latency_ms": 513.67,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.9988218374551368,
+       "top_probabilities": [
+        [
+         "Play X at Back, row 2, column 1 \u2014 completes X's line \u2014 this face locks for X; next face in play: Top (face 0)",
+         0.9990574699641094
+        ],
+        [
+         "Play X at Back, row 1, column 2 \u2014 blocks O's win at row 1 col 2; cube rotates to Left (face 2)",
+         0.0009346408097373668
+        ],
+        [
+         "Play X at Back, row 1, column 0 \u2014 cube rotates to Right (face 5)",
+         7.857519748064995e-06
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 0.9999329072431633
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1628,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       0,
+       2,
+       1
+      ],
+      "latency_ms": 0.17,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "positional"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       0,
+       0,
+       1
+      ],
+      "latency_ms": 507.81,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.9987462766842004,
+       "top_probabilities": [
+        [
+         "Play X at Top, row 0, column 1 \u2014 blocks O's win at row 0 col 1; cube stays on this face (Back locked)",
+         0.9989253800150288
+        ],
+        [
+         "Play X at Top, row 1, column 2 \u2014 cube rotates to Right (face 5)",
+         0.0008889765780138402
+        ],
+        [
+         "Play X at Top, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+         9.210133997081205e-05
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 0.9999656655634915
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1647,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       0,
+       0,
+       2
+      ],
+      "latency_ms": 0.04,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "block"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       3,
+       0,
+       1
+      ],
+      "latency_ms": 511.43,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.999972470712682,
+       "top_probabilities": [
+        [
+         "Play X at Bottom, row 0, column 1 \u2014 blocks O's win at row 0 col 1; cube stays on this face (Front locked)",
+         0.9999764034680132
+        ],
+        [
+         "Play X at Bottom, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+         1.8318113389472948e-05
+        ],
+        [
+         "Play X at Bottom, row 1, column 2 \u2014 cube rotates to Right (face 5)",
+         4.8529420465491476e-06
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 0.9993505070180579
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1649,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       3,
+       0,
+       2
+      ],
+      "latency_ms": 0.04,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "block"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       0,
+       2,
+       0
+      ],
+      "latency_ms": 445.43,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.9961284113792086,
+       "top_probabilities": [
+        [
+         "Play X at Top, row 2, column 0 \u2014 blocks O's win at row 2 col 0; cube rotates to Bottom (face 3)",
+         0.9969027291033669
+        ],
+        [
+         "Play X at Top, row 1, column 2 \u2014 cube rotates to Right (face 5)",
+         0.00299391550794565
+        ],
+        [
+         "Play X at Top, row 1, column 0 \u2014 cube rotates to Left (face 2)",
+         8.99890666991116e-05
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 0.9999986751149105
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1577,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       3,
+       2,
+       0
+      ],
+      "latency_ms": 0.05,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "win"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       0,
+       1,
+       0
+      ],
+      "latency_ms": 464.04,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.9881554659085121,
+       "top_probabilities": [
+        [
+         "Play X at Top, row 1, column 0 \u2014 completes X's line \u2014 this face locks for X; next face in play: Left (face 2)",
+         0.9911165994313841
+        ],
+        [
+         "Play X at Top, row 1, column 2 \u2014 cube rotates to Right (face 5)",
+         0.008880575517674356
+        ],
+        [
+         "Play X at Top, row 2, column 2 \u2014 cube stays on this face (Bottom locked)",
+         2.8250466371697244e-06
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 1.6880057042187133e-05
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1585,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       2,
+       1,
+       1
+      ],
+      "latency_ms": 0.23,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "positional"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       2,
+       0,
+       0
+      ],
+      "latency_ms": 525.64,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.8662573945700752,
+       "top_probabilities": [
+        [
+         "Play X at Left, row 0, column 0 \u2014 cube rotates to Right (face 5)",
+         0.8811176840622891
+        ],
+        [
+         "Play X at Left, row 0, column 1 \u2014 cube stays on this face (Top locked)",
+         0.06970623183098633
+        ],
+        [
+         "Play X at Left, row 0, column 2 \u2014 cube rotates to Right (face 5)",
+         0.028495524191169838
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 3.640472531451029e-09
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1894,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       5,
+       1,
+       1
+      ],
+      "latency_ms": 0.34,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "positional"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       5,
+       0,
+       1
+      ],
+      "latency_ms": 487.71,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.3936199017513174,
+       "top_probabilities": [
+        [
+         "Play X at Right, row 0, column 1 \u2014 cube stays on this face (Top locked)",
+         0.4609954682233932
+        ],
+        [
+         "Play X at Right, row 0, column 0 \u2014 cube rotates to Left (face 2)",
+         0.2980045979519437
+        ],
+        [
+         "Play X at Right, row 0, column 2 \u2014 cube rotates to Left (face 2)",
+         0.1328449605066896
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 6.304673027050047e-08
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1894,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       5,
+       2,
+       0
+      ],
+      "latency_ms": 0.26,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "positional"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       2,
+       0,
+       1
+      ],
+      "latency_ms": 406.18,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.6301652492684681,
+       "top_probabilities": [
+        [
+         "Play X at Left, row 0, column 1 \u2014 cube stays on this face (Top locked)",
+         0.6763945931099096
+        ],
+        [
+         "Play X at Left, row 0, column 2 \u2014 cube rotates to Right (face 5)",
+         0.09491519630516061
+        ],
+        [
+         "Play X at Left, row 1, column 2 \u2014 cube stays on this face (Front locked)",
+         0.08827886811008002
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 4.7358362052828554e-08
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1688,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       2,
+       0,
+       2
+      ],
+      "latency_ms": 0.04,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "block"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       5,
+       0,
+       2
+      ],
+      "latency_ms": 639.39,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.9981295066634458,
+       "top_probabilities": [
+        [
+         "Play X at Right, row 0, column 2 \u2014 blocks O's win at row 0 col 2; cube rotates to Left (face 2)",
+         0.9983967199972392
+        ],
+        [
+         "Play X at Right, row 2, column 2 \u2014 cube rotates to Left (face 2)",
+         0.0014460136277891988
+        ],
+        [
+         "Play X at Right, row 0, column 0 \u2014 cube rotates to Left (face 2)",
+         0.0001499487070005651
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 0.9999487119848597
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1811,
+        "output_tokens": 0
+       }
+      }
+     },
+     {
+      "player": "tactical",
+      "move": [
+       2,
+       2,
+       0
+      ],
+      "latency_ms": 0.03,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "strategy": "win"
+      }
+     },
+     {
+      "player": "clm",
+      "move": [
+       5,
+       0,
+       0
+      ],
+      "latency_ms": 466.64,
+      "invalid": false,
+      "error": null,
+      "meta": {
+       "confidence": 0.9999994989978243,
+       "top_probabilities": [
+        [
+         "Play X at Right, row 0, column 0 \u2014 completes X's line \u2014 this face locks for X; this was the last face \u2014 match ends",
+         0.9999995824981869
+        ],
+        [
+         "Play X at Right, row 1, column 0 \u2014 cube stays on this face (Front locked)",
+         2.7973806520139755e-07
+        ],
+        [
+         "Play X at Right, row 1, column 2 \u2014 cube stays on this face (Back locked)",
+         7.445392186788606e-08
+        ]
+       ],
+       "threat_check": {
+        "type": "noul",
+        "noul": 0.0001879448471761147
+       },
+       "usage": {
+        "billing_units": 2,
+        "input_tokens": 1718,
+        "output_tokens": 0
+       }
+      }
+     }
+    ]
+   }
+  ],
+  "stats": {
+   "tactical": {
+    "name": "tactical",
+    "games": 2,
+    "wins": 0,
+    "losses": 2,
+    "draws": 0,
+    "win_rate": 0.0,
+    "moves": 33,
+    "invalid_moves": 0,
+    "errors": 0,
+    "latency": {
+     "mean_ms": 0.14,
+     "p50_ms": 0.17,
+     "p95_ms": 0.26,
+     "max_ms": 0.34
+    }
+   },
+   "clm": {
+    "name": "clm",
+    "games": 2,
+    "wins": 2,
+    "losses": 0,
+    "draws": 0,
+    "win_rate": 1.0,
+    "moves": 34,
+    "invalid_moves": 0,
+    "errors": 0,
+    "latency": {
+     "mean_ms": 492.41,
+     "p50_ms": 510.03,
+     "p95_ms": 540.29,
+     "max_ms": 822.26
+    }
+   }
+  }
+ }
+}

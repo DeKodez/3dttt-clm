@@ -1,0 +1,36 @@
+{
+ "train_rows": 44762,
+ "test_rows": 5017,
+ "train_unique_positions": 44762,
+ "strategy": {
+  "positional": 21576,
+  "block": 9971,
+  "win": 12643,
+  "lost": 356,
+  "nuke": 216
+ },
+ "threat": {
+  "false": 30621,
+  "true": 14141
+ },
+ "n_threats": {
+  "0": 30621,
+  "1": 10657,
+  "2": 2612,
+  "3": 719,
+  "4": 142,
+  "5": 11
+ },
+ "train_rows_boosted": 99648,
+ "strategy_boosted": {
+  "positional": 21576,
+  "block": 28027,
+  "win": 43169,
+  "lost": 3204,
+  "nuke": 3672
+ },
+ "threat_boosted": {
+  "false": 48711,
+  "true": 50937
+ }
+}

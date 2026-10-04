@@ -1,0 +1,172 @@
+{
+  "A_game0_move33_jev_defends": {
+    "position": {
+      "to_move": "X",
+      "active_face": 4,
+      "scores": {
+        "X": 3,
+        "O": 2
+      },
+      "nukes_used": {
+        "X": false,
+        "O": false
+      },
+      "faces": {
+        "0": {
+          "status": "won_x",
+          "winner": "X"
+        },
+        "1": {
+          "status": "won_x",
+          "winner": "X"
+        },
+        "2": {
+          "status": "won_o",
+          "winner": "O"
+        },
+        "3": {
+          "status": "won_o",
+          "winner": "O"
+        },
+        "4": {
+          "status": "in_progress",
+          "winner": null
+        },
+        "5": {
+          "status": "won_x",
+          "winner": "X"
+        }
+      }
+    },
+    "options": [
+      "Play X at Back, row 0, column 1",
+      "Play X at Back, row 1, column 2",
+      "Play X at Back, row 2, column 0",
+      "Play X at Back, row 2, column 1",
+      "Play X at Back, row 2, column 2",
+      "Nuke the Back face (wipe every mark on it)"
+    ],
+    "recorded_move": [
+      4,
+      1,
+      2
+    ],
+    "recorded_meta": null,
+    "probe_result": {
+      "move": [
+        4,
+        1,
+        2
+      ],
+      "latency_ms": 448.67,
+      "invalid": false,
+      "error": null,
+      "meta": {
+        "confidence": 0.35,
+        "top_probabilities": [
+          [
+            "Play X at Back, row 1, column 2",
+            0.45
+          ],
+          [
+            "Play X at Back, row 0, column 1",
+            0.18
+          ],
+          [
+            "Play X at Back, row 2, column 2",
+            0.13
+          ]
+        ],
+        "usage": {
+          "input_tokens": 1015,
+          "output_tokens": 135
+        }
+      }
+    }
+  },
+  "B_game1_move31_clm_defends": {
+    "position": {
+      "to_move": "X",
+      "active_face": 3,
+      "scores": {
+        "X": 3,
+        "O": 2
+      },
+      "nukes_used": {
+        "X": false,
+        "O": false
+      },
+      "faces": {
+        "0": {
+          "status": "won_o",
+          "winner": "O"
+        },
+        "1": {
+          "status": "won_x",
+          "winner": "X"
+        },
+        "2": {
+          "status": "won_x",
+          "winner": "X"
+        },
+        "3": {
+          "status": "in_progress",
+          "winner": null
+        },
+        "4": {
+          "status": "won_x",
+          "winner": "X"
+        },
+        "5": {
+          "status": "won_o",
+          "winner": "O"
+        }
+      }
+    },
+    "options": [
+      "Play X at Bottom, row 1, column 2",
+      "Play X at Bottom, row 2, column 0",
+      "Play X at Bottom, row 2, column 1",
+      "Play X at Bottom, row 2, column 2",
+      "Nuke the Bottom face (wipe every mark on it)"
+    ],
+    "recorded_move": [
+      3,
+      1,
+      2
+    ],
+    "recorded_meta": null,
+    "probe_result": {
+      "move": [
+        3,
+        1,
+        2
+      ],
+      "latency_ms": 1217.22,
+      "invalid": false,
+      "error": null,
+      "meta": {
+        "probability": 0.3978160967779159,
+        "top_ranked": [
+          [
+            "Play X at Bottom, row 1, column 2",
+            0.3978160967779159
+          ],
+          [
+            "Play X at Bottom, row 2, column 2",
+            0.24079113394157214
+          ],
+          [
+            "Play X at Bottom, row 2, column 1",
+            0.2066954875470255
+          ]
+        ]
+      }
+    }
+  },
+  "verification": {
+    "game1_move32_recorded": "jev played (3,2,0); clm then won face 3 with (3,2,2) -> CLM wins 4-2",
+    "game1_move32_alternative": "jev (3,2,1) completes O col1 and locks face 3 for O -> final 3-3 tie",
+    "game0_move33_nuke": "nuke wipes Back face, stays in play, CLM (O) to move on an empty face; draw of that face -> Jev wins 3-2, O win -> 3-3 tie (no-nuke line was a forced 3-3)"
+  }
+}

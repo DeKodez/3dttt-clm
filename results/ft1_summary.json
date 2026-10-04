@@ -1,0 +1,24 @@
+{
+  "best_epoch": 20,
+  "val_acc": 0.9411941796287004,
+  "test": {
+    "acc": 0.891668327685868,
+    "soft_ce": 0.30958673691212574,
+    "per_question": {
+      "answer": 0.7833,
+      "threat_check": 1.0
+    }
+  },
+  "init_test": {
+    "acc": 0.2925054813633646,
+    "soft_ce": 1.531224695410604,
+    "per_question": {
+      "answer": 0.2511,
+      "threat_check": 0.3339
+    }
+  },
+  "majority_val": 0.4041144004014049,
+  "majority_test": 0.2972892166633446,
+  "train_questions": 179366,
+  "minutes": 51.18
+}
