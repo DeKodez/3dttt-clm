@@ -419,6 +419,9 @@ Local:
   **invalid, keep only as bug evidence**
 - `<session-tmp>/run_ft1.sh``,
   `best_head.pt`, `final_head.pt` (session temp dir, not in repo)
+- Hosted: `best_head.pt` (ft1) — https://huggingface.co/DeKodez/3dttt-clm-ft1
+  (sha256 `c37c2534b80d4ab5aac6be0ff9323e3b6430f784770b3ef4c61d49a99b648934`,
+  round-trip verified 2026-10-05)
 - `.env`: `TYPESAFE_API_KEY=…`, `CLM_BASE_URL=https://<ft1-pod-host>`
   (pod stopped; stale server pointed at a dead pod)
 

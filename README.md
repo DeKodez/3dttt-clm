@@ -59,5 +59,14 @@ uvicorn arena.server:app --port 8000   # browser arena at http://127.0.0.1:8000
 # eval: see eval/README.md and docs/REPORT.md §8
 ```
 
+## Weights
+
+The fine-tuned ft1 head is hosted publicly on Hugging Face:
+
+- **`best_head.pt`** — https://huggingface.co/DeKodez/3dttt-clm-ft1
+  (75,557,470 B; md5 `911b68ca503fc6f1a326233b7107fac0`; sha256
+  `c37c2534b80d4ab5aac6be0ff9323e3b6430f784770b3ef4c61d49a99b648934`) —
+  the exact head behind the valid 40-game JEV series.
+
 Agent configuration lives in `.env` (copy `.env.example`). The CLM agent needs a
 live `CLM_BASE_URL`; the server must be restarted after changing it.
