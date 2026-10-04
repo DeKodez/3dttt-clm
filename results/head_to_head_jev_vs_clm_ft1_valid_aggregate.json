@@ -1,0 +1,106 @@
+{
+ "subject": "clm",
+ "files": [
+  {
+   "file": "results/head_to_head_jev_vs_clm_ft1_valid.summary.json",
+   "seed": 11,
+   "games": 4,
+   "wins": 3,
+   "losses": 0,
+   "draws": 1
+  },
+  {
+   "file": "results/head_to_head_jev_vs_clm_ft1_valid_seed23.summary.json",
+   "seed": 23,
+   "games": 4,
+   "wins": 3,
+   "losses": 1,
+   "draws": 0
+  },
+  {
+   "file": "results/rematch_batch/seed31.summary.json",
+   "seed": 31,
+   "games": 4,
+   "wins": 2,
+   "losses": 1,
+   "draws": 1
+  },
+  {
+   "file": "results/rematch_batch/seed32.summary.json",
+   "seed": 32,
+   "games": 4,
+   "wins": 2,
+   "losses": 2,
+   "draws": 0
+  },
+  {
+   "file": "results/rematch_batch/seed33.summary.json",
+   "seed": 33,
+   "games": 4,
+   "wins": 2,
+   "losses": 2,
+   "draws": 0
+  },
+  {
+   "file": "results/rematch_batch/seed34.summary.json",
+   "seed": 34,
+   "games": 4,
+   "wins": 3,
+   "losses": 1,
+   "draws": 0
+  },
+  {
+   "file": "results/rematch_batch/seed35.summary.json",
+   "seed": 35,
+   "games": 4,
+   "wins": 2,
+   "losses": 2,
+   "draws": 0
+  },
+  {
+   "file": "results/rematch_batch/seed36.summary.json",
+   "seed": 36,
+   "games": 4,
+   "wins": 2,
+   "losses": 2,
+   "draws": 0
+  },
+  {
+   "file": "results/rematch_batch/seed37.summary.json",
+   "seed": 37,
+   "games": 4,
+   "wins": 2,
+   "losses": 1,
+   "draws": 1
+  },
+  {
+   "file": "results/rematch_batch/seed38.summary.json",
+   "seed": 38,
+   "games": 4,
+   "wins": 3,
+   "losses": 1,
+   "draws": 0
+  }
+ ],
+ "pooled": {
+  "side": "clm",
+  "games": 40,
+  "wins": 24,
+  "losses": 13,
+  "draws": 3
+ },
+ "as_x": {
+  "side": "clm as X",
+  "games": 20,
+  "wins": 20,
+  "losses": 0,
+  "draws": 0
+ },
+ "as_o": {
+  "side": "clm as O",
+  "games": 20,
+  "wins": 4,
+  "losses": 13,
+  "draws": 3
+ }
+}

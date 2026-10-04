@@ -34,6 +34,18 @@ Fail-fast: if any move has `invalid: true`, the series is written as
 - Uses `arena/match.py`, `arena/stats.py`, `arena/agents/registry.py`
 - Outputs: `results/head_to_head_*.summary.json`
 
+## aggregate_head_to_head.py
+
+Pools `.summary.json` files into W/L/D totals with Wilson 95% CIs, overall and
+split by starting side.
+
+```bash
+PYTHONPATH=. python eval/aggregate_head_to_head.py --out results/<aggregate>.json \
+  results/head_to_head_jev_vs_clm_ft1_valid*.summary.json results/rematch_batch/*.summary.json
+```
+
+- Outputs: `results/head_to_head_jev_vs_clm_ft1_valid_aggregate.json`
+
 ## Warning
 
 Restart the arena server (or re-read `.env`) after pointing `CLM_BASE_URL` at a

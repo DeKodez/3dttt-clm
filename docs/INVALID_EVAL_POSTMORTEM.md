@@ -56,6 +56,7 @@ The invalid series was replaced by a valid re-run: the recovered ft1 head
 (`best_head.pt`, md5 `911b68ca503fc6f1a326233b7107fac0`) was re-served in a
 fresh `clm-serve` on the re-provisioned pod, reached through an ssh tunnel with
 `CLM_BASE_URL=http://127.0.0.1:8700` set in the environment. Runner:
-`../eval/head_to_head.py` (fail-fast on any `invalid: true`). Result: **CLM
-6W-1D-1L vs JEV** across seeds 11 and 23, 0 invalid moves. The Oct 1 files stay
-here as bug evidence only.
+`../eval/head_to_head.py` (fail-fast on any `invalid: true`). Result over
+**40 games / 10 seeds: CLM 24W-13L-3D vs JEV, 0 invalid moves** — including
+20W-0L as first player and 4W-13L-3D as second. The Oct 1 files stay here as
+bug evidence only.

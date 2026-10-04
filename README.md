@@ -37,11 +37,11 @@ docs/          full training report + invalid-eval postmortem
   (majority 0.2973); per-question quiz: answer 0.7833, threat_check **1.0**;
   nuke double-threat probe: nuke prob 0.993 / confidence 0.991.
   See `results/ft1_summary.json`.
-- **ft1 vs JEV — valid re-run (2026-10-04)**: the Oct 1 series was invalid (a
-  stale server env silently fell back to random moves; kept only as bug
-  evidence in `results/invalid_bug_evidence/`). After recovering the head and
-  routing around `.env` with an ssh tunnel, CLM beat JEV **6W-1D-1L** across
-  seeds 11/23 (0 invalid moves) via `eval/head_to_head.py`. See
+- **ft1 vs JEV — valid re-run (2026-10-04)**: recovered head served via ssh
+  tunnel; 40 games across 10 seeds with the fail-fast runner (0 invalid moves):
+  CLM **24W-13L-3D** overall and **20W-0L as X** (first player dominates;
+  win-equiv 64%, 95% CI 48–77%). The Oct 1 series was invalid (stale server
+  env → random fallback; kept in `results/invalid_bug_evidence/`). See
   `docs/INVALID_EVAL_POSTMORTEM.md`.
 - **ft2**: next iteration. Known recipe caveats are listed in
   `docs/REPORT.md` §7 (soft targets are a no-op, boost ablation, weak teacher,

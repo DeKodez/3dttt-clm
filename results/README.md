@@ -13,9 +13,12 @@ Evidence from all evaluation runs. Two tiers:
   coached, v2–v4, promptonly, ft1) and `probe_*.json` understanding probes.
 - `head_to_head_*.summary.json` — match series for prompt-era and coached
   variants. These ran against live models and were audited.
-- `head_to_head_jev_vs_clm_ft1_valid.summary.json` (seed 11) +
-  `..._valid_seed23.summary.json` (seed 23) — the valid ft1-vs-JEV re-run
-  (2026-10-04): CLM **6W-1D-1L**, 0 invalid moves, via `../eval/head_to_head.py`.
+- `head_to_head_jev_vs_clm_ft1_valid.summary.json` (seed 11),
+  `..._valid_seed23.summary.json` (seed 23), `rematch_batch/seed*.summary.json`
+  (seeds 31–38) — the valid ft1-vs-JEV re-run (2026-10-04): 40 games, 0 invalid
+  moves, CLM **24W-13L-3D** overall and **20W-0L as X**. Pooled stats:
+  `head_to_head_jev_vs_clm_ft1_valid_aggregate.json`. Runner:
+  `../eval/head_to_head.py`; aggregator: `../eval/aggregate_head_to_head.py`.
 
 ## invalid_bug_evidence/
 

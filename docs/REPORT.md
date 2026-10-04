@@ -11,9 +11,9 @@ perform competitively on the same complicated SystemOne task that JEV
 
 > Status: ft1 trained and validated on its held-out test set + targeted nuke
 > probe. The Oct 1 ft1 head-to-head against JEV was invalidated by a stale
-> `CLM_BASE_URL` in a long-running local server (see §6); a valid re-run on
-> 2026-10-04 replaced it — CLM went **6W-1D-1L** across the protocol seeds
-> with 0 invalid moves (see §6 update).
+> `CLM_BASE_URL` in a long-running local server (see §6); a valid 40-game re-run
+> on 2026-10-04 replaced it — CLM **24W-13L-3D** overall and **20W-0L as X**,
+> 0 invalid moves (see §6 update).
 
 ---
 
@@ -293,20 +293,26 @@ in the environment (so `.env` could not poison the run). The re-created runner
 is `eval/head_to_head.py` — fail-fast, so a series with any `invalid: true` is
 written as `.FAILED.json` and not recorded.
 
-Protocol parity re-run (4 games/seed, same seeds as Oct 1):
+Protocol re-run: 4 games/seed, seeds 11 and 23 plus 8 fresh seeds (31–38) =
+**40 games, 0 invalid moves**. Pooled (`eval/aggregate_head_to_head.py`):
 
-| Seed | JEV | CLM | Invalid moves |
+| | Games | CLM | JEV |
 |---|---|---|---|
-| 11 | 0W-3L-1D | 3W-0L-1D | 0 |
-| 23 | 1W-3L-0D | 3W-1L-0D | 0 |
+| Overall | 40 | **24W-13L-3D** (win-equiv 64%, 95% CI 48–77%) | 13W-24L-3D |
+| CLM as X | 20 | **20W-0L-0D** | 0W-20L |
+| CLM as O | 20 | 4W-13L-3D | 13W-4L-3D |
 
-Aggregate: **CLM 6W-1D-1L vs JEV**, every move real. Seed 11 games: one 3-3
-tie, then CLM wins 5-1, 3-2, 3-2. CLM first-move confidence 0.62 with sharp
-move distributions, JEV 0.95; both sides have full `meta`.
+First move dominates (X went 33W-4L-3D overall), as in the prompt era — except
+now CLM wins every game it starts and takes 4 games as O (JEV takes 0). The
+first two seeds alone (6W-1D-1L) were favourable variance; at 40 games parity
+sits at the bottom edge of the CI (48%), so the honest read is "at least level,
+likely better". CLM first-move confidence ~0.6–0.8 with sharp distributions,
+JEV 0.95; both sides have full `meta`.
 
-Artifacts: `results/head_to_head_jev_vs_clm_ft1_valid.summary.json` (seed 11)
-and `..._valid_seed23.summary.json`. The Oct 1 files are invalid bug evidence
-only and must not be cited.
+Artifacts: `results/head_to_head_jev_vs_clm_ft1_valid*.summary.json` and
+`results/rematch_batch/seed*.summary.json`; pooled stats in
+`results/head_to_head_jev_vs_clm_ft1_valid_aggregate.json`. The Oct 1 files are
+invalid bug evidence only and must not be cited.
 
 ---
 
@@ -363,8 +369,9 @@ kill <old-pid>; venv/bin/python -m arena.server
 # 3. run the head-to-head series (seeds 11 and 23) and the nuke probe
 ```
 
-Valid re-run completed 2026-10-04 (seeds 11 and 23, 4 games each): 0 invalid
-moves, CLM 6W-1D-1L. Do not compare against the invalid Oct 1 series.
+Valid re-run completed 2026-10-04 (10 seeds, 40 games): 0 invalid moves, CLM
+24W-13L-3D overall and 20W-0L as X. Do not compare against the invalid Oct 1
+series.
 
 ---
 
@@ -405,8 +412,9 @@ Local:
 - `results/probe_{clm,jev}*.json` — quizzes
 - `results/head_to_head_jev_vs_clm_{coached,coached_v2,coached_v3,coached_v4,
   promptonly,stats}*.summary.json` — valid prompt-era series
-- `results/head_to_head_jev_vs_clm_ft1_valid*.summary.json` — valid re-run
-  (2026-10-04), CLM 6W-1D-1L vs JEV
+- `results/head_to_head_jev_vs_clm_ft1_valid*.summary.json` +
+  `results/rematch_batch/seed*.summary.json` + `..._valid_aggregate.json` —
+  valid re-run (2026-10-04), 40 games: CLM 24W-13L-3D vs JEV, 20W-0L as X
 - `results/head_to_head_jev_vs_clm_ft1*` + `coached_ft1_comparison.json` —
   **invalid, keep only as bug evidence**
 - `<session-tmp>/run_ft1.sh``,
